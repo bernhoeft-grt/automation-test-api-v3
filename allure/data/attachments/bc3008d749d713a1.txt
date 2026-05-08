@@ -1,0 +1,5 @@
+conftest.py:20: in auth_token
+    return login_and_get_token()
+utils/auth.py:37: in login_and_get_token
+    raise ValueError("Missing AUTH_EMAIL, AUTH_PASSWORD, or AUTH_TENANT_ID in environment.")
+E   ValueError: Missing AUTH_EMAIL, AUTH_PASSWORD, or AUTH_TENANT_ID in environment.
