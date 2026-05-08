@@ -1,0 +1,10 @@
+{
+  "method": "PUT",
+  "url": "/contratante/1000000000/grupo-area",
+  "data": {
+    "grupoAreaIds": [
+      1,
+      2
+    ]
+  }
+}

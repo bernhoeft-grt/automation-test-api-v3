@@ -1,0 +1,4 @@
+tests/contrato/test_create.py:28: in test_create
+    assert response.status_code in [200, 201]
+E   assert 400 in [200, 201]
+E    +  where 400 = <Response [400]>.status_code

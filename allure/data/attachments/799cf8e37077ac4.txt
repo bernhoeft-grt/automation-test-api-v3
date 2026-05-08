@@ -1,0 +1,4 @@
+tests/classificacao_colaborador/test_update.py:32: in test_update
+    assert response.status_code in [200, 400, 401, 404]
+E   assert 204 in [200, 400, 401, 404]
+E    +  where 204 = <Response [204]>.status_code

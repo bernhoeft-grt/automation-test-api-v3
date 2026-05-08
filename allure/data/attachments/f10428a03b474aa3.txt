@@ -1,0 +1,4 @@
+tests/avisos/test_get_meus_avisos.py:27: in test_get_meus_avisos
+    assert response.status_code in [200, 401]
+E   assert 204 in [200, 401]
+E    +  where 204 = <Response [204]>.status_code

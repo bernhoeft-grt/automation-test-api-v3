@@ -1,0 +1,4 @@
+tests/test_events.py:46: in test_pre_process_status
+    assert response.status_code in [200, 201]
+E   assert 401 in [200, 201]
+E    +  where 401 = <Response [401]>.status_code

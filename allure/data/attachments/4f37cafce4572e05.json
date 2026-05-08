@@ -1,0 +1,25 @@
+{
+  "expected": true,
+  "actual": [
+    "Id",
+    "Ativo",
+    "TipoPessoa",
+    "RazaoSocial",
+    "Fantasia",
+    "CPForCNPJ",
+    "InscricaoEstadual",
+    "InscricaoMunicipal",
+    "Endereco",
+    "Numero",
+    "Complemento",
+    "Bairro",
+    "Cidade",
+    "UF",
+    "CEP",
+    "Fone",
+    "Fax",
+    "BloqueioEntregaDocumento",
+    "DiaInicial",
+    "DiaFinal"
+  ]
+}

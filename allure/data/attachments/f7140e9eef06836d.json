@@ -1,0 +1,929 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Fri, 08 May 2026 18:33:52 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1000000025,
+        "Text": "16042026TESTE",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000035,
+        "Text": "20042026TESTE",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000099,
+        "Text": "24042026TESTE21",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000026,
+        "Text": "GRUPO ÁREA QA 1776629916517",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000027,
+        "Text": "GRUPO ÁREA QA 1776630366858",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000028,
+        "Text": "GRUPO ÁREA QA 1776630715902",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000029,
+        "Text": "GRUPO ÁREA QA 1776630735864",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000030,
+        "Text": "GRUPO ÁREA QA 1776630739686",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000031,
+        "Text": "GRUPO ÁREA QA 1776630744261",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000032,
+        "Text": "GRUPO ÁREA QA 1776630758946",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000033,
+        "Text": "GRUPO ÁREA QA 1776630761690",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000034,
+        "Text": "GRUPO ÁREA QA 1776631792795",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000036,
+        "Text": "GRUPO ÁREA QA 1776703583131",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000037,
+        "Text": "GRUPO ÁREA QA 1776703586711",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000038,
+        "Text": "GRUPO ÁREA QA 1776703591586",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000039,
+        "Text": "GRUPO ÁREA QA 1776703600653",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000040,
+        "Text": "GRUPO ÁREA QA 1776703605988",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000041,
+        "Text": "GRUPO ÁREA QA 1776703609805",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000042,
+        "Text": "GRUPO ÁREA QA 1776703943344",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000043,
+        "Text": "GRUPO ÁREA QA 1776704500078",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000044,
+        "Text": "GRUPO ÁREA QA 1776704510960",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000045,
+        "Text": "GRUPO ÁREA QA 1776704530330",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000046,
+        "Text": "GRUPO ÁREA QA 1776704713942",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000047,
+        "Text": "GRUPO ÁREA QA 1776704732921",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000048,
+        "Text": "GRUPO ÁREA QA 1776705409959",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000049,
+        "Text": "GRUPO ÁREA QA 1776705559557",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000050,
+        "Text": "GRUPO ÁREA QA 1776705577752",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000051,
+        "Text": "GRUPO ÁREA QA 1776712646728",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000052,
+        "Text": "GRUPO ÁREA QA 1776713447497",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000053,
+        "Text": "GRUPO ÁREA QA 1776716876709",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000054,
+        "Text": "GRUPO ÁREA QA 1776716895231",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000055,
+        "Text": "GRUPO ÁREA QA 1776718092102",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000056,
+        "Text": "GRUPO ÁREA QA 1776718109628",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000057,
+        "Text": "GRUPO ÁREA QA 1776760476213",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000058,
+        "Text": "GRUPO ÁREA QA 1776760495944",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000059,
+        "Text": "GRUPO ÁREA QA 1776786178192",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000060,
+        "Text": "GRUPO ÁREA QA 1776786197043",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000061,
+        "Text": "GRUPO ÁREA QA 1776846845129",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000062,
+        "Text": "GRUPO ÁREA QA 1776846864428",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000063,
+        "Text": "GRUPO ÁREA QA 1776857689986",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000064,
+        "Text": "GRUPO ÁREA QA 1776858264739",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000065,
+        "Text": "GRUPO ÁREA QA 1776858482020",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000066,
+        "Text": "GRUPO ÁREA QA 1776858924570",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000067,
+        "Text": "GRUPO ÁREA QA 1776860558420",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000068,
+        "Text": "GRUPO ÁREA QA 1776861356275",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000069,
+        "Text": "GRUPO ÁREA QA 1776861378035",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000071,
+        "Text": "GRUPO ÁREA QA 1776867687156",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000072,
+        "Text": "GRUPO ÁREA QA 1776869799471",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000073,
+        "Text": "GRUPO ÁREA QA 1776871123513",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000074,
+        "Text": "GRUPO ÁREA QA 1776871146008",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000075,
+        "Text": "GRUPO ÁREA QA 1776872576951",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000076,
+        "Text": "GRUPO ÁREA QA 1776872596931",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000077,
+        "Text": "GRUPO ÁREA QA 1776875511616",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000079,
+        "Text": "GRUPO ÁREA QA 1776892442599",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000080,
+        "Text": "GRUPO ÁREA QA 1776892465051",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000081,
+        "Text": "GRUPO ÁREA QA 1776896378722",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000082,
+        "Text": "GRUPO ÁREA QA 1776933244906",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000083,
+        "Text": "GRUPO ÁREA QA 1776933265384",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000084,
+        "Text": "GRUPO ÁREA QA 1776945419033",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000085,
+        "Text": "GRUPO ÁREA QA 1776949910748",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000086,
+        "Text": "GRUPO ÁREA QA 1776958948963",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000087,
+        "Text": "GRUPO ÁREA QA 1776958967297",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000088,
+        "Text": "GRUPO ÁREA QA 1776977031802",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000089,
+        "Text": "GRUPO ÁREA QA 1776977375555",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000090,
+        "Text": "GRUPO ÁREA QA 1776977578911",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000091,
+        "Text": "GRUPO ÁREA QA 1776978167108",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000092,
+        "Text": "GRUPO ÁREA QA 1776978451561",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000093,
+        "Text": "GRUPO ÁREA QA 1776978731075",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000094,
+        "Text": "GRUPO ÁREA QA 1777019605067",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000095,
+        "Text": "GRUPO ÁREA QA 1777019624424",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000096,
+        "Text": "GRUPO ÁREA QA 1777037972635",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000097,
+        "Text": "GRUPO ÁREA QA 1777038693879",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000098,
+        "Text": "GRUPO ÁREA QA 1777038764732",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000100,
+        "Text": "GRUPO ÁREA QA 1777043236532",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000101,
+        "Text": "GRUPO ÁREA QA 1777043695194",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000102,
+        "Text": "GRUPO ÁREA QA 1777045408375",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000103,
+        "Text": "GRUPO ÁREA QA 1777045429998",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000104,
+        "Text": "GRUPO ÁREA QA 1777048241996",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000105,
+        "Text": "GRUPO ÁREA QA 1777051423467",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000106,
+        "Text": "GRUPO ÁREA QA 1777051450319",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000107,
+        "Text": "GRUPO ÁREA QA 1777055528942",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000108,
+        "Text": "GRUPO ÁREA QA 1777055970987",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000109,
+        "Text": "GRUPO ÁREA QA 1777059221366",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000110,
+        "Text": "GRUPO ÁREA QA 1777061798828",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000111,
+        "Text": "GRUPO ÁREA QA 1777062127300",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000112,
+        "Text": "GRUPO ÁREA QA 1777106029886",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000113,
+        "Text": "GRUPO ÁREA QA 1777106049287",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000114,
+        "Text": "GRUPO ÁREA QA 1777131762860",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000115,
+        "Text": "GRUPO ÁREA QA 1777131781370",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000116,
+        "Text": "GRUPO ÁREA QA 1777192480012",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000117,
+        "Text": "GRUPO ÁREA QA 1777192499693",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000118,
+        "Text": "GRUPO ÁREA QA 1777218166264",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000119,
+        "Text": "GRUPO ÁREA QA 1777218184931",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000120,
+        "Text": "GRUPO ÁREA QA 1777278856312",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000121,
+        "Text": "GRUPO ÁREA QA 1777278876034",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000122,
+        "Text": "GRUPO ÁREA QA 1777301477362",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000123,
+        "Text": "GRUPO ÁREA QA 1777304542386",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000124,
+        "Text": "GRUPO ÁREA QA 1777304559568",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000125,
+        "Text": "GRUPO ÁREA QA 1777315171701",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000126,
+        "Text": "GRUPO ÁREA QA 1777317095779",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000127,
+        "Text": "GRUPO ÁREA QA 1777318568730",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000128,
+        "Text": "GRUPO ÁREA QA 1777318697564",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000129,
+        "Text": "GRUPO ÁREA QA 1777365239604",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000130,
+        "Text": "GRUPO ÁREA QA 1777365258965",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000131,
+        "Text": "GRUPO ÁREA QA 1777376798592",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000132,
+        "Text": "GRUPO ÁREA QA 1777376803269",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000133,
+        "Text": "GRUPO ÁREA QA 1777383768858",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000134,
+        "Text": "GRUPO ÁREA QA 1777384451358",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000135,
+        "Text": "GRUPO ÁREA QA 1777385716791",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000137,
+        "Text": "GRUPO ÁREA QA 1777390966040",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000138,
+        "Text": "GRUPO ÁREA QA 1777390985571",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000139,
+        "Text": "GRUPO ÁREA QA 1777409525364",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000140,
+        "Text": "GRUPO ÁREA QA 1777409539496",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000141,
+        "Text": "GRUPO ÁREA QA 1777409578767",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000142,
+        "Text": "GRUPO ÁREA QA 1777409996482",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000143,
+        "Text": "GRUPO ÁREA QA 1777451637398",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000144,
+        "Text": "GRUPO ÁREA QA 1777451656578",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000145,
+        "Text": "GRUPO ÁREA QA 1777477395796",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000146,
+        "Text": "GRUPO ÁREA QA 1777477415290",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000147,
+        "Text": "GRUPO ÁREA QA 1777485330054",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000148,
+        "Text": "GRUPO ÁREA QA 1777485349825",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000149,
+        "Text": "GRUPO ÁREA QA 1777487714885",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000150,
+        "Text": "GRUPO ÁREA QA 1777538061137",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000151,
+        "Text": "GRUPO ÁREA QA 1777538081667",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000152,
+        "Text": "GRUPO ÁREA QA 1777554910877",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000153,
+        "Text": "GRUPO ÁREA QA 1777567656871",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000154,
+        "Text": "GRUPO ÁREA QA 1777624433549",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000155,
+        "Text": "GRUPO ÁREA QA 1777624452392",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000156,
+        "Text": "GRUPO ÁREA QA 1777650224612",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000157,
+        "Text": "GRUPO ÁREA QA 1777650247249",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000158,
+        "Text": "GRUPO ÁREA QA 1777710839472",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000159,
+        "Text": "GRUPO ÁREA QA 1777710859998",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000160,
+        "Text": "GRUPO ÁREA QA 1777736536059",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000161,
+        "Text": "GRUPO ÁREA QA 1777736554898",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000162,
+        "Text": "GRUPO ÁREA QA 1777797281729",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000163,
+        "Text": "GRUPO ÁREA QA 1777797302042",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000164,
+        "Text": "GRUPO ÁREA QA 1777822991695",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000165,
+        "Text": "GRUPO ÁREA QA 1777823010547",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000166,
+        "Text": "GRUPO ÁREA QA 1777883634505",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000167,
+        "Text": "GRUPO ÁREA QA 1777883653423",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000168,
+        "Text": "GRUPO ÁREA QA 1777904858945",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000169,
+        "Text": "GRUPO ÁREA QA 1777909433760",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000170,
+        "Text": "GRUPO ÁREA QA 1777909452369",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000171,
+        "Text": "GRUPO ÁREA QA 1777915218316",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000172,
+        "Text": "GRUPO ÁREA QA 1777970012322",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000173,
+        "Text": "GRUPO ÁREA QA 1777970030303",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000174,
+        "Text": "GRUPO ÁREA QA 1777995788569",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000175,
+        "Text": "GRUPO ÁREA QA 1777995809226",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000176,
+        "Text": "GRUPO ÁREA QA 1778008282598",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000177,
+        "Text": "GRUPO ÁREA QA 1778008325173",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000178,
+        "Text": "GRUPO ÁREA QA 1778008327989",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000179,
+        "Text": "GRUPO ÁREA QA 1778008690010",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000180,
+        "Text": "GRUPO ÁREA QA 1778008736470",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000181,
+        "Text": "GRUPO ÁREA QA 1778056452735",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000182,
+        "Text": "GRUPO ÁREA QA 1778079626967",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000183,
+        "Text": "GRUPO ÁREA QA 1778079784720",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000184,
+        "Text": "GRUPO ÁREA QA 1778082277746",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000185,
+        "Text": "GRUPO ÁREA QA 1778090587910",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000186,
+        "Text": "GRUPO ÁREA QA 1778142832462",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000187,
+        "Text": "GRUPO ÁREA QA 1778162701593",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000188,
+        "Text": "GRUPO ÁREA QA 1778162982585",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000189,
+        "Text": "GRUPO ÁREA QA 1778163276748",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000190,
+        "Text": "GRUPO ÁREA QA 1778168590671",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000191,
+        "Text": "GRUPO ÁREA QA 1778175174865",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000192,
+        "Text": "GRUPO ÁREA QA 1778202408361",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000193,
+        "Text": "GRUPO ÁREA QA 1778202734359",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000194,
+        "Text": "GRUPO ÁREA QA 1778203670630",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000195,
+        "Text": "GRUPO ÁREA QA 1778204338901",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000196,
+        "Text": "GRUPO ÁREA QA 1778229273413",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000197,
+        "Text": "GRUPO ÁREA QA 1778246919500",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000198,
+        "Text": "GRUPO ÁREA QA 1778254999001",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000018,
+        "Text": "GRUPO ÁREA TESTE QA-MCP",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000008,
+        "Text": "Grupo de Área 18.03",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000017,
+        "Text": "Regressivo 0604",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000078,
+        "Text": "Regressivo 2204",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000010,
+        "Text": "Regressivo 23.03",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000012,
+        "Text": "Regressivo 2603",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000015,
+        "Text": "Regressivo 31/03",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000006,
+        "Text": "Teste Regressivo 1603",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000024,
+        "Text": "Teste Regressivo 1604",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000020,
+        "Text": "Teste Regressivos 13042026",
+        "IsSelected": false
+      },
+      {
+        "Id": 1000000003,
+        "Text": "Teste Regressivos 26022026",
+        "IsSelected": false
+      }
+    ]
+  },
+  "elapsed_seconds": 0.22063
+}

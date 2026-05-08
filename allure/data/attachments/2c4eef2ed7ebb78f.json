@@ -1,0 +1,203 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Fri, 08 May 2026 18:34:27 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1000000002,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "VEICULOS"
+      },
+      {
+        "Id": 1000000005,
+        "Ativo": true,
+        "Tipo": false,
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000021,
+        "Ativo": true,
+        "Tipo": false,
+        "DescricaoGrupoArea": "GRUPO ÁREA TESTE QA-MCP"
+      },
+      {
+        "Id": 1000000022,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA TESTE QA-MCP"
+      },
+      {
+        "Id": 1000000024,
+        "Ativo": true,
+        "Tipo": false,
+        "DescricaoGrupoArea": "Regressivo 31/03"
+      },
+      {
+        "Id": 1000000025,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "14042026TESTE21"
+      },
+      {
+        "Id": 1000000026,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776631792795"
+      },
+      {
+        "Id": 1000000027,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "Regressivo 23.03"
+      },
+      {
+        "Id": 1000000028,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776630739686"
+      },
+      {
+        "Id": 1000000029,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776630366858"
+      },
+      {
+        "Id": 1000000030,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776630735864"
+      },
+      {
+        "Id": 1000000031,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776630744261"
+      },
+      {
+        "Id": 1000000032,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776629916517"
+      },
+      {
+        "Id": 1000000033,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776630715902"
+      },
+      {
+        "Id": 1000000035,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776861378035"
+      },
+      {
+        "Id": 1000000036,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776857689986"
+      },
+      {
+        "Id": 1000000037,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776786178192"
+      },
+      {
+        "Id": 1000000038,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "Teste Regressivos 13042026"
+      },
+      {
+        "Id": 1000000039,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776858482020"
+      },
+      {
+        "Id": 1000000040,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776703586711"
+      },
+      {
+        "Id": 1000000041,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776871123513"
+      },
+      {
+        "Id": 1000000042,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776978731075"
+      },
+      {
+        "Id": 1000000043,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776958948963"
+      },
+      {
+        "Id": 1000000044,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "Grupo de Area 1103"
+      },
+      {
+        "Id": 1000000045,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "20042026TESTE"
+      },
+      {
+        "Id": 1000000046,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "16042026TESTE"
+      },
+      {
+        "Id": 1000000047,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776933265384"
+      },
+      {
+        "Id": 1000000048,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776977031802"
+      },
+      {
+        "Id": 1000000049,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776712646728"
+      },
+      {
+        "Id": 1000000050,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776705559557"
+      }
+    ],
+    "QuantidadeTotal": 74,
+    "Paginas": 3,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.195066
+}
