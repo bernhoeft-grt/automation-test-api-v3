@@ -1,0 +1,1 @@
+"""AmostragemGrupoArea tests package."""

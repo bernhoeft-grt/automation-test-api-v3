@@ -1,0 +1,1 @@
+"""Contratada tests package."""

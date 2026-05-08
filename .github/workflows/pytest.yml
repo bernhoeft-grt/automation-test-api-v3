@@ -1,0 +1,247 @@
+name: Pytest Tests + Allure
+
+on:
+  push:
+    branches:
+      - '**'
+  pull_request:
+    branches:
+      - '**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: |
+          echo "[1/9] pip install"
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          python -m pip install playwright
+
+      - name: Install Playwright browsers
+        run: |
+          echo "[2/9] Playwright install"
+          python -m playwright install chromium || python -m playwright install
+
+      - name: Install system tools
+        run: |
+          echo "[3/9] apt-get update"
+          sudo apt-get update -qq
+
+          echo "[4/9] apt-get install tools"
+          sudo apt-get install -y --no-install-recommends \
+            ca-certificates \
+            curl \
+            unzip \
+            zip \
+            default-jre \
+            git \
+            jq
+
+      - name: Install Allure CLI
+        run: |
+          echo "[5/9] Allure CLI"
+          npm i -g allure-commandline
+          allure --version
+
+      - name: Clean directories
+        run: |
+          echo "[6/9] Limpando diretorios"
+          rm -rf reports allure-results allure-report test-results
+          mkdir -p reports allure-results
+
+      - name: Debug environment
+        env:
+          BASE_URL: ${{ secrets.BASE_URL }}
+        run: |
+          echo "[7/9] Estrutura de testes:"
+          find tests -name "test_*.py" 2>/dev/null | wc -l
+
+          echo "[8/9] Variaveis de ambiente:"
+          if [ -n "$BASE_URL" ]; then
+            echo "BASE_URL configurada"
+          else
+            echo "BASE_URL nao configurada"
+          fi
+
+      - name: Run pytest tests
+        id: pytest_tests
+        env:
+          BASE_URL: ${{ secrets.BASE_URL }}
+          API_KEY: ${{ secrets.API_KEY }}
+        run: |
+          echo "[9/9] Executando testes..."
+
+          set +e
+          python -m pytest tests/ -v --alluredir=allure-results --html=reports/report.html --self-contained-html 2>&1 | tee test.log
+          TEST_EXIT_CODE=$?
+          set -e
+
+          echo "TEST_EXIT_CODE=$TEST_EXIT_CODE" >> "$GITHUB_ENV"
+          echo "$TEST_EXIT_CODE" > test_exit_code.txt
+
+          echo "Exit code: $TEST_EXIT_CODE"
+
+      - name: Generate Allure report
+        if: always()
+        run: |
+          set +e
+
+          echo "[INFO] Gerando relatorios..."
+
+          if [ -d "allure-results" ] && [ "$(ls -A allure-results 2>/dev/null)" ]; then
+            echo "[INFO] Gerando relatorio Allure..."
+            allure generate allure-results -o allure-report --clean
+
+            if [ $? -eq 0 ]; then
+              echo "[OK] Allure gerado"
+            fi
+          fi
+
+      - name: Zip reports
+        if: always()
+        run: |
+          ZIP_NAME="allure-report_${{ github.run_number }}.zip"
+          HTML_ZIP_NAME="pytest-report_${{ github.run_number }}.zip"
+
+          if [ -d "allure-report" ] && [ "$(ls -A allure-report 2>/dev/null)" ]; then
+            zip -r "$ZIP_NAME" allure-report >/dev/null 2>&1
+          fi
+
+          if [ -d "reports" ] && [ "$(ls -A reports 2>/dev/null)" ]; then
+            zip -r "$HTML_ZIP_NAME" reports >/dev/null 2>&1
+          fi
+
+      - name: Upload Allure report artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report
+          path: |
+            allure-report
+            allure-report_*.zip
+          retention-days: 15
+
+      - name: Upload Pytest report artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pytest-report
+          path: |
+            reports
+            pytest-report_*.zip
+            test_exit_code.txt
+            test.log
+          retention-days: 15
+
+      - name: Publish Allure Report to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./allure-report
+          publish_branch: gh-pages
+          destination_dir: allure
+          keep_files: true
+
+      - name: Extract Allure statistics
+        if: always()
+        run: |
+          TOTAL_TESTS=0
+          PASSED_TESTS=0
+          FAILED_TESTS=0
+          SKIPPED_TESTS=0
+
+          if [ -f "allure-report/widgets/summary.json" ]; then
+            TOTAL_TESTS=$(cat allure-report/widgets/summary.json | grep -o '"total":[0-9]*' | cut -d':' -f2 || echo 0)
+            PASSED_TESTS=$(cat allure-report/widgets/summary.json | grep -o '"passed":[0-9]*' | cut -d':' -f2 || echo 0)
+            FAILED_TESTS=$(cat allure-report/widgets/summary.json | grep -o '"failed":[0-9]*' | cut -d':' -f2 || echo 0)
+            SKIPPED_TESTS=$(cat allure-report/widgets/summary.json | grep -o '"skipped":[0-9]*' | cut -d':' -f2 || echo 0)
+          fi
+
+          echo "TOTAL_TESTS=$TOTAL_TESTS" >> "$GITHUB_ENV"
+          echo "PASSED_TESTS=$PASSED_TESTS" >> "$GITHUB_ENV"
+          echo "FAILED_TESTS=$FAILED_TESTS" >> "$GITHUB_ENV"
+          echo "SKIPPED_TESTS=$SKIPPED_TESTS" >> "$GITHUB_ENV"
+
+      - name: Send Teams notification
+        if: always()
+        env:
+          TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
+        run: |
+          if [ -z "${TEAMS_WEBHOOK_URL:-}" ]; then
+            echo "[WARN] TEAMS_WEBHOOK_URL nao configurada. Pulando notificacao Teams."
+            exit 0
+          fi
+
+          TEST_EXIT_CODE=$(cat test_exit_code.txt 2>/dev/null || echo 1)
+
+          if [ "$TEST_EXIT_CODE" -eq 0 ]; then
+            STATUS="SUCESSO"
+          elif [ "$TEST_EXIT_CODE" -eq 5 ]; then
+            STATUS="SEM TESTES (exit ${TEST_EXIT_CODE})"
+          else
+            STATUS="FALHA (exit ${TEST_EXIT_CODE})"
+          fi
+
+          PAGES_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/allure/"
+
+          STATS="Total: ${TOTAL_TESTS} | Passou: ${PASSED_TESTS} | Falhou: ${FAILED_TESTS}"
+
+          if [ "$SKIPPED_TESTS" -gt 0 ]; then
+            STATS="${STATS} | Pulado: ${SKIPPED_TESTS}"
+          fi
+
+          BUILD_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          BRANCH="${{ github.ref_name }}"
+
+          cat <<EOF > teams-message.txt
+          [BACKEND API V3] ${STATUS} - Build #${{ github.run_number }}
+
+          Execucao: Backend API V3
+
+          Branch: ${BRANCH}
+
+          ${STATS}
+
+          Abrir Allure Report:
+          ${PAGES_URL}
+
+          Build:
+          ${BUILD_URL}
+          EOF
+
+          jq -Rs '{text: .}' teams-message.txt > payload.json
+
+          curl -sS \
+            -H "Content-Type: application/json" \
+            --data @payload.json \
+            "$TEAMS_WEBHOOK_URL"
+
+      - name: Fail workflow if tests failed
+        if: always()
+        run: |
+          TEST_EXIT_CODE=$(cat test_exit_code.txt 2>/dev/null || echo 1)
+          exit "$TEST_EXIT_CODE"

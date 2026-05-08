@@ -1,0 +1,1 @@
+"""ClassificacaoColaborador tests package."""

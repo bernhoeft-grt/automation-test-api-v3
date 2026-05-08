@@ -1,0 +1,1 @@
+"""Contratante tests package."""

@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+allure-results/
+allure-report/
+reports/
+*.html
+*.xml
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Playwright
+playwright-report/
+test-results/
+.pages/
+test.log
+test_exit_code.txt
+teams-message.txt
+payload.json
+allure-report_*.zip
+pytest-report_*.zip
+
+# Copilot (legado — não utilizado)
+/.github/agents/
+/.github/skills/
+/.github/mcp-servers/
+/.github/AGENTS.md
+AGENTS_README.md
+AGENT_EXAMPLES.md
+HEALING_AGENT_SUMMARY.md
+PRE_GENERATION_CHECKLIST.md
+copilot-instructions*.md
+EXAMPLES.md
+SETUP_GUIDE.md
+STRUCTURE_MAP.md
+TEST_STRUCTURE.md
+TROUBLESHOOTING_QUICK_START.md
+.claude.claude.json.example
+
+# Virtual environments alternatives
+venv_new/
+
+# Local AI/tooling metadata
+.claude/
+CLAUDE.md
+
+# Optional local helpers not used by CI
+requirements-extra.txt
+run_tests.sh
