@@ -79,11 +79,70 @@ def log_request_response(
     )
 
 
+def _attach_assertion_details(expected: Any = None, actual: Any = None, extra: Optional[Dict[str, Any]] = None) -> None:
+    """Attach structured assertion context to Allure."""
+    payload = {
+        "expected": expected,
+        "actual": actual,
+    }
+    if extra:
+        payload.update(extra)
+
+    allure.attach(
+        json.dumps(payload, indent=2, ensure_ascii=False, default=str),
+        name="Assertion Details",
+        attachment_type=allure.attachment_type.JSON,
+    )
+
+
+def assert_equal(actual: Any, expected: Any, message: str) -> None:
+    """Assert equality with Allure step and structured context."""
+    with allure.step(message):
+        _attach_assertion_details(expected=expected, actual=actual)
+        assert actual == expected, message
+
+
+def assert_in(member: Any, container: Any, message: str) -> None:
+    """Assert membership with Allure step and structured context."""
+    with allure.step(message):
+        _attach_assertion_details(expected="member should exist in container", actual=member)
+        assert member in container, message
+
+
+def assert_true(condition: bool, message: str, *, actual: Any = None, expected: Any = True) -> None:
+    """Assert truthy condition with Allure step and structured context."""
+    with allure.step(message):
+        _attach_assertion_details(expected=expected, actual=actual if actual is not None else condition)
+        assert condition, message
+
+
+def assert_is_instance(value: Any, expected_type: Any, message: str) -> None:
+    """Assert instance type with Allure step and structured context."""
+    with allure.step(message):
+        expected_name = getattr(expected_type, "__name__", str(expected_type))
+        actual_name = type(value).__name__
+        _attach_assertion_details(expected=expected_name, actual=actual_name)
+        assert isinstance(value, expected_type), message
+
+
+def assert_status_code(response, expected_statuses: List[int], context: str = "Validate response status code") -> None:
+    """Assert HTTP status code with request/response context."""
+    with allure.step(context):
+        _attach_assertion_details(
+            expected=expected_statuses,
+            actual=response.status_code,
+            extra={"url": getattr(response.request, "url", None)},
+        )
+        assert response.status_code in expected_statuses, (
+            f"Status code inesperado. Esperado um de {expected_statuses}, recebido {response.status_code}"
+        )
+
+
 def validate_response_structure(response, expected_keys: list):
     """Validate that response contains expected keys."""
     data = response.json()
     for key in expected_keys:
-        assert key in data, f"Expected key '{key}' not found in response"
+        assert_in(key, data, f"Expected key '{key}' not found in response")
 
 
 def _iter_dicts(value: Any) -> Iterable[Dict[str, Any]]:
@@ -150,20 +209,20 @@ def assert_list_schema(response, item_keys: Optional[List[str]] = None) -> None:
     
     if isinstance(data, dict):
         for key in ["Dados", "QuantidadeTotal", "Paginas", "Quantidade", "Pagina"]:
-            assert key in data, f"GET_ALL deveria conter a chave '{key}'"
+            assert_in(key, data, f"GET_ALL deveria conter a chave '{key}'")
         items = data.get("Dados")
     else:
         items = data
 
-    assert isinstance(items, list), "GET_ALL -> lista deveria ser do tipo list"
+    assert_is_instance(items, list, "GET_ALL -> lista deveria ser do tipo list")
     if len(items) == 0:
         pytest.skip("GET_ALL retornou lista vazia (sem dados no ambiente)")
 
     first = items[0]
-    assert isinstance(first, dict), "Primeiro item deveria ser um objeto (dict)"
+    assert_is_instance(first, dict, "Primeiro item deveria ser um objeto (dict)")
     if item_keys:
         for key in item_keys:
-            assert key in first, f"Item de lista deveria conter a chave '{key}'"
+            assert_in(key, first, f"Item de lista deveria conter a chave '{key}'")
 
 
 def assert_list_payload(response) -> List[Any]:
@@ -178,9 +237,9 @@ def assert_list_payload(response) -> List[Any]:
             if isinstance(value, list):
                 items = value
                 break
-        assert items is not None, "Response deveria conter uma lista em 'Dados' ou semelhante"
+        assert_true(items is not None, "Response deveria conter uma lista em 'Dados' ou semelhante", actual=items)
     else:
         raise AssertionError("Response deveria ser lista ou dict com lista")
 
-    assert isinstance(items, list), "Payload deveria ser uma lista"
+    assert_is_instance(items, list, "Payload deveria ser uma lista")
     return items

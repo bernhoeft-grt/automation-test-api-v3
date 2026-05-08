@@ -4,6 +4,7 @@ import shutil
 import subprocess
 from pathlib import Path
 
+import allure
 import pytest
 
 from utils.api_client import APIClient
@@ -31,9 +32,41 @@ def api_client(auth_token):
 @pytest.fixture(autouse=True)
 def attach_base_url(api_client):
     """Attach base URL to Allure report."""
-    import allure
     allure.dynamic.link(API_BASE_URL, name="API Base URL")
     yield
+
+
+@pytest.hookimpl(hookwrapper=True)
+def pytest_runtest_makereport(item, call):
+    """Attach pytest failure details to Allure on setup/call/teardown failures."""
+    outcome = yield
+    report = outcome.get_result()
+
+    if report.when == "call":
+        allure.attach(
+            report.outcome.upper(),
+            name="Test Outcome",
+            attachment_type=allure.attachment_type.TEXT,
+        )
+
+    if report.failed:
+        longrepr_text = report.longreprtext if hasattr(report, "longreprtext") else str(report.longrepr)
+        allure.attach(
+            longrepr_text,
+            name=f"Pytest Failure ({report.when})",
+            attachment_type=allure.attachment_type.TEXT,
+        )
+
+        captured_sections = []
+        for section_name, section_content in report.sections:
+            captured_sections.append(f"## {section_name}\n{section_content}")
+
+        if captured_sections:
+            allure.attach(
+                "\n\n".join(captured_sections),
+                name=f"Captured Output ({report.when})",
+                attachment_type=allure.attachment_type.TEXT,
+            )
 
 
 def pytest_sessionfinish(session, exitstatus):

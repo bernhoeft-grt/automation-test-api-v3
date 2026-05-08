@@ -1,7 +1,15 @@
 """Test GET /api/v1/contratada/{id}."""
 import pytest
 import allure
-from utils.helpers import attach_response, attach_request, get_first_id, get_object_payload
+from utils.helpers import (
+    attach_response,
+    attach_request,
+    assert_is_instance,
+    assert_status_code,
+    assert_true,
+    get_first_id,
+    get_object_payload,
+)
 
 
 @allure.epic("ContractWeb API")
@@ -28,17 +36,24 @@ class TestGetContratadaById:
                     attach_response(response, "Get By ID Response")
                 
                 with allure.step("Verify response status code"):
-                    assert response.status_code in [200, 404]
+                    assert_status_code(response, [200, 404], context="Verify response status code")
                 if response.status_code == 200:
                     with allure.step("Validate response schema (200)"):
                         payload = get_object_payload(response)
-                        assert isinstance(payload, dict), (
-                            f"GET by ID deveria retornar um objeto JSON (dict), retornou: {type(payload)}"
+                        assert_is_instance(
+                            payload,
+                            dict,
+                            f"GET by ID deveria retornar um objeto JSON (dict), retornou: {type(payload)}",
                         )
-                        assert "Id" in payload or "id" in payload, (
-                            "GET by ID deveria conter a chave 'Id' ou 'id'"
+                        assert_true(
+                            "Id" in payload or "id" in payload,
+                            "GET by ID deveria conter a chave 'Id' ou 'id'",
+                            actual=list(payload.keys()),
                         )
                         payload_id = payload.get("Id") or payload.get("id")
-                        assert payload_id == test_id, (
-                            f"GET by ID deveria retornar Id={test_id}, retornou {payload_id}"
+                        assert_true(
+                            payload_id == test_id,
+                            f"GET by ID deveria retornar Id={test_id}, retornou {payload_id}",
+                            actual=payload_id,
+                            expected=test_id,
                         )

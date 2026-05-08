@@ -172,18 +172,21 @@ jobs:
           TOTAL_TESTS=0
           PASSED_TESTS=0
           FAILED_TESTS=0
+          BROKEN_TESTS=0
           SKIPPED_TESTS=0
 
           if [ -f "allure-report/widgets/summary.json" ]; then
-            TOTAL_TESTS=$(cat allure-report/widgets/summary.json | grep -o '"total":[0-9]*' | cut -d':' -f2 || echo 0)
-            PASSED_TESTS=$(cat allure-report/widgets/summary.json | grep -o '"passed":[0-9]*' | cut -d':' -f2 || echo 0)
-            FAILED_TESTS=$(cat allure-report/widgets/summary.json | grep -o '"failed":[0-9]*' | cut -d':' -f2 || echo 0)
-            SKIPPED_TESTS=$(cat allure-report/widgets/summary.json | grep -o '"skipped":[0-9]*' | cut -d':' -f2 || echo 0)
+            TOTAL_TESTS=$(jq -r '.statistic.total // 0' allure-report/widgets/summary.json)
+            PASSED_TESTS=$(jq -r '.statistic.passed // 0' allure-report/widgets/summary.json)
+            FAILED_TESTS=$(jq -r '.statistic.failed // 0' allure-report/widgets/summary.json)
+            BROKEN_TESTS=$(jq -r '.statistic.broken // 0' allure-report/widgets/summary.json)
+            SKIPPED_TESTS=$(jq -r '.statistic.skipped // 0' allure-report/widgets/summary.json)
           fi
 
           echo "TOTAL_TESTS=$TOTAL_TESTS" >> "$GITHUB_ENV"
           echo "PASSED_TESTS=$PASSED_TESTS" >> "$GITHUB_ENV"
           echo "FAILED_TESTS=$FAILED_TESTS" >> "$GITHUB_ENV"
+          echo "BROKEN_TESTS=$BROKEN_TESTS" >> "$GITHUB_ENV"
           echo "SKIPPED_TESTS=$SKIPPED_TESTS" >> "$GITHUB_ENV"
 
       - name: Send Teams notification
@@ -208,7 +211,12 @@ jobs:
 
           PAGES_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/allure/"
 
-          STATS="Total: ${TOTAL_TESTS} | Passou: ${PASSED_TESTS} | Falhou: ${FAILED_TESTS}"
+          ALLURE_FAILURES=$((FAILED_TESTS + BROKEN_TESTS))
+          STATS="Total: ${TOTAL_TESTS} | Passou: ${PASSED_TESTS} | Falhou: ${ALLURE_FAILURES}"
+
+          if [ "${BROKEN_TESTS:-0}" -gt 0 ]; then
+            STATS="${STATS} | Broken: ${BROKEN_TESTS}"
+          fi
 
           if [ "$SKIPPED_TESTS" -gt 0 ]; then
             STATS="${STATS} | Pulado: ${SKIPPED_TESTS}"

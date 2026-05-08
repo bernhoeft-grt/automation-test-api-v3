@@ -1,7 +1,14 @@
 """Test GET /api/v1/area."""
 import pytest
 import allure
-from utils.helpers import attach_response, attach_request, assert_list_schema, get_list_payload
+from utils.helpers import (
+    attach_response,
+    attach_request,
+    assert_list_schema,
+    assert_status_code,
+    assert_true,
+    get_list_payload,
+)
 
 
 @allure.epic("ContractWeb API")
@@ -25,12 +32,14 @@ class TestGetAllArea:
             attach_response(response, "Get All Response")
         
         with allure.step("Verify response status code"):
-            assert response.status_code == 200
+            assert_status_code(response, [200], context="Verify response status code")
 
         with allure.step("Validate response schema"):
             assert_list_schema(response)
             items = get_list_payload(response)
             first_item = items[0]
-            assert "Id" in first_item or "id" in first_item, (
-                "Item de 'Dados' deveria conter a chave 'Id' ou 'id'"
+            assert_true(
+                "Id" in first_item or "id" in first_item,
+                "Item de 'Dados' deveria conter a chave 'Id' ou 'id'",
+                actual=list(first_item.keys()),
             )

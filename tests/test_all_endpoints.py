@@ -5,7 +5,7 @@ from typing import Dict, Optional, List
 import allure
 import pytest
 
-from utils.helpers import attach_request, attach_response
+from utils.helpers import attach_request, attach_response, assert_status_code
 
 
 @dataclass(frozen=True)
@@ -413,4 +413,8 @@ class TestAllEndpoints:
             response = page.call()
 
         with allure.step("Verify response status code"):
-            assert response.status_code in [200, 201, 204, 400, 401, 403, 404, 500]
+            assert_status_code(
+                response,
+                [200, 201, 204, 400, 401, 403, 404, 500],
+                context="Verify response status code",
+            )
