@@ -75,6 +75,13 @@ jobs:
       - name: Debug environment
         env:
           BASE_URL: ${{ secrets.BASE_URL }}
+          API_KEY: ${{ secrets.API_KEY }}
+          AUTH_BASE_URL: ${{ secrets.AUTH_BASE_URL }}
+          AUTH_ENDPOINT: ${{ secrets.AUTH_ENDPOINT }}
+          AUTH_TENANT_ID: ${{ secrets.AUTH_TENANT_ID }}
+          AUTH_EMAIL: ${{ secrets.AUTH_EMAIL }}
+          AUTH_PASSWORD: ${{ secrets.AUTH_PASSWORD }}
+          AUTH_MFA: ${{ secrets.AUTH_MFA }}
         run: |
           echo "[7/9] Estrutura de testes:"
           find tests -name "test_*.py" 2>/dev/null | wc -l
@@ -86,11 +93,25 @@ jobs:
             echo "BASE_URL nao configurada"
           fi
 
+          if [ -n "${API_KEY:-}" ]; then
+            echo "Autenticacao: API_KEY"
+          elif [ -n "${AUTH_EMAIL:-}" ] && [ -n "${AUTH_PASSWORD:-}" ] && [ -n "${AUTH_TENANT_ID:-}" ]; then
+            echo "Autenticacao: AUTH_* (login)"
+          else
+            echo "Autenticacao: NAO CONFIGURADA"
+          fi
+
       - name: Run pytest tests
         id: pytest_tests
         env:
           BASE_URL: ${{ secrets.BASE_URL }}
           API_KEY: ${{ secrets.API_KEY }}
+          AUTH_BASE_URL: ${{ secrets.AUTH_BASE_URL }}
+          AUTH_ENDPOINT: ${{ secrets.AUTH_ENDPOINT }}
+          AUTH_TENANT_ID: ${{ secrets.AUTH_TENANT_ID }}
+          AUTH_EMAIL: ${{ secrets.AUTH_EMAIL }}
+          AUTH_PASSWORD: ${{ secrets.AUTH_PASSWORD }}
+          AUTH_MFA: ${{ secrets.AUTH_MFA }}
         run: |
           echo "[9/9] Executando testes..."
 
