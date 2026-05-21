@@ -1,0 +1,263 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Thu, 21 May 2026 18:43:48 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1000000000,
+        "Ativo": true,
+        "Descricao": "GRUPO ÁREA PRÉ-PRODUÇÃO",
+        "EmailResponsavel": "dsilva@bernhoeft.com.br",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000001,
+        "Ativo": true,
+        "Descricao": "VEICULOS",
+        "EmailResponsavel": "dsilva@bernhoeft.com.br",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000002,
+        "Ativo": true,
+        "Descricao": "AMBIENTAL",
+        "EmailResponsavel": "dsilva@bernhoeft.com.br",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000003,
+        "Ativo": true,
+        "Descricao": "Teste Regressivos 26022026",
+        "EmailResponsavel": "aramos@bernhoeft.com.br",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000004,
+        "Ativo": true,
+        "Descricao": "Grupo de Area 1103",
+        "EmailResponsavel": "gabriel.silva@bernhoeft.com.br",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000006,
+        "Ativo": true,
+        "Descricao": "Teste Regressivo 1603",
+        "EmailResponsavel": "gabriel.silva@bernhoeft.com.br",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000008,
+        "Ativo": true,
+        "Descricao": "Grupo de Área 18.03",
+        "EmailResponsavel": "gabriel.silva@bernhoeft.com.br",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000010,
+        "Ativo": true,
+        "Descricao": "Regressivo 23.03",
+        "EmailResponsavel": "gabriel.silva@bernhoeft.com.br",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000012,
+        "Ativo": true,
+        "Descricao": "Regressivo 2603",
+        "EmailResponsavel": "gabriel.silva@bernhoeft.com.br",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000015,
+        "Ativo": true,
+        "Descricao": "Regressivo 31/03",
+        "EmailResponsavel": "gabriel.silva@bernhoeft.com.br",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000017,
+        "Ativo": true,
+        "Descricao": "Regressivo 0604",
+        "EmailResponsavel": "gabriel.silva@bernhoeft.com.br",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000018,
+        "Ativo": true,
+        "Descricao": "GRUPO ÁREA TESTE QA-MCP",
+        "EmailResponsavel": "qa.bern2025@gmail.com",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000020,
+        "Ativo": true,
+        "Descricao": "Teste Regressivos 13042026",
+        "EmailResponsavel": "aramos@bernhoeft.com.br",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000022,
+        "Ativo": true,
+        "Descricao": "14042026TESTE21",
+        "EmailResponsavel": "dsilva@bernhoeft.com.br",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000024,
+        "Ativo": true,
+        "Descricao": "Teste Regressivo 1604",
+        "EmailResponsavel": "gabriel.silva@bernhoeft.com.br",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000025,
+        "Ativo": true,
+        "Descricao": "16042026TESTE",
+        "EmailResponsavel": "dsilva@bernhoeft.com.br",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000026,
+        "Ativo": true,
+        "Descricao": "GRUPO ÁREA QA 1776629916517",
+        "EmailResponsavel": "qa.bern2025@gmail.com",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000027,
+        "Ativo": true,
+        "Descricao": "GRUPO ÁREA QA 1776630366858",
+        "EmailResponsavel": "qa.bern2025@gmail.com",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000028,
+        "Ativo": true,
+        "Descricao": "GRUPO ÁREA QA 1776630715902",
+        "EmailResponsavel": "qa.bern2025@gmail.com",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000029,
+        "Ativo": true,
+        "Descricao": "GRUPO ÁREA QA 1776630735864",
+        "EmailResponsavel": "qa.bern2025@gmail.com",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000030,
+        "Ativo": true,
+        "Descricao": "GRUPO ÁREA QA 1776630739686",
+        "EmailResponsavel": "qa.bern2025@gmail.com",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000031,
+        "Ativo": true,
+        "Descricao": "GRUPO ÁREA QA 1776630744261",
+        "EmailResponsavel": "qa.bern2025@gmail.com",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000032,
+        "Ativo": true,
+        "Descricao": "GRUPO ÁREA QA 1776630758946",
+        "EmailResponsavel": "qa.bern2025@gmail.com",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000033,
+        "Ativo": true,
+        "Descricao": "GRUPO ÁREA QA 1776630761690",
+        "EmailResponsavel": "qa.bern2025@gmail.com",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000034,
+        "Ativo": true,
+        "Descricao": "GRUPO ÁREA QA 1776631792795",
+        "EmailResponsavel": "qa.bern2025@gmail.com",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000035,
+        "Ativo": true,
+        "Descricao": "20042026TESTE",
+        "EmailResponsavel": "dsilva@bernhoeft.com.br",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000036,
+        "Ativo": true,
+        "Descricao": "GRUPO ÁREA QA 1776703583131",
+        "EmailResponsavel": "qa.bern2025@gmail.com",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000037,
+        "Ativo": true,
+        "Descricao": "GRUPO ÁREA QA 1776703586711",
+        "EmailResponsavel": "qa.bern2025@gmail.com",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000038,
+        "Ativo": true,
+        "Descricao": "GRUPO ÁREA QA 1776703591586",
+        "EmailResponsavel": "qa.bern2025@gmail.com",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      },
+      {
+        "Id": 1000000039,
+        "Ativo": true,
+        "Descricao": "GRUPO ÁREA QA 1776703600653",
+        "EmailResponsavel": "qa.bern2025@gmail.com",
+        "OcultarMedicoes": false,
+        "OmitirCompetencia": false
+      }
+    ],
+    "QuantidadeTotal": 292,
+    "Paginas": 10,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.257648
+}
