@@ -1,0 +1,7 @@
+{
+  "method": "PUT",
+  "url": "/objeto-analise-tipo-especifico/1",
+  "data": {
+    "nome": "Updated"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Dados": {
+    "Id": 1000000024,
+    "Ativo": true,
+    "Tipo": false,
+    "FaixaInicio": 1,
+    "FaixaFinal": 9999,
+    "AmostragemSolicitacao": 100,
+    "TipoAmostragemSolicitacao": "Porcentagem",
+    "AmostragemAdmissao": 100,
+    "TipoAmostragemAdmissao": "Porcentagem",
+    "AmostragemDemissao": 100,
+    "TipoAmostragemDemissao": "Porcentagem",
+    "AmostragemAtivos": 100,
+    "TipoAmostragemAtivos": "Porcentagem",
+    "AmostragemMinimo": 1,
+    "AmostragemMaxima": 60,
+    "GrupoAreaId": 1000000015
+  }
+}
