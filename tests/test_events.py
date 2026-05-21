@@ -1,7 +1,7 @@
 """Tests for Events API."""
 import pytest
 import allure
-from utils.helpers import attach_response, attach_request
+from utils.helpers import attach_response, attach_request, assert_object_payload_schema, assert_status_code
 
 
 @allure.epic("ContractWeb API")
@@ -25,7 +25,10 @@ class TestEvents:
             attach_response(response, "Create Event Response")
         
         with allure.step("Verify response status code"):
-            assert response.status_code in [200, 201]
+            assert_status_code(response, 201)
+
+        with allure.step("Validate response schema"):
+            assert_object_payload_schema(response)
     
     @allure.story("POST /api/v1/events/pre-process-status/{type}")
     @allure.title("Pre-process status event")
@@ -43,4 +46,7 @@ class TestEvents:
             attach_response(response, "Pre-process Status Response")
         
         with allure.step("Verify response status code"):
-            assert response.status_code in [200, 201]
+            assert_status_code(response, 201)
+
+        with allure.step("Validate response schema"):
+            assert_object_payload_schema(response)

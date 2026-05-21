@@ -1,7 +1,7 @@
 """Test GET /api/v1/avisos/meus-avisos."""
 import pytest
 import allure
-from utils.helpers import attach_response, attach_request, assert_list_payload
+from utils.helpers import attach_response, attach_request, assert_list_payload, assert_status_code
 
 
 @allure.epic("ContractWeb API")
@@ -24,13 +24,13 @@ class TestGetMeusAvisos:
             attach_response(response, "Get Meus Avisos Response")
         
         with allure.step("Verify response status code"):
-            assert response.status_code in [200, 401]
-        if response.status_code == 200:
-            with allure.step("Validate response schema (200)"):
-                items = assert_list_payload(response)
-                if len(items) > 0:
-                    first_item = items[0]
-                    assert isinstance(first_item, dict), "Primeiro item deveria ser um objeto (dict)"
-                    assert "Id" in first_item or "id" in first_item, (
-                        "Item deveria conter a chave 'Id' ou 'id'"
-                    )
+            assert_status_code(response, 200)
+
+        with allure.step("Validate response schema"):
+            items = assert_list_payload(response)
+            if len(items) > 0:
+                first_item = items[0]
+                assert isinstance(first_item, dict), "Primeiro item deveria ser um objeto (dict)"
+                assert "Id" in first_item or "id" in first_item, (
+                    "Item deveria conter a chave 'Id' ou 'id'"
+                )

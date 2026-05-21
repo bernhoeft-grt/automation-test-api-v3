@@ -1,7 +1,13 @@
 """Test PUT /api/v1/contratada/{id}."""
 import pytest
 import allure
-from utils.helpers import attach_response, attach_request, get_first_id
+from utils.helpers import (
+    attach_response,
+    attach_request,
+    assert_object_payload_schema,
+    assert_status_code,
+    get_existing_resource_id,
+)
 
 
 @allure.epic("ContractWeb API")
@@ -18,15 +24,15 @@ class TestUpdateContratada:
         
         page = ContratadaResource(api_client)
         
-        all_response = page.get_all()
-        if all_response.status_code == 200 and all_response.json():
-            test_id = get_first_id(all_response)
-            if test_id:
-                data = {"nome": "Updated Contratada", "descricao": "Updated Description"}
-                with allure.step(f"Make PUT request to /api/v1/contratada/{test_id}"):
-                    response = page.update(test_id, data)
-                    attach_request("PUT", f"/contratada/{test_id}", data)
-                    attach_response(response, "Update Response")
-                
-                with allure.step("Verify response status code"):
-                    assert response.status_code in [200, 400, 401, 404]
+        test_id = get_existing_resource_id(page.get_all())
+        data = {"nome": "Updated Contratada", "descricao": "Updated Description"}
+        with allure.step(f"Make PUT request to /api/v1/contratada/{test_id}"):
+            response = page.update(test_id, data)
+            attach_request("PUT", f"/contratada/{test_id}", data)
+            attach_response(response, "Update Response")
+
+        with allure.step("Verify response status code"):
+            assert_status_code(response, 200)
+
+        with allure.step("Validate response schema"):
+            assert_object_payload_schema(response, required_keys=["Id"], expected_id=test_id)

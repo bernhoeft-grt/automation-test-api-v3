@@ -8,6 +8,9 @@ on:
     branches:
       - '**'
   workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * 1-5'   # Seg-sex as 09:00 BRT (12:00 UTC)
+    - cron: '0 18 * * 1-5'   # Seg-sex as 15:00 BRT (18:00 UTC)
 
 permissions:
   contents: write

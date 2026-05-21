@@ -1,7 +1,14 @@
 """Test GET /api/v1/contratante/{id}/grupo-area/{grupo-area-id}."""
 import pytest
 import allure
-from utils.helpers import attach_response, attach_request, get_first_id, get_object_payload
+from utils.helpers import (
+    attach_response,
+    attach_request,
+    assert_list_payload,
+    assert_object_payload_schema,
+    assert_status_code,
+    get_existing_resource_id,
+)
 
 
 @allure.epic("ContractWeb API")
@@ -18,27 +25,28 @@ class TestGetContratanteGrupoAreaById:
         
         page = ContratanteResource(api_client)
         
-        all_response = page.get_all()
-        if all_response.status_code == 200 and all_response.json():
-            test_id = get_first_id(all_response)
-            if test_id:
-                grupo_area_id = 1
-                with allure.step(f"Make GET request to /api/v1/contratante/{test_id}/grupo-area/{grupo_area_id}"):
-                    response = page.get_grupo_area_by_id(test_id, grupo_area_id)
-                    attach_request("GET", f"/contratante/{test_id}/grupo-area/{grupo_area_id}")
-                    attach_response(response, "Get Grupo Area By ID Response")
-                
-                with allure.step("Verify response status code"):
-                    assert response.status_code in [200, 404]
-                if response.status_code == 200:
-                    with allure.step("Validate response schema (200)"):
-                        payload = get_object_payload(response)
-                        assert isinstance(payload, dict), (
-                            f"GET by ID deveria retornar um objeto JSON (dict), retornou: {type(payload)}"
-                        )
-                        assert len(payload) > 0, "GET by ID deveria retornar um objeto não vazio"
-                        payload_id = payload.get("Id") or payload.get("id") or payload.get("GrupoAreaId")
-                        if payload_id is not None:
-                            assert payload_id == grupo_area_id, (
-                                f"GET by ID deveria retornar Id={grupo_area_id}, retornou {payload_id}"
-                            )
+        test_id = get_existing_resource_id(page.get_all())
+        grupo_area_response = page.get_grupo_area(test_id)
+        assert_status_code(grupo_area_response, 200, context="Verify GET grupo-area response status code")
+        grupo_area_items = assert_list_payload(grupo_area_response)
+        if len(grupo_area_items) == 0:
+            pytest.skip("Contratante sem grupo-area relacionado no ambiente")
+
+        first_item = grupo_area_items[0]
+        if not isinstance(first_item, dict):
+            pytest.skip("GET grupo-area não retornou objetos com identificador para o cenário by-id")
+
+        grupo_area_id = first_item.get("Id") or first_item.get("id")
+        if grupo_area_id is None:
+            pytest.skip("GET grupo-area não retornou chave Id/id para o cenário by-id")
+
+        with allure.step(f"Make GET request to /api/v1/contratante/{test_id}/grupo-area/{grupo_area_id}"):
+            response = page.get_grupo_area_by_id(test_id, grupo_area_id)
+            attach_request("GET", f"/contratante/{test_id}/grupo-area/{grupo_area_id}")
+            attach_response(response, "Get Grupo Area By ID Response")
+
+        with allure.step("Verify response status code"):
+            assert_status_code(response, 200)
+
+        with allure.step("Validate response schema"):
+            assert_object_payload_schema(response)

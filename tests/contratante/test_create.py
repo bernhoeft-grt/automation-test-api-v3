@@ -1,7 +1,7 @@
 """Test POST /api/v1/contratante."""
 import pytest
 import allure
-from utils.helpers import attach_response, attach_request
+from utils.helpers import attach_response, attach_request, assert_object_payload_schema, assert_status_code
 
 
 @allure.epic("ContractWeb API")
@@ -25,4 +25,7 @@ class TestCreateContratante:
             attach_response(response, "Create Response")
         
         with allure.step("Verify response status code"):
-            assert response.status_code in [200, 201]
+            assert_status_code(response, 201)
+
+        with allure.step("Validate response schema"):
+            assert_object_payload_schema(response)

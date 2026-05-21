@@ -1,5 +1,6 @@
 """Helper functions for tests."""
 import json
+from collections.abc import Iterable as IterableCollection
 from typing import Any, Dict, Iterable, List, Optional
 
 import allure
@@ -125,17 +126,134 @@ def assert_is_instance(value: Any, expected_type: Any, message: str) -> None:
         assert isinstance(value, expected_type), message
 
 
-def assert_status_code(response, expected_statuses: List[int], context: str = "Validate response status code") -> None:
+def assert_status_code(
+    response,
+    expected_status: int | IterableCollection[int],
+    context: str = "Validate response status code",
+) -> None:
     """Assert HTTP status code with request/response context."""
+    if isinstance(expected_status, int):
+        expected_statuses = [expected_status]
+    else:
+        expected_statuses = list(expected_status)
+
     with allure.step(context):
         _attach_assertion_details(
             expected=expected_statuses,
             actual=response.status_code,
             extra={"url": getattr(response.request, "url", None)},
         )
+        if len(expected_statuses) == 1:
+            assert response.status_code == expected_statuses[0], (
+                f"Status code inesperado. Esperado {expected_statuses[0]}, recebido {response.status_code}"
+            )
+            return
+
         assert response.status_code in expected_statuses, (
             f"Status code inesperado. Esperado um de {expected_statuses}, recebido {response.status_code}"
         )
+
+
+def assert_json_response(response, context: str = "Validate response JSON body") -> Any:
+    """Assert response body is valid JSON and return decoded payload."""
+    with allure.step(context):
+        try:
+            payload = response.json()
+        except Exception as exc:
+            pytest.fail(
+                f"Response deveria retornar JSON válido.\n"
+                f"Status: {response.status_code}\n"
+                f"Body: {response.text[:500]}\n"
+                f"Erro: {exc}"
+            )
+        return payload
+
+
+def assert_paginated_list_response(
+    response,
+    item_keys: Optional[List[str]] = None,
+    wrapper_keys: Optional[List[str]] = None,
+) -> List[Dict[str, Any]]:
+    """Validate paginated list response schema and return items."""
+    data = assert_json_response(response)
+    keys = wrapper_keys or ["Dados", "QuantidadeTotal", "Paginas", "Quantidade", "Pagina"]
+
+    assert_is_instance(data, dict, "GET_ALL deveria retornar um objeto JSON (dict)")
+    for key in keys:
+        assert_in(key, data, f"GET_ALL deveria conter a chave '{key}'")
+
+    items = data.get("Dados")
+    assert_is_instance(items, list, "GET_ALL -> 'Dados' deveria ser uma lista")
+
+    if len(items) == 0:
+        pytest.skip("GET_ALL retornou lista vazia em 'Dados' (sem dados no ambiente)")
+
+    first_item = items[0]
+    assert_is_instance(first_item, dict, "Primeiro item de 'Dados' deveria ser um objeto (dict)")
+    if item_keys:
+        for key in item_keys:
+            assert_in(key, first_item, f"Item de 'Dados' deveria conter a chave '{key}'")
+
+    return items
+
+
+def assert_object_payload_schema(
+    response,
+    required_keys: Optional[List[str]] = None,
+    expected_id: Any = None,
+) -> Dict[str, Any]:
+    """Validate object payload schema and return object payload."""
+    payload = get_object_payload(response)
+    assert_is_instance(payload, dict, "Payload deveria ser um objeto JSON (dict)")
+
+    if required_keys:
+        for key in required_keys:
+            assert_in(key, payload, f"Payload deveria conter a chave '{key}'")
+
+    if expected_id is not None:
+        payload_id = payload.get("Id", payload.get("id"))
+        assert_true(
+            payload_id == expected_id,
+            f"Payload deveria retornar Id={expected_id}, retornou {payload_id}",
+            actual=payload_id,
+            expected=expected_id,
+        )
+
+    return payload
+
+
+def assert_delete_response(response) -> None:
+    """Validate delete success responses."""
+    assert_status_code(response, [200, 204], context="Verify delete response status code")
+    if response.status_code == 204:
+        assert_true(
+            not response.text.strip(),
+            "DELETE com 204 não deveria retornar body",
+            actual=response.text,
+            expected="empty body",
+        )
+        return
+
+    if response.text.strip():
+        assert_json_response(response, context="Validate delete response JSON body")
+
+
+def get_existing_resource_id(response, id_keys: Optional[List[str]] = None) -> Any:
+    """Extract an existing resource id from a successful GET_ALL response."""
+    assert_status_code(response, 200, context="Verify GET_ALL response status code")
+    items = assert_list_payload(response)
+    if len(items) == 0:
+        pytest.skip("GET_ALL retornou lista vazia (sem dados no ambiente)")
+
+    keys = id_keys or ["Id", "id"]
+    first_item = items[0]
+    assert_is_instance(first_item, dict, "Primeiro item deveria ser um objeto (dict)")
+    for key in keys:
+        value = first_item.get(key)
+        if value is not None:
+            return value
+
+    pytest.fail(f"Nenhum identificador encontrado usando as chaves {keys}")
 
 
 def validate_response_structure(response, expected_keys: list):

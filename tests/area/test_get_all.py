@@ -4,10 +4,8 @@ import allure
 from utils.helpers import (
     attach_response,
     attach_request,
-    assert_list_schema,
+    assert_paginated_list_response,
     assert_status_code,
-    assert_true,
-    get_list_payload,
 )
 
 
@@ -32,14 +30,7 @@ class TestGetAllArea:
             attach_response(response, "Get All Response")
         
         with allure.step("Verify response status code"):
-            assert_status_code(response, [200], context="Verify response status code")
+            assert_status_code(response, 200, context="Verify response status code")
 
         with allure.step("Validate response schema"):
-            assert_list_schema(response)
-            items = get_list_payload(response)
-            first_item = items[0]
-            assert_true(
-                "Id" in first_item or "id" in first_item,
-                "Item de 'Dados' deveria conter a chave 'Id' ou 'id'",
-                actual=list(first_item.keys()),
-            )
+            assert_paginated_list_response(response, item_keys=["Id"])

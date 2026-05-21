@@ -1,7 +1,13 @@
 """Test GET /api/v1/contrato/{id}."""
 import pytest
 import allure
-from utils.helpers import attach_response, attach_request, get_first_id, get_object_payload
+from utils.helpers import (
+    attach_response,
+    attach_request,
+    assert_object_payload_schema,
+    assert_status_code,
+    get_existing_resource_id,
+)
 
 
 @allure.epic("ContractWeb API")
@@ -18,27 +24,14 @@ class TestGetContratoById:
         
         page = ContratoResource(api_client)
         
-        all_response = page.get_all()
-        if all_response.status_code == 200 and all_response.json():
-            test_id = get_first_id(all_response)
-            if test_id:
-                with allure.step(f"Make GET request to /api/v1/contrato/{test_id}"):
-                    response = page.get_by_id(test_id)
-                    attach_request("GET", f"/contrato/{test_id}")
-                    attach_response(response, "Get By ID Response")
-                
-                with allure.step("Verify response status code"):
-                    assert response.status_code in [200, 404]
-                if response.status_code == 200:
-                    with allure.step("Validate response schema (200)"):
-                        payload = get_object_payload(response)
-                        assert isinstance(payload, dict), (
-                            f"GET by ID deveria retornar um objeto JSON (dict), retornou: {type(payload)}"
-                        )
-                        assert "Id" in payload or "id" in payload, (
-                            "GET by ID deveria conter a chave 'Id' ou 'id'"
-                        )
-                        payload_id = payload.get("Id") or payload.get("id")
-                        assert payload_id == test_id, (
-                            f"GET by ID deveria retornar Id={test_id}, retornou {payload_id}"
-                        )
+        test_id = get_existing_resource_id(page.get_all())
+        with allure.step(f"Make GET request to /api/v1/contrato/{test_id}"):
+            response = page.get_by_id(test_id)
+            attach_request("GET", f"/contrato/{test_id}")
+            attach_response(response, "Get By ID Response")
+
+        with allure.step("Verify response status code"):
+            assert_status_code(response, 200)
+
+        with allure.step("Validate response schema"):
+            assert_object_payload_schema(response, required_keys=["Id"], expected_id=test_id)
