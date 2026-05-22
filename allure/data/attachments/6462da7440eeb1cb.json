@@ -1,0 +1,7 @@
+{
+  "method": "POST",
+  "url": "/objeto-analise-tipo-especifico",
+  "data": {
+    "nome": "Test"
+  }
+}
