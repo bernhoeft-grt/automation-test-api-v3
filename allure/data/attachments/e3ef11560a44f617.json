@@ -1,0 +1,15 @@
+{
+  "Dados": [
+    {
+      "Id": 1000000000,
+      "Ativo": true,
+      "RazaoSocial": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "Fantasia": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "CPForCNPJ": "39.253.433/0001-94"
+    }
+  ],
+  "QuantidadeTotal": 1,
+  "Paginas": 1,
+  "Quantidade": 1,
+  "Pagina": 1
+}

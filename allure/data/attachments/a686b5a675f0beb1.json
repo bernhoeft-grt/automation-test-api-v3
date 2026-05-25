@@ -1,0 +1,30 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Mon, 25 May 2026 18:38:56 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 1,
+      "Ativo": true,
+      "Descricao": "Alto",
+      "Bloqueia": true,
+      "Contratantes": [
+        1000000216,
+        1000000217,
+        1000000218,
+        1000000219,
+        1000000220
+      ]
+    }
+  },
+  "elapsed_seconds": 0.173901
+}
