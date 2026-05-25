@@ -1,0 +1,35 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Mon, 25 May 2026 13:13:41 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 1000000054,
+      "Ativo": true,
+      "Tipo": true,
+      "FaixaInicio": 1,
+      "FaixaFinal": 100,
+      "AmostragemSolicitacao": 100,
+      "TipoAmostragemSolicitacao": "Porcentagem",
+      "AmostragemAdmissao": 10,
+      "TipoAmostragemAdmissao": "Porcentagem",
+      "AmostragemDemissao": 10,
+      "TipoAmostragemDemissao": "Porcentagem",
+      "AmostragemAtivos": 5,
+      "TipoAmostragemAtivos": "Porcentagem",
+      "AmostragemMinimo": 1,
+      "AmostragemMaxima": 50,
+      "GrupoAreaId": 1000000045
+    }
+  },
+  "elapsed_seconds": 0.228215
+}

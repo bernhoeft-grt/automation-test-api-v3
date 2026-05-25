@@ -1,0 +1,7 @@
+{
+  "method": "POST",
+  "url": "/area",
+  "data": {
+    "nome": "Test Area"
+  }
+}

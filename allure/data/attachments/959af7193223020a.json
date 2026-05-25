@@ -1,0 +1,2385 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Mon, 25 May 2026 13:13:51 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 1000000000,
+      "Ativo": true,
+      "TipoPessoa": "PJ",
+      "RazaoSocial": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "Fantasia": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "CPForCNPJ": "39.253.433/0001-94",
+      "InscricaoEstadual": "556656",
+      "InscricaoMunicipal": "77745643",
+      "Endereco": "Rua de Teste",
+      "Numero": 99,
+      "Complemento": "TERREO",
+      "Bairro": "Teste",
+      "Cidade": "Recife",
+      "UF": "PE",
+      "CEP": "55000-000",
+      "Fone": "(81)3136-3773",
+      "Fax": "(81)3722-7318",
+      "CNAE": "4526246                                           ",
+      "INSS": "46523562                                          ",
+      "Contato": "Dorgival Filho",
+      "Email": "dsilva@bernhoeft.com.br",
+      "EmailDominiosPermitidos": [
+        "gmail.com",
+        "ostahie.com"
+      ],
+      "EmailsAlertaBlacklist": [],
+      "GrupoContratanteId": 1000000000,
+      "Logomarca": "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",
+      "CobrarCompetencia": true,
+      "BloquearInativacaoComPendencia": true,
+      "EnviarPendenciasOperadorExpirado": true,
+      "AlterarStatusSeDocumentoPendente": true,
+      "IncluirContratanteNoAssuntoEmail": true,
+      "EmailGestorObrigatorio": false,
+      "ToleranciaDiasAdmissao": 90,
+      "ExibirProcedimento": true,
+      "Notificar7DiasAntes": true,
+      "Notificar15DiasAntes": true,
+      "Notificar30DiasAntes": true,
+      "Notificar45DiasAntes": true,
+      "Notificar60DiasAntes": true,
+      "Notificar75DiasAntes": true,
+      "Notificar90DiasAntes": true,
+      "NotificarAteXDiasAposVencimento": 3,
+      "DiasUteisAnalise": 3,
+      "ExibirStatusAnalise": false,
+      "PermitirCobrancaPosFimContrato": true,
+      "DataLimite": 10,
+      "DataEntrega": 15,
+      "LimiteReanalise": 50,
+      "MinimoReanalisesParaFaturar": 1,
+      "ValorReanalise": 1,
+      "DataInicioCobranca": "2026-02-01",
+      "CentroCusto": "840|Jhonny Victor|Brainfarma - Fornecedor",
+      "EmpresaFaturamento": "empresa-1",
+      "FaturamentoAnualMob": {
+        "Ativo": true,
+        "DataInicioCobranca": "2026-02-01",
+        "CentroCusto": "815|Weydson Dias|Isacteep - Fornecedor",
+        "EmpresaFaturamento": "empresa-2",
+        "Valor": 1
+      },
+      "PermitirSalarioZerado": false,
+      "CarregarTrabalhadoresMobilizados": true,
+      "Classificacoes": [
+        {
+          "Id": 4,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 5,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 6,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 7,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 8,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 9,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 10,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 11,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 12,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 13,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 14,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 15,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 16,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 25,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000002,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000004,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000006,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000007,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000008,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000009,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000010,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000011,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000012,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000013,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000014,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000015,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000016,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000017,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000018,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000019,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000020,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000021,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000022,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000023,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000024,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000025,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000026,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000027,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000028,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000029,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000030,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000031,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000032,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000033,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000034,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000035,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000036,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000037,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000038,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000039,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000040,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000041,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000042,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000043,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000044,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000045,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000046,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000047,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000048,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000049,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000050,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000051,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000052,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000053,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000054,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000055,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000056,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000057,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000058,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000059,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000060,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000061,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000062,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000063,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000064,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000065,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000066,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000067,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000068,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000069,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000070,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000071,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000072,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000073,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000074,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000075,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000076,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000077,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000078,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000079,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000080,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000081,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000082,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000083,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000084,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000085,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000086,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000087,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000088,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000089,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000090,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000091,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000092,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000093,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000094,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000095,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000096,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000097,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000098,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000099,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000100,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000101,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000102,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000103,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000104,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000105,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000106,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000107,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000108,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000109,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000110,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000111,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000112,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000113,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000114,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000115,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000116,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000117,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000118,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000119,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000120,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000121,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000122,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000123,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000124,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000125,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000126,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000127,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000128,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000129,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000130,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000131,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000132,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000133,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000134,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000135,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000136,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000137,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000138,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000139,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000140,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000141,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000142,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000143,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000144,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000145,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000146,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000147,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000148,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000149,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000150,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000151,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000152,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000153,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000154,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000155,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000156,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000157,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000158,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000159,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000160,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000161,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000162,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000163,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000164,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000165,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000166,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000167,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000168,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000169,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000170,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000171,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000172,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000173,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000174,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000175,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000177,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000178,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000179,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000180,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000181,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000182,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000183,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000184,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000185,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000186,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000187,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000188,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000189,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 2,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": false,
+          "ValidarRG": false
+        },
+        {
+          "Id": 1000000190,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000191,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000192,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000193,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000194,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000195,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000196,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000197,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000198,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000199,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000200,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000201,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000202,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000203,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000204,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000205,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000206,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000207,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000208,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000209,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000210,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000211,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000212,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000213,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000214,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000215,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000216,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000217,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000218,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000219,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000220,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000221,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000222,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000223,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000224,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000225,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000226,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000227,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000228,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000229,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000230,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000231,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000232,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000233,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000234,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000235,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000236,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000237,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000238,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000239,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000240,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000241,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000242,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000243,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000244,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000245,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000246,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000247,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000248,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000249,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000250,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000251,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000252,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000253,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000254,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000255,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000256,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000257,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000258,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000259,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000260,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000261,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000262,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000263,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000264,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000265,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000266,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000267,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000268,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000269,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000270,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        }
+      ],
+      "PrazoIntegracao": 6,
+      "IntegracaoSemValidade": false,
+      "HoraLimiteAgendamento": 19,
+      "ExigirDocumentacaoValidaParaAgendamento": true,
+      "AlertaReintegracaoColaboradores": "teste",
+      "OcultarTurmaParaPerfisSelecionados": false,
+      "SuprimirAvisoColaboradorIntegracao": false,
+      "TipoPermissaoIntegracaoColaborador": 1,
+      "NaoPermitirIntegracaoMesmoDia": false,
+      "AgendaUnicaPorTurma": false,
+      "IsIntegracaoOnline": true,
+      "SolicitarContratoAssinado": 0,
+      "TurmasIntegracaoOnline": [
+        {
+          "Id": 1,
+          "Name": "Turma Padrão"
+        },
+        {
+          "Id": 476,
+          "Name": "Wavin - Homologação"
+        },
+        {
+          "Id": 102,
+          "Name": "Raízen - Mensal"
+        },
+        {
+          "Id": 458,
+          "Name": "Raízen - Mobilização Obrigatório"
+        },
+        {
+          "Id": 555,
+          "Name": "Integração Raízen - BexUp"
+        },
+        {
+          "Id": 3,
+          "Name": "Brado - Mobilização"
+        },
+        {
+          "Id": 33,
+          "Name": "Biosev - Mobilização"
+        },
+        {
+          "Id": 165,
+          "Name": "Biosev - Mensal"
+        },
+        {
+          "Id": 11,
+          "Name": "Savoy - Homologação"
+        },
+        {
+          "Id": 12,
+          "Name": "Rumo - Mobilização"
+        },
+        {
+          "Id": 18,
+          "Name": "Ball - Mobilização"
+        },
+        {
+          "Id": 106,
+          "Name": "Ball - Mensal"
+        },
+        {
+          "Id": 378,
+          "Name": "Ball - Homologação"
+        },
+        {
+          "Id": 19,
+          "Name": "Brainfarma - Mobilização"
+        },
+        {
+          "Id": 305,
+          "Name": "Brainfarma - Mensal"
+        },
+        {
+          "Id": 21,
+          "Name": "Cimento Bravo - Mobilização"
+        },
+        {
+          "Id": 22,
+          "Name": "Comgás - Mobilização"
+        },
+        {
+          "Id": 103,
+          "Name": "Comgás - Mensal"
+        },
+        {
+          "Id": 23,
+          "Name": "Danone - Mobilização"
+        },
+        {
+          "Id": 24,
+          "Name": "Dasa - Mobilização"
+        }
+      ],
+      "BloquearImpressaoCrachaNaoAprovado": true,
+      "BloquearImpressaoSemFoto": false,
+      "CorCracha": "#1482BD",
+      "PermitirVisualizarCrachaQrCode": true,
+      "PermitirVisualizarDocumentosColab": true,
+      "PermitirVisualizarFlagAptidoes": true,
+      "ExibirAptidoesNoCracha": true,
+      "PermitirImpressaoSomenteComStatusAprovado": false,
+      "OrdenacaoCracha": 0,
+      "ExibicaoCracha": 0,
+      "ExibicaoCrachaRodape": 1,
+      "PrazosAnalise": {
+        "DataEntregaDocumentosAnalise": "2026-02-01",
+        "DataEntregaDocumentosReanalise": "2026-02-11",
+        "DataEnvioRelatorioNaoConformidadeAnalise": "2026-02-06",
+        "DataEnvioRelatorioNaoConformidadeReanalise": "2026-02-16",
+        "Observacao": "teste",
+        "PrazoReanalise": 3
+      },
+      "MensagemRelatorioPendencias": "TESTE",
+      "MensagemBloqueioPermanente": "TESTE",
+      "MensagemBloqueioTemporario": "TESTE",
+      "TipoObjetoBloqueio": 0,
+      "ObjetosBloqueados": [],
+      "UsarIndicadoresRelatorioColaboradoresMobilizacao": false,
+      "UsarIndicadoresRelatorioNr": false,
+      "OcultarEmailCliente": false,
+      "TipoVencimento": true,
+      "DiasVencimento": 45,
+      "ValidarEntregaDocumento": false,
+      "Riscos": [
+        4,
+        3,
+        2
+      ],
+      "TempoBloqueio": 540,
+      "TipoObjeto": [],
+      "TurmaMensalId": 12,
+      "TurmaMobId": 109,
+      "PermitirMobilizacaoExpress": false,
+      "QuantidadeDiasMobilizacaoExpress": 0,
+      "DiaCriacaoCompetenciaAmbiental": 1,
+      "PermitirReaproveitamentoDocumento": true,
+      "HeadCountHabilitado": true,
+      "HeadCountTipoContabilizacao": 3,
+      "HeadCountTipoLimitacaoPadrao": 2,
+      "TipoPrestadorObrigatorio": true,
+      "ReaproveitamentoDocumentoConfiguracao": [
+        {
+          "ObjetoOficialId": 16,
+          "ObjetoOficialNome": "ASO - Atestado de Saúde Ocupacional",
+          "ReaproveitamentoCarregamentoTipo": 1,
+          "ReaproveitamentoAnaliseTipo": 1,
+          "Ativo": true
+        },
+        {
+          "ObjetoOficialId": 21,
+          "ObjetoOficialNome": "PCMSO - Programa de Controle Médico de Saúde Ocupacional",
+          "ReaproveitamentoCarregamentoTipo": 1,
+          "ReaproveitamentoAnaliseTipo": 1,
+          "Ativo": true
+        },
+        {
+          "ObjetoOficialId": 155,
+          "ObjetoOficialNome": "FOPAG - (Folha de pagamento analítica + Resumo com as bases de INSS e FGTS)",
+          "ReaproveitamentoCarregamentoTipo": 1,
+          "ReaproveitamentoAnaliseTipo": 1,
+          "Ativo": true
+        },
+        {
+          "ObjetoOficialId": 156,
+          "ObjetoOficialNome": "Cartão de Ponto com totalização de horas extras e/ou noturnas",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 162,
+          "ObjetoOficialNome": "ASO Demissional (Atestado de Saúde Ocupacional Demissional)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 40,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 35 - Trabalhos em Altura",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 119,
+          "ObjetoOficialNome": "Certificado de Treinamento de Primeiros Socorros e Emergências",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 241,
+          "ObjetoOficialNome": "Cópia do documento do responsável pela operação de manejo florestal (CREA, ART)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 256,
+          "ObjetoOficialNome": "Responsabilidade Técnica - Pessoa Física - Conselhos de Classes (ex. ART, RRT, TRT e outros)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 157,
+          "ObjetoOficialNome": "Comprovante de pagamento de Salário",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 239,
+          "ObjetoOficialNome": "Plano Odontológico (relação + boleto + comprovante de pagamento)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 12,
+          "ObjetoOficialNome": "PGR - Programa de Gerenciamento de Riscos",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 15,
+          "ObjetoOficialNome": "Cópia da CTPS (Física ou Digital) dos terceiros mobilizados",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 24,
+          "ObjetoOficialNome": "Cópia do RG e CPF",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 182,
+          "ObjetoOficialNome": "Vale Transporte (pagamento mensal, boleto e lista de beneficiários)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 183,
+          "ObjetoOficialNome": "Vale Alimentação (pagamento mensal, boleto e lista de beneficiários)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 184,
+          "ObjetoOficialNome": "Vale Refeição (pagamento mensal, boleto e lista de beneficiários)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 186,
+          "ObjetoOficialNome": "Plano de Saúde (relação + boleto + comprovante de pagamento)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 245,
+          "ObjetoOficialNome": "Aviso de Desligamento ou Acordo de demissão",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 291,
+          "ObjetoOficialNome": "Carteira Nacional de Habilitação (CNH)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 282,
+          "ObjetoOficialNome": "Autorização de Funcionamento da Prefeitura",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 307,
+          "ObjetoOficialNome": "Dispensa de Identificação de Médicos Examinadores no PCMSO",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 29,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 10 SEP - Sistema Elétrico de Potência",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 36,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 20 - Inflamáveis - Básico",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 37,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 33 - Trabalhos em Espaço Confinado (Trabalhador|Vigia)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        }
+      ],
+      "BloquearMobilizacaoSimultaneaPorTipoPrestador": false,
+      "BloqueioMobSimultaneaTiposPrestador": [],
+      "BloquearColaboradoresContratosSimultaneos": false,
+      "FixarValidadeIntegracao": false,
+      "InformacoesComplementares": [
+        {
+          "Id": 1,
+          "ContratanteId": 0,
+          "Descricao": "Campo de texto",
+          "TipoCampo": 0,
+          "Obrigatorio": true,
+          "Ativo": true,
+          "Opcoes": []
+        }
+      ]
+    }
+  },
+  "elapsed_seconds": 0.68338
+}

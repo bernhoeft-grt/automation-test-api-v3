@@ -1,0 +1,21 @@
+{
+  "status_code": 201,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "x-cloud-trace-context": "907655f9d5736fbf018bc229388871e6",
+    "date": "Mon, 25 May 2026 13:13:45 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 1000000284
+    }
+  },
+  "elapsed_seconds": 0.247637
+}

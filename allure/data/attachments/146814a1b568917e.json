@@ -1,0 +1,30 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Mon, 25 May 2026 13:13:53 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1000000000,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Fantasia": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "CPForCNPJ": "39.253.433/0001-94"
+      }
+    ],
+    "QuantidadeTotal": 1,
+    "Paginas": 1,
+    "Quantidade": 1,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.213786
+}
