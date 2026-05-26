@@ -1,0 +1,33 @@
+{
+  "expected": true,
+  "actual": [
+    {
+      "Id": 1000000000,
+      "Ativo": true,
+      "RazaoSocial": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "Fantasia": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "CPForCNPJ": "39.253.433/0001-94"
+    },
+    {
+      "Id": 1000000221,
+      "Ativo": true,
+      "RazaoSocial": "CONTRATANTE TESTE QE-125 1779734903777",
+      "Fantasia": "FANTASIA QE-125 1779734903777",
+      "CPForCNPJ": "11.903.777/0001-82"
+    },
+    {
+      "Id": 1000000222,
+      "Ativo": true,
+      "RazaoSocial": "CONTRATANTE TESTE QE-125 1779740121521",
+      "Fantasia": "FANTASIA QE-125 1779740121521",
+      "CPForCNPJ": "11.121.521/0001-13"
+    },
+    {
+      "Id": 1000000223,
+      "Ativo": true,
+      "RazaoSocial": "CONTRATANTE TESTE QE-125 1779740179243",
+      "Fantasia": "FANTASIA QE-125 1779740179243",
+      "CPForCNPJ": "11.179.243/0001-55"
+    }
+  ]
+}

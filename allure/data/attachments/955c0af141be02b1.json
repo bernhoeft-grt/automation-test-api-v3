@@ -1,0 +1,8 @@
+{
+  "method": "POST",
+  "url": "/amostragem-grupo-area",
+  "data": {
+    "nome": "Test Amostragem Grupo Area",
+    "descricao": "Test Description"
+  }
+}

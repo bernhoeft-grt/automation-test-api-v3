@@ -1,0 +1,21 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "private,max-age=3600",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Tue, 26 May 2026 13:03:49 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "+551141186665": "Telefone: (11) 4118-6665"
+    }
+  },
+  "elapsed_seconds": 5.392016
+}
