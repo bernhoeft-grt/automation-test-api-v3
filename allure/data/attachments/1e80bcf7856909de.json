@@ -1,0 +1,8 @@
+{
+  "method": "PUT",
+  "url": "/classificacao-colaborador/9",
+  "data": {
+    "nome": "Updated Classificacao",
+    "descricao": "Updated Description"
+  }
+}

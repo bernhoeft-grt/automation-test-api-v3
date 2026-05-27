@@ -1,0 +1,8 @@
+{
+  "method": "POST",
+  "url": "/classificacao-colaborador",
+  "data": {
+    "nome": "Test Classificacao",
+    "descricao": "Test Description"
+  }
+}
