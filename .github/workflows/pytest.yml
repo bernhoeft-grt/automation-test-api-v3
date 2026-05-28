@@ -276,7 +276,7 @@ jobs:
           PAGES_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/allure/"
           BUILD_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
 
-          SUBTITLE="Contract Web V3 API  |  ${PASSED_TESTS}/${TOTAL_TESTS} testes  |  ${SUCCESS_RATE}% de sucesso"
+          SUBTITLE="Contract Web V3  |  ${PASSED_TESTS}/${TOTAL_TESTS} testes  |  ${COVERAGE_PCT} cobertura  |  ${SUCCESS_RATE}% de sucesso"
 
           jq -n \
             --arg status_emoji  "$STATUS_EMOJI" \
