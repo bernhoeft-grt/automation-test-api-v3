@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Thu, 28 May 2026 17:37:40 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1000000004,
+        "Ativo": true,
+        "Titulo": "Aviso QA 1779978866806-5248"
+      },
+      {
+        "Id": 1000000005,
+        "Ativo": true,
+        "Titulo": "Aviso QA 1779978945478-861"
+      }
+    ],
+    "QuantidadeTotal": 2,
+    "Paginas": 1,
+    "Quantidade": 2,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.200039
+}

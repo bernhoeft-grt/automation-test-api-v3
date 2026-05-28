@@ -1,0 +1,39 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Thu, 28 May 2026 17:38:27 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 1000000000,
+      "Ativo": true,
+      "TipoPessoa": "PJ",
+      "RazaoSocial": "SELECT TESTES",
+      "Fantasia": "SELECT TESTES",
+      "CPForCNPJ": "57.213.568/0001-08",
+      "InscricaoEstadual": "556656",
+      "InscricaoMunicipal": "58845852",
+      "Endereco": "Rua Doutor José Mariano",
+      "Numero": "241",
+      "Complemento": "TERREO",
+      "Bairro": "Nossa Senhora das Dores",
+      "Cidade": "Caruaru",
+      "UF": "PE",
+      "CEP": "55002-000",
+      "Fone": "(81)3136-3773",
+      "Fax": "(81)3722-7318",
+      "BloqueioEntregaDocumento": false,
+      "DiaInicial": 0,
+      "DiaFinal": 0
+    }
+  },
+  "elapsed_seconds": 0.197071
+}
