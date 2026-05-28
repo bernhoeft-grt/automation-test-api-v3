@@ -1,0 +1,5 @@
+tests/contratada/test_update.py:35: in test_update
+    assert_status_code(response, 200)
+utils/helpers.py:147: in assert_status_code
+    assert response.status_code == expected_statuses[0], (
+E   AssertionError: Status code inesperado. Esperado 200, recebido 400

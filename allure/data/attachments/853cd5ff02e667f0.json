@@ -1,0 +1,11 @@
+{
+  "Dados": {
+    "Id": 15,
+    "Ativo": true,
+    "Descricao": "Veículos e Equipamentos",
+    "Temporario": false,
+    "ValidarCPF": false,
+    "ValidarRG": false,
+    "Veiculo": false
+  }
+}
