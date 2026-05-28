@@ -1,0 +1,26 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Thu, 28 May 2026 17:46:33 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 14,
+      "Ativo": true,
+      "Descricao": "Inquilino",
+      "Temporario": false,
+      "ValidarCPF": true,
+      "ValidarRG": false,
+      "Veiculo": false
+    }
+  },
+  "elapsed_seconds": 0.212204
+}

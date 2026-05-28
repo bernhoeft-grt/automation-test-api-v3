@@ -1,0 +1,8 @@
+{
+  "method": "POST",
+  "url": "/avisos",
+  "data": {
+    "titulo": "Test Aviso",
+    "descricao": "Test Description"
+  }
+}
