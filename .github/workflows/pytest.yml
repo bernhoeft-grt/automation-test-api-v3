@@ -119,7 +119,7 @@ jobs:
           echo "[9/9] Executando testes..."
 
           set +e
-          python -m pytest tests/ -v --alluredir=allure-results --html=reports/report.html --self-contained-html 2>&1 | tee test.log
+          python -m pytest tests/ -v --alluredir=allure-results --html=reports/report.html --self-contained-html --cov=tests --cov-report=json:coverage.json 2>&1 | tee test.log
           TEST_EXIT_CODE=$?
           set -e
 
@@ -213,6 +213,15 @@ jobs:
           echo "BROKEN_TESTS=$BROKEN_TESTS" >> "$GITHUB_ENV"
           echo "SKIPPED_TESTS=$SKIPPED_TESTS" >> "$GITHUB_ENV"
 
+          COVERAGE_PCT="N/A"
+          if [ -f "coverage.json" ]; then
+            RAW=$(jq -r '.totals.percent_covered // empty' coverage.json 2>/dev/null)
+            if [ -n "$RAW" ]; then
+              COVERAGE_PCT=$(printf "%.0f%%" "$RAW")
+            fi
+          fi
+          echo "COVERAGE_PCT=$COVERAGE_PCT" >> "$GITHUB_ENV"
+
       - name: Send Teams notification
         if: always()
         env:
@@ -226,46 +235,100 @@ jobs:
           TEST_EXIT_CODE=$(cat test_exit_code.txt 2>/dev/null || echo 1)
 
           if [ "$TEST_EXIT_CODE" -eq 0 ]; then
-            STATUS="SUCESSO"
+            STATUS_EMOJI="✅"
+            STATUS_TEXT="SUCESSO"
+            THEME_COLOR="00b050"
           elif [ "$TEST_EXIT_CODE" -eq 5 ]; then
-            STATUS="SEM TESTES (exit ${TEST_EXIT_CODE})"
+            STATUS_EMOJI="⚠️"
+            STATUS_TEXT="SEM TESTES"
+            THEME_COLOR="ffa500"
           else
-            STATUS="FALHA (exit ${TEST_EXIT_CODE})"
+            STATUS_EMOJI="❌"
+            STATUS_TEXT="FALHA"
+            THEME_COLOR="d13438"
+          fi
+
+          case "${{ github.event_name }}" in
+            schedule)         GATILHO="Agendado (Regressivo)" ;;
+            push)             GATILHO="Push" ;;
+            pull_request)     GATILHO="Pull Request" ;;
+            workflow_dispatch) GATILHO="Manual" ;;
+            *)                GATILHO="${{ github.event_name }}" ;;
+          esac
+
+          BRANCH="${{ github.ref_name }}"
+          if [ ${#BRANCH} -gt 35 ]; then
+            BRANCH="${BRANCH:0:35}..."
+          fi
+
+          BUILD_DATE=$(date -u "+%d/%m/%Y %H:%M UTC")
+
+          ALLURE_FAILURES=$((FAILED_TESTS + BROKEN_TESTS))
+
+          if [ "${TOTAL_TESTS:-0}" -gt 0 ]; then
+            SUCCESS_RATE=$(( PASSED_TESTS * 100 / TOTAL_TESTS ))
+          else
+            SUCCESS_RATE=0
           fi
 
           PAGES_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/allure/"
-
-          ALLURE_FAILURES=$((FAILED_TESTS + BROKEN_TESTS))
-          STATS="Total: ${TOTAL_TESTS} | Passou: ${PASSED_TESTS} | Falhou: ${ALLURE_FAILURES}"
-
-          if [ "${BROKEN_TESTS:-0}" -gt 0 ]; then
-            STATS="${STATS} | Broken: ${BROKEN_TESTS}"
-          fi
-
-          if [ "$SKIPPED_TESTS" -gt 0 ]; then
-            STATS="${STATS} | Pulado: ${SKIPPED_TESTS}"
-          fi
-
           BUILD_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-          BRANCH="${{ github.ref_name }}"
 
-          cat <<EOF > teams-message.txt
-          [BACKEND API V3] ${STATUS} - Build #${{ github.run_number }}
+          SUBTITLE="Contract Web V3  |  ${PASSED_TESTS}/${TOTAL_TESTS} testes  |  ${SUCCESS_RATE}% de sucesso"
 
-          Execucao: Backend API V3
-
-          Branch: ${BRANCH}
-
-          ${STATS}
-
-          Abrir Allure Report:
-          ${PAGES_URL}
-
-          Build:
-          ${BUILD_URL}
-          EOF
-
-          jq -Rs '{text: .}' teams-message.txt > payload.json
+          jq -n \
+            --arg status_emoji  "$STATUS_EMOJI" \
+            --arg status_text   "$STATUS_TEXT" \
+            --arg run_number    "${{ github.run_number }}" \
+            --arg subtitle      "$SUBTITLE" \
+            --arg theme_color   "$THEME_COLOR" \
+            --arg branch        "$BRANCH" \
+            --arg gatilho       "$GATILHO" \
+            --arg build_date    "$BUILD_DATE" \
+            --arg passed        "$PASSED_TESTS" \
+            --arg failed        "$ALLURE_FAILURES" \
+            --arg skipped       "$SKIPPED_TESTS" \
+            --arg total         "$TOTAL_TESTS" \
+            --arg coverage      "$COVERAGE_PCT" \
+            --arg success_rate  "${SUCCESS_RATE}%" \
+            --arg pages_url     "$PAGES_URL" \
+            --arg build_url     "$BUILD_URL" \
+            '{
+              "@type": "MessageCard",
+              "@context": "http://schema.org/extensions",
+              "themeColor": $theme_color,
+              "summary": ($status_emoji + " " + $status_text + " — Build #" + $run_number),
+              "sections": [
+                {
+                  "activityTitle": ($status_emoji + " **" + $status_text + " — Build #" + $run_number + "**"),
+                  "activitySubtitle": $subtitle,
+                  "facts": [
+                    {"name": "🌿 Branch",          "value": $branch},
+                    {"name": "⚡ Gatilho",          "value": $gatilho},
+                    {"name": "📅 Data",             "value": $build_date},
+                    {"name": "✅ Passou",            "value": $passed},
+                    {"name": "❌ Falhou",            "value": $failed},
+                    {"name": "⏭️ Pulado",           "value": $skipped},
+                    {"name": "📊 Total",            "value": $total},
+                    {"name": "🎯 Cobertura",        "value": $coverage},
+                    {"name": "📈 Taxa de sucesso",  "value": $success_rate}
+                  ],
+                  "markdown": true
+                }
+              ],
+              "potentialAction": [
+                {
+                  "@type": "OpenUri",
+                  "name": "Abrir Allure Report",
+                  "targets": [{"os": "default", "uri": $pages_url}]
+                },
+                {
+                  "@type": "OpenUri",
+                  "name": "Ver Build no GitHub",
+                  "targets": [{"os": "default", "uri": $build_url}]
+                }
+              ]
+            }' > payload.json
 
           curl -sS \
             -H "Content-Type: application/json" \
