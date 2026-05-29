@@ -17,7 +17,11 @@ class TestCreateContratante:
         from tests.contratante.resource import ContratanteResource
         
         page = ContratanteResource(api_client)
-        data = {"nome": "Test Contratante", "descricao": "Test Description"}
+        data = {
+            "nome": "Test Contratante",
+            "Descricao": "Test Description",
+            "TipoPessoa": "PJ"
+        }
         
         with allure.step("Make POST request to /api/v1/contratante"):
             response = page.create(data)

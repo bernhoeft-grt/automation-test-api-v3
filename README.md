@@ -48,7 +48,7 @@ cp env.example .env
 
 2. Edite o arquivo `.env` com suas configurações:
 ```env
-BASE_URL=https://contractwebapi.stage.bernhoeft.com.br
+BASE_URL=https://contractwebapi.preprod.bernhoeft.com.br
 API_VERSION=v1
 TIMEOUT=30
 API_KEY=your_api_key_here
@@ -222,7 +222,7 @@ Verifique se o `API_KEY` está configurado corretamente no arquivo `.env`.
 - [Documentação do Pytest](https://docs.pytest.org/)
 - [Documentação do Playwright](https://playwright.dev/python/)
 - [Documentação do Allure](https://docs.qameta.io/allure/)
-- [Documentação da API ContractWeb](https://contractwebapi.stage.bernhoeft.com.br/index.html)
+- [Documentação da API ContractWeb](https://contractwebapi.preprod.bernhoeft.com.br/index.html)
 
 ## 👥 Contribuindo
 

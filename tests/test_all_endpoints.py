@@ -92,8 +92,8 @@ AREA = _group(
     [
         EndpointSpec("GET", "/area"),
         EndpointSpec("GET", "/area/{id}", {"id": 1}),
-        EndpointSpec("POST", "/area", {"nome": "Test Area"}),
-        EndpointSpec("PUT", "/area/{id}", {"id": 1, "nome": "Updated Area"}),
+        EndpointSpec("POST", "/area", {"nome": "Test Area", "Descricao": "Test Description"}),
+        EndpointSpec("PUT", "/area/{id}", {"id": 1, "nome": "Updated Area", "Descricao": "Updated Description"}),
         EndpointSpec("DELETE", "/area/{id}", {"id": 1}),
     ],
 )
@@ -273,8 +273,8 @@ OBJETO_ANALISE_TIPO_ESPECIFICO = _group(
     [
         EndpointSpec("GET", "/objeto-analise-tipo-especifico"),
         EndpointSpec("GET", "/objeto-analise-tipo-especifico/{id}", {"id": 1}),
-        EndpointSpec("POST", "/objeto-analise-tipo-especifico", {"nome": "Test"}),
-        EndpointSpec("PUT", "/objeto-analise-tipo-especifico/{id}", {"id": 1, "nome": "Updated"}),
+        EndpointSpec("POST", "/objeto-analise-tipo-especifico", {"nome": "Test", "Descricao": "Test Description"}),
+        EndpointSpec("PUT", "/objeto-analise-tipo-especifico/{id}", {"id": 1, "nome": "Updated", "Descricao": "Updated Description"}),
         EndpointSpec("DELETE", "/objeto-analise-tipo-especifico/{id}", {"id": 1}),
     ],
 )

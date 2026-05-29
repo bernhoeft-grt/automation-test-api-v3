@@ -19,7 +19,8 @@ class TestCreateAmostragemGrupoArea:
         page = AmostragemGrupoAreaResource(api_client)
         data = {
             "nome": "Test Amostragem Grupo Area",
-            "descricao": "Test Description"
+            "Descricao": "Test Description",
+            "TipoAmostragemSolicitacao": "Número"
         }
         
         with allure.step("Make POST request to /api/v1/amostragem-grupo-area"):

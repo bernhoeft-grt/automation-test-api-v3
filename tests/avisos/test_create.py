@@ -17,7 +17,11 @@ class TestCreateAvisos:
         from tests.avisos.resource import AvisosResource
         
         page = AvisosResource(api_client)
-        data = {"titulo": "Test Aviso", "descricao": "Test Description"}
+        data = {
+            "titulo": "Test Aviso",
+            "Descricao": "Test Description",
+            "Mensagem": "Test Message"
+        }
         
         with allure.step("Make POST request to /api/v1/avisos"):
             response = page.create(data)

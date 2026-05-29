@@ -17,7 +17,11 @@ class TestCreateArea:
         from tests.area.resource import AreaResource
         
         page = AreaResource(api_client)
-        data = {"nome": "Test Area", "descricao": "Test Description"}
+        data = {
+            "nome": "Test Area",
+            "Descricao": "Test Description",
+            "GrupoAreaId": 1000000000,
+        }
         
         with allure.step("Make POST request to /api/v1/area"):
             response = page.create(data)
