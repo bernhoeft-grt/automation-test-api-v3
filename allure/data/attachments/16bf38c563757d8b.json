@@ -1,0 +1,11 @@
+{
+  "Dados": {
+    "Id": 24,
+    "Ativo": true,
+    "Descricao": "Máquinas e Equipamentos",
+    "Temporario": false,
+    "ValidarCPF": false,
+    "ValidarRG": false,
+    "Veiculo": true
+  }
+}
