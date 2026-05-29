@@ -1,0 +1,26 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Fri, 29 May 2026 13:10:10 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 23,
+      "Ativo": true,
+      "Descricao": "Embarcação",
+      "Temporario": false,
+      "ValidarCPF": false,
+      "ValidarRG": false,
+      "Veiculo": true
+    }
+  },
+  "elapsed_seconds": 0.210348
+}
