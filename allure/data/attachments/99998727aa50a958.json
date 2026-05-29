@@ -1,0 +1,188 @@
+{
+  "Dados": [
+    {
+      "Id": 1000000098,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1777883653423"
+    },
+    {
+      "Id": 1000000099,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1777037972635"
+    },
+    {
+      "Id": 1000000100,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1777710839472"
+    },
+    {
+      "Id": 1000000101,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+    },
+    {
+      "Id": 1000000102,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1776703600653"
+    },
+    {
+      "Id": 1000000103,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1778254999001"
+    },
+    {
+      "Id": 1000000104,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1776978167108"
+    },
+    {
+      "Id": 1000000105,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1777131762860"
+    },
+    {
+      "Id": 1000000106,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1777131781370"
+    },
+    {
+      "Id": 1000000107,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1776978451561"
+    },
+    {
+      "Id": 1000000108,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1776892442599"
+    },
+    {
+      "Id": 1000000109,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1777043695194"
+    },
+    {
+      "Id": 1000000110,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1778453544396"
+    },
+    {
+      "Id": 1000000111,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1778202408361"
+    },
+    {
+      "Id": 1000000112,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1777485330054"
+    },
+    {
+      "Id": 1000000114,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1777736554898"
+    },
+    {
+      "Id": 1000000115,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1776933244906"
+    },
+    {
+      "Id": 1000000122,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "AMBIENTAL"
+    },
+    {
+      "Id": 1000000124,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1778574899043"
+    },
+    {
+      "Id": 1000000125,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1778519627664"
+    },
+    {
+      "Id": 1000000126,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1776869799471"
+    },
+    {
+      "Id": 1000000127,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1778605984844"
+    },
+    {
+      "Id": 1000000128,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1778695758018"
+    },
+    {
+      "Id": 1000000129,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1778162982585"
+    },
+    {
+      "Id": 1000000130,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1776786178192"
+    },
+    {
+      "Id": 1000000131,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1778511775218"
+    },
+    {
+      "Id": 1000000132,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "24042026TESTE21"
+    },
+    {
+      "Id": 1000000133,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1777538081667"
+    },
+    {
+      "Id": 1000000134,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1778008736470"
+    },
+    {
+      "Id": 1000000135,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1778204338901"
+    }
+  ],
+  "QuantidadeTotal": 96,
+  "Paginas": 4,
+  "Quantidade": 30,
+  "Pagina": 1
+}

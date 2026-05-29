@@ -1,0 +1,173 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Fri, 29 May 2026 23:58:33 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1000000004,
+        "Ativo": true,
+        "Descricao": "Regressivo 23.03"
+      },
+      {
+        "Id": 1000000006,
+        "Ativo": true,
+        "Descricao": "regressivo 3103"
+      },
+      {
+        "Id": 1000000007,
+        "Ativo": true,
+        "Descricao": "Teste regre 604"
+      },
+      {
+        "Id": 1000000008,
+        "Ativo": true,
+        "Descricao": "Teste Regressivos 13042026"
+      },
+      {
+        "Id": 1000000009,
+        "Ativo": true,
+        "Descricao": "TESTE14042026"
+      },
+      {
+        "Id": 1000000010,
+        "Ativo": true,
+        "Descricao": "16042026TESTE"
+      },
+      {
+        "Id": 1000000011,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776630396539"
+      },
+      {
+        "Id": 1000000012,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776630798416"
+      },
+      {
+        "Id": 1000000013,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776630811351"
+      },
+      {
+        "Id": 1000000014,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776630821076"
+      },
+      {
+        "Id": 1000000015,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776630822539"
+      },
+      {
+        "Id": 1000000016,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776630832381"
+      },
+      {
+        "Id": 1000000017,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776630844458"
+      },
+      {
+        "Id": 1000000018,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776631822168"
+      },
+      {
+        "Id": 1000000019,
+        "Ativo": true,
+        "Descricao": "Classificação 20042026"
+      },
+      {
+        "Id": 1000000020,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776703655224"
+      },
+      {
+        "Id": 1000000021,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776703663268"
+      },
+      {
+        "Id": 1000000022,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776703666443"
+      },
+      {
+        "Id": 1000000023,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776703677380"
+      },
+      {
+        "Id": 1000000024,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776703685127"
+      },
+      {
+        "Id": 1000000025,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776703689905"
+      },
+      {
+        "Id": 1000000026,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776703985924"
+      },
+      {
+        "Id": 1000000027,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776704539324"
+      },
+      {
+        "Id": 1000000028,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776704592106"
+      },
+      {
+        "Id": 1000000029,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776704613236"
+      },
+      {
+        "Id": 1000000030,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776704835528"
+      },
+      {
+        "Id": 1000000031,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776704857769"
+      },
+      {
+        "Id": 1000000032,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776705467419"
+      },
+      {
+        "Id": 1000000033,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776705633642"
+      },
+      {
+        "Id": 1000000034,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776705654507"
+      }
+    ],
+    "QuantidadeTotal": 302,
+    "Paginas": 11,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.197691
+}

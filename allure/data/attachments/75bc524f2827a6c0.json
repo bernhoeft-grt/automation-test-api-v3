@@ -1,0 +1,11 @@
+{
+  "Dados": {
+    "Id": 1000000004,
+    "Ativo": true,
+    "Descricao": "Regressivo 23.03",
+    "Temporario": false,
+    "ValidarCPF": true,
+    "ValidarRG": false,
+    "Veiculo": false
+  }
+}
