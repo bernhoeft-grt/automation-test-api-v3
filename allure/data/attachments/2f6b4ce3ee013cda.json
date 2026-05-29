@@ -1,0 +1,11 @@
+{
+  "Dados": {
+    "Id": 25,
+    "Ativo": true,
+    "Descricao": "Voluntário",
+    "Temporario": false,
+    "ValidarCPF": true,
+    "ValidarRG": true,
+    "Veiculo": false
+  }
+}
