@@ -1,0 +1,203 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Fri, 29 May 2026 11:47:46 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1000000000,
+        "Ativo": true,
+        "Descricao": "ÁREA PRÉ-PRODUÇÃO",
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000001,
+        "Ativo": true,
+        "Descricao": "Teste Regressivos 26022026",
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000002,
+        "Ativo": true,
+        "Descricao": "VEICULOS",
+        "DescricaoGrupoArea": "VEICULOS"
+      },
+      {
+        "Id": 1000000003,
+        "Ativo": true,
+        "Descricao": "AMBIENTAL",
+        "DescricaoGrupoArea": "AMBIENTAL"
+      },
+      {
+        "Id": 1000000005,
+        "Ativo": true,
+        "Descricao": "Área Teste Regressivo 1103",
+        "DescricaoGrupoArea": "Grupo de Area 1103"
+      },
+      {
+        "Id": 1000000006,
+        "Ativo": true,
+        "Descricao": "Teste regressivo 1603",
+        "DescricaoGrupoArea": "Teste Regressivo 1603"
+      },
+      {
+        "Id": 1000000007,
+        "Ativo": true,
+        "Descricao": "Área 18.03",
+        "DescricaoGrupoArea": "Grupo de Área 18.03"
+      },
+      {
+        "Id": 1000000008,
+        "Ativo": true,
+        "Descricao": "Regressivo 23.03",
+        "DescricaoGrupoArea": "Regressivo 23.03"
+      },
+      {
+        "Id": 1000000009,
+        "Ativo": true,
+        "Descricao": "Regressivo 2603",
+        "DescricaoGrupoArea": "Regressivo 2603"
+      },
+      {
+        "Id": 1000000010,
+        "Ativo": true,
+        "Descricao": "Regressivo 31/03",
+        "DescricaoGrupoArea": "Regressivo 31/03"
+      },
+      {
+        "Id": 1000000011,
+        "Ativo": true,
+        "Descricao": "Regressivo 0604",
+        "DescricaoGrupoArea": "Regressivo 0604"
+      },
+      {
+        "Id": 1000000012,
+        "Ativo": true,
+        "Descricao": "Teste Regressivos 10/04/2026",
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000013,
+        "Ativo": true,
+        "Descricao": "14042026TESTE21",
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000014,
+        "Ativo": true,
+        "Descricao": "16042026",
+        "DescricaoGrupoArea": "14042026TESTE21"
+      },
+      {
+        "Id": 1000000015,
+        "Ativo": true,
+        "Descricao": "Teste regressivo 1604",
+        "DescricaoGrupoArea": "Teste Regressivo 1604"
+      },
+      {
+        "Id": 1000000016,
+        "Ativo": true,
+        "Descricao": "ÁREA QA 1776630365404",
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000017,
+        "Ativo": true,
+        "Descricao": "ÁREA QA 1776630702675",
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000018,
+        "Ativo": true,
+        "Descricao": "ÁREA QA 1776630724319",
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000019,
+        "Ativo": true,
+        "Descricao": "ÁREA QA 1776630726666",
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000020,
+        "Ativo": true,
+        "Descricao": "ÁREA QA 1776630734981",
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000021,
+        "Ativo": true,
+        "Descricao": "ÁREA QA 1776630747518",
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000022,
+        "Ativo": true,
+        "Descricao": "ÁREA QA 1776630752035",
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000023,
+        "Ativo": true,
+        "Descricao": "ÁREA QA 1776631791005",
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000024,
+        "Ativo": true,
+        "Descricao": "20042026TESTE",
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000025,
+        "Ativo": true,
+        "Descricao": "ÁREA QA 1776703571809",
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000026,
+        "Ativo": true,
+        "Descricao": "ÁREA QA 1776703574018",
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000027,
+        "Ativo": true,
+        "Descricao": "ÁREA QA 1776703579164",
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000028,
+        "Ativo": true,
+        "Descricao": "ÁREA QA 1776703591355",
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000029,
+        "Ativo": true,
+        "Descricao": "ÁREA QA 1776703595162",
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000030,
+        "Ativo": true,
+        "Descricao": "ÁREA QA 1776703600179",
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      }
+    ],
+    "QuantidadeTotal": 323,
+    "Paginas": 11,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.187237
+}

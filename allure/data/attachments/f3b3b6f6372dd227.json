@@ -1,0 +1,11 @@
+{
+  "Dados": {
+    "Id": 21,
+    "Ativo": true,
+    "Descricao": "Outros Veículos Pesados",
+    "Temporario": false,
+    "ValidarCPF": false,
+    "ValidarRG": false,
+    "Veiculo": true
+  }
+}
