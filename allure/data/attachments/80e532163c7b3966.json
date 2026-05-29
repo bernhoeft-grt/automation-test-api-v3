@@ -1,0 +1,11 @@
+{
+  "Dados": {
+    "Id": 1000000002,
+    "Ativo": true,
+    "Descricao": "Teste",
+    "Temporario": false,
+    "ValidarCPF": true,
+    "ValidarRG": true,
+    "Veiculo": false
+  }
+}
