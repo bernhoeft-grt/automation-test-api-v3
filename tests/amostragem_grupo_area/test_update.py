@@ -27,7 +27,8 @@ class TestUpdateAmostragemGrupoArea:
         test_id = get_existing_resource_id(page.get_all())
         data = {
             "nome": "Updated Amostragem Grupo Area",
-            "descricao": "Updated Description"
+            "Descricao": "Updated Description",
+            "TipoAmostragemSolicitacao": "Porcentagem"
         }
         with allure.step(f"Make PUT request to /api/v1/amostragem-grupo-area/{test_id}"):
             response = page.update(test_id, data)

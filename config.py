@@ -12,11 +12,11 @@ def _get_int_env(name: str, default: int) -> int:
         return default
     return int(raw_value)
 
-BASE_URL = os.getenv("BASE_URL", "https://contractwebapi.stage.bernhoeft.com.br")
+BASE_URL = os.getenv("BASE_URL", "https://contractwebapi.preprod.bernhoeft.com.br")
 API_VERSION = os.getenv("API_VERSION", "v1")
 TIMEOUT = _get_int_env("TIMEOUT", 30)
 API_KEY = os.getenv("API_KEY", "")
-AUTH_BASE_URL = os.getenv("AUTH_BASE_URL", "https://loginapi.stage.bernhoeft.com.br")
+AUTH_BASE_URL = os.getenv("AUTH_BASE_URL", "https://loginapi.preprod.bernhoeft.com.br")
 AUTH_ENDPOINT = os.getenv("AUTH_ENDPOINT", "/api/v1/Auth/Logar")
 AUTH_TENANT_ID = os.getenv("AUTH_TENANT_ID", "")
 AUTH_EMAIL = os.getenv("AUTH_EMAIL", "")

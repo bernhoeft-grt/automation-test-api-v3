@@ -40,13 +40,33 @@ def login_and_get_token() -> str:
     headers = {
         "Accept": "application/json",
         "Content-Type": "application/json",
-        "tenantid": AUTH_TENANT_ID,
+        "TenantId": AUTH_TENANT_ID,
+        "X-Create-Token-Cookie": "false",
     }
     payload = {
         "email": AUTH_EMAIL,
         "senha": AUTH_PASSWORD,
-        "mfa": AUTH_MFA,
+        "tipoMfa": AUTH_MFA,
     }
+
     response = requests.post(url, json=payload, headers=headers, timeout=TIMEOUT)
-    response.raise_for_status()
-    return _extract_token(response.json())
+
+    try:
+        body = response.json()
+    except ValueError:
+        body = None
+
+    if response.ok:
+        if body is None:
+            raise ValueError("Login response did not contain JSON payload.")
+        return _extract_token(body)
+
+    messages = []
+    if isinstance(body, dict):
+        messages = body.get("mensagens") or []
+
+    detail = "; ".join(messages) if messages else response.text
+    if "TenantID Inválido" in detail:
+        detail = f"{detail.rstrip('.')} - Check AUTH_TENANT_ID in .env."
+
+    raise RuntimeError(f"Login failed ({response.status_code}): {detail}")

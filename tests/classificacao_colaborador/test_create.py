@@ -17,7 +17,7 @@ class TestCreateClassificacaoColaborador:
         from tests.classificacao_colaborador.resource import ClassificacaoColaboradorResource
         
         page = ClassificacaoColaboradorResource(api_client)
-        data = {"nome": "Test Classificacao", "descricao": "Test Description"}
+        data = {"nome": "Test Classificacao", "Descricao": "Test Description"}
         
         with allure.step("Make POST request to /api/v1/classificacao-colaborador"):
             response = page.create(data)

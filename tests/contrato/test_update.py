@@ -25,7 +25,11 @@ class TestUpdateContrato:
         page = ContratoResource(api_client)
         
         test_id = get_existing_resource_id(page.get_all())
-        data = {"numero": "TEST-002", "descricao": "Updated Description"}
+        data = {
+            "numero": "TEST-002",
+            "Descricao": "Updated Description",
+            "DataInicio": "2024-01-01T00:00:00Z"
+        }
         with allure.step(f"Make PUT request to /api/v1/contrato/{test_id}"):
             response = page.update(test_id, data)
             attach_request("PUT", f"/contrato/{test_id}", data)

@@ -25,7 +25,7 @@ class TestUpdateArea:
         page = AreaResource(api_client)
         
         test_id = get_existing_resource_id(page.get_all())
-        data = {"nome": "Updated Area", "descricao": "Updated Description"}
+        data = {"nome": "Updated Area", "Descricao": "Updated Description"}
         with allure.step(f"Make PUT request to /api/v1/area/{test_id}"):
             response = page.update(test_id, data)
             attach_request("PUT", f"/area/{test_id}", data)

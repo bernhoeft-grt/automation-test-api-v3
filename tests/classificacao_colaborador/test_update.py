@@ -25,7 +25,7 @@ class TestUpdateClassificacaoColaborador:
         page = ClassificacaoColaboradorResource(api_client)
         
         test_id = get_existing_resource_id(page.get_all())
-        data = {"nome": "Updated Classificacao", "descricao": "Updated Description"}
+        data = {"nome": "Updated Classificacao", "Descricao": "Updated Description"}
         with allure.step(f"Make PUT request to /api/v1/classificacao-colaborador/{test_id}"):
             response = page.update(test_id, data)
             attach_request("PUT", f"/classificacao-colaborador/{test_id}", data)

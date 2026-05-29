@@ -25,7 +25,11 @@ class TestUpdateAvisos:
         page = AvisosResource(api_client)
         
         test_id = get_existing_resource_id(page.get_all())
-        data = {"titulo": "Updated Aviso", "descricao": "Updated Description"}
+        data = {
+            "titulo": "Updated Aviso",
+            "Descricao": "Updated Description",
+            "Mensagem": "Updated Message"
+        }
         with allure.step(f"Make PUT request to /api/v1/avisos/{test_id}"):
             response = page.update(test_id, data)
             attach_request("PUT", f"/avisos/{test_id}", data)
