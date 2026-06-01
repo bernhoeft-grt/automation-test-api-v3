@@ -1,0 +1,25 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "private,max-age=3600",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Mon, 01 Jun 2026 19:42:18 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1000000011,
+        "Titulo": "Aviso QA 1780336987335-5451",
+        "Mensagem": "<p>Teste de QA 1780336987335-5451</p>"
+      }
+    ]
+  },
+  "elapsed_seconds": 0.175533
+}

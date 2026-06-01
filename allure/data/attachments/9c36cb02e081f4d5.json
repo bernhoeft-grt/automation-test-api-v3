@@ -1,0 +1,23 @@
+{
+  "Dados": [
+    {
+      "Id": 1000000010,
+      "Ativo": true,
+      "Titulo": "Aviso QA 1780333159790-142"
+    },
+    {
+      "Id": 1000000011,
+      "Ativo": true,
+      "Titulo": "Aviso QA 1780336987335-5451"
+    },
+    {
+      "Id": 1000000012,
+      "Ativo": true,
+      "Titulo": "Aviso QA 1780337762163-2592"
+    }
+  ],
+  "QuantidadeTotal": 3,
+  "Paginas": 1,
+  "Quantidade": 3,
+  "Pagina": 1
+}
