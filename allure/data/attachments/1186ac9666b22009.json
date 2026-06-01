@@ -1,0 +1,7 @@
+{
+  "expected": [
+    200
+  ],
+  "actual": 204,
+  "url": "https://contractwebapi.preprod.bernhoeft.com.br/api/v1/classificacao-colaborador/1000000006"
+}
