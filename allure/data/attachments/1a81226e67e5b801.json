@@ -1,0 +1,9 @@
+{
+  "method": "PUT",
+  "url": "/avisos/1000000013",
+  "data": {
+    "titulo": "Updated Aviso",
+    "Descricao": "Updated Description",
+    "Mensagem": "Updated Message"
+  }
+}

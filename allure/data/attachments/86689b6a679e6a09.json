@@ -1,0 +1,48 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Tue, 02 Jun 2026 16:19:48 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1000000012,
+        "Ativo": true,
+        "Titulo": "Aviso QA 1780337762163-2592"
+      },
+      {
+        "Id": 1000000013,
+        "Ativo": true,
+        "Titulo": "Aviso QA 1780343074706-9361"
+      },
+      {
+        "Id": 1000000014,
+        "Ativo": true,
+        "Titulo": "Aviso QA 1780405894114-3498"
+      },
+      {
+        "Id": 1000000015,
+        "Ativo": true,
+        "Titulo": "Aviso QA 1780412564464-8509"
+      },
+      {
+        "Id": 1000000016,
+        "Ativo": true,
+        "Titulo": "Aviso QA 1780412689639-57"
+      }
+    ],
+    "QuantidadeTotal": 5,
+    "Paginas": 1,
+    "Quantidade": 5,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.193687
+}

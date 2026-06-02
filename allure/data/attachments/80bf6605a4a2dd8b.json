@@ -1,0 +1,12 @@
+{
+  "Dados": {
+    "Id": 1000000013,
+    "Ativo": true,
+    "Titulo": "Aviso QA 1780343074706-9361",
+    "Mensagem": "<p>Teste de QA 1780343074706-9361</p>",
+    "TodosPerfis": false,
+    "Perfis": [
+      1000000019
+    ]
+  }
+}
