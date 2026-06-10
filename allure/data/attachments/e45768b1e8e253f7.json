@@ -1,0 +1,20 @@
+{
+  "status_code": 400,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "x-cloud-trace-context": "f74cb2dc458d2ab1a1cb4918ae17bde1",
+    "date": "Wed, 10 Jun 2026 20:30:58 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Mensagens": [
+      "[DataInicioCobrancaMobilizacao] - Este campo é obrigatório e precisa ser informado."
+    ]
+  },
+  "elapsed_seconds": 0.262134
+}
