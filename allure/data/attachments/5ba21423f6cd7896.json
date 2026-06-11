@@ -1,0 +1,26 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Thu, 11 Jun 2026 19:05:26 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 5,
+      "Ativo": true,
+      "Descricao": "Sócio/PJ",
+      "Temporario": false,
+      "ValidarCPF": true,
+      "ValidarRG": false,
+      "Veiculo": false
+    }
+  },
+  "elapsed_seconds": 0.15688
+}
