@@ -1,0 +1,173 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Fri, 12 Jun 2026 13:13:09 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1,
+        "Ativo": true,
+        "Descricao": "Perfil - Administrador"
+      },
+      {
+        "Id": 2,
+        "Ativo": true,
+        "Descricao": "Perfil - Analista"
+      },
+      {
+        "Id": 3,
+        "Ativo": true,
+        "Descricao": "Perfil - Fornecedor Integração"
+      },
+      {
+        "Id": 4,
+        "Ativo": true,
+        "Descricao": "Revisor"
+      },
+      {
+        "Id": 1000000001,
+        "Ativo": true,
+        "Descricao": "regressivo 11032026135643"
+      },
+      {
+        "Id": 1000000004,
+        "Ativo": true,
+        "Descricao": "Teste - Gabriel"
+      },
+      {
+        "Id": 1000000005,
+        "Ativo": true,
+        "Descricao": "Regressivo 18.03"
+      },
+      {
+        "Id": 1000000006,
+        "Ativo": true,
+        "Descricao": "teste021214"
+      },
+      {
+        "Id": 1000000007,
+        "Ativo": true,
+        "Descricao": "Teste Regressivo 2303"
+      },
+      {
+        "Id": 1000000009,
+        "Ativo": true,
+        "Descricao": "regressivo 3103"
+      },
+      {
+        "Id": 1000000010,
+        "Ativo": true,
+        "Descricao": "Perfil Teste"
+      },
+      {
+        "Id": 1000000011,
+        "Ativo": true,
+        "Descricao": "deploy0704"
+      },
+      {
+        "Id": 1000000012,
+        "Ativo": true,
+        "Descricao": "deploy0704.Personalizado"
+      },
+      {
+        "Id": 1000000013,
+        "Ativo": true,
+        "Descricao": "Teste - Gabriel 2"
+      },
+      {
+        "Id": 1000000014,
+        "Ativo": true,
+        "Descricao": "teste padrao contratante"
+      },
+      {
+        "Id": 1000000015,
+        "Ativo": true,
+        "Descricao": "Teste Regressivos 10/04/2026"
+      },
+      {
+        "Id": 1000000016,
+        "Ativo": true,
+        "Descricao": "14042026TESTE"
+      },
+      {
+        "Id": 1000000017,
+        "Ativo": true,
+        "Descricao": "14042026TESTE"
+      },
+      {
+        "Id": 1000000018,
+        "Ativo": true,
+        "Descricao": "14042026TESTE"
+      },
+      {
+        "Id": 1000000019,
+        "Ativo": true,
+        "Descricao": "teste14042026"
+      },
+      {
+        "Id": 1000000020,
+        "Ativo": true,
+        "Descricao": "16042026TESTE"
+      },
+      {
+        "Id": 1000000021,
+        "Ativo": true,
+        "Descricao": "Regressivo 2204"
+      },
+      {
+        "Id": 1000000022,
+        "Ativo": true,
+        "Descricao": "28042026TESTE14"
+      },
+      {
+        "Id": 1000000023,
+        "Ativo": true,
+        "Descricao": "Perfil - Administrador Teste Gabriel"
+      },
+      {
+        "Id": 1000000024,
+        "Ativo": true,
+        "Descricao": "01062026TESTE"
+      },
+      {
+        "Id": 1000000025,
+        "Ativo": true,
+        "Descricao": "TESTE"
+      },
+      {
+        "Id": 1000000026,
+        "Ativo": true,
+        "Descricao": "Perfil Automação 20260602124904015"
+      },
+      {
+        "Id": 1000000027,
+        "Ativo": true,
+        "Descricao": "Perfil Automação 20260602124904146"
+      },
+      {
+        "Id": 1000000028,
+        "Ativo": true,
+        "Descricao": "Perfil Automação 20260602124908323"
+      },
+      {
+        "Id": 1000000029,
+        "Ativo": true,
+        "Descricao": "Perfil Automação 20260602124908768"
+      }
+    ],
+    "QuantidadeTotal": 106,
+    "Paginas": 4,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.189623
+}
