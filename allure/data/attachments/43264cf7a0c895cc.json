@@ -1,0 +1,20 @@
+{
+  "status_code": 400,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "x-cloud-trace-context": "7e281624efbc2b1617672de4d2ad2141",
+    "date": "Wed, 17 Jun 2026 18:56:32 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Mensagens": [
+      "[RazaoSocial] - Este campo é obrigatório e precisa ser informado."
+    ]
+  },
+  "elapsed_seconds": 0.187284
+}
