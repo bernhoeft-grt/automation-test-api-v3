@@ -1,0 +1,32 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Thu, 18 Jun 2026 18:57:00 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 1,
+      "Descricao": "ASO - Veris API",
+      "Classificar": true,
+      "EnviarColaborador": 0,
+      "ResponderAnaliseSim": true,
+      "ResponderAnaliseNao": true,
+      "Comentario": "Através de uma pré-avaliação eletrônica identificamos divergências no documento apresentado. Contudo, o mesmo ainda será avaliado por um de nossos analistas. Solicitamos que aguarde a análise e o envio do próximo relatório.",
+      "Recomendacao": "Solicitamos que aguarde a análise e o envio do próximo relatório.  ",
+      "SistemaClassificador": 3,
+      "ObjetoBaseAnaliseAutomatica": false,
+      "ObjetoOficialId": 16,
+      "Contratantes": [],
+      "PermitirReanalise": true
+    }
+  },
+  "elapsed_seconds": 0.221461
+}
