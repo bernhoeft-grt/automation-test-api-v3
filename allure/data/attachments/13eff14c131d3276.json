@@ -1,0 +1,33 @@
+{
+  "Dados": [
+    {
+      "Id": 1,
+      "Ativo": true,
+      "Descricao": "Alto"
+    },
+    {
+      "Id": 2,
+      "Ativo": true,
+      "Descricao": "Médio"
+    },
+    {
+      "Id": 3,
+      "Ativo": true,
+      "Descricao": "Extremo"
+    },
+    {
+      "Id": 4,
+      "Ativo": true,
+      "Descricao": "Baixo"
+    },
+    {
+      "Id": 1000000012,
+      "Ativo": true,
+      "Descricao": "Baixissimo"
+    }
+  ],
+  "QuantidadeTotal": 5,
+  "Paginas": 1,
+  "Quantidade": 5,
+  "Pagina": 1
+}
