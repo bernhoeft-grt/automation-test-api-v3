@@ -1,0 +1,17 @@
+{
+  "status_code": 500,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "x-cloud-trace-context": "f2d796302b9e371e8a784ff68df8b558",
+    "date": "Thu, 25 Jun 2026 18:49:53 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {},
+  "elapsed_seconds": 0.186199
+}
