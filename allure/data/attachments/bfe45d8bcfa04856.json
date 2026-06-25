@@ -1,0 +1,955 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Thu, 25 Jun 2026 12:51:58 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1,
+        "Name": "Turma Padrão"
+      },
+      {
+        "Id": 476,
+        "Name": "Wavin - Homologação"
+      },
+      {
+        "Id": 102,
+        "Name": "Raízen - Mensal"
+      },
+      {
+        "Id": 458,
+        "Name": "Raízen - Mobilização Obrigatório"
+      },
+      {
+        "Id": 555,
+        "Name": "Integração Raízen - BexUp"
+      },
+      {
+        "Id": 3,
+        "Name": "Brado - Mobilização"
+      },
+      {
+        "Id": 33,
+        "Name": "Biosev - Mobilização"
+      },
+      {
+        "Id": 165,
+        "Name": "Biosev - Mensal"
+      },
+      {
+        "Id": 11,
+        "Name": "Savoy - Homologação"
+      },
+      {
+        "Id": 12,
+        "Name": "Rumo - Mobilização"
+      },
+      {
+        "Id": 109,
+        "Name": "Rumo - Mensal"
+      },
+      {
+        "Id": 110,
+        "Name": "Rumo - Homologação"
+      },
+      {
+        "Id": 16,
+        "Name": "3 Corações - Mobilização"
+      },
+      {
+        "Id": 17,
+        "Name": "Anglogold - Mobilização"
+      },
+      {
+        "Id": 18,
+        "Name": "Ball - Mobilização"
+      },
+      {
+        "Id": 106,
+        "Name": "Ball - Mensal"
+      },
+      {
+        "Id": 378,
+        "Name": "Ball - Homologação"
+      },
+      {
+        "Id": 19,
+        "Name": "Brainfarma - Mobilização"
+      },
+      {
+        "Id": 305,
+        "Name": "Brainfarma - Mensal"
+      },
+      {
+        "Id": 21,
+        "Name": "Cimento Bravo - Mobilização"
+      },
+      {
+        "Id": 22,
+        "Name": "Comgás - Mobilização"
+      },
+      {
+        "Id": 103,
+        "Name": "Comgás - Mensal"
+      },
+      {
+        "Id": 23,
+        "Name": "Danone - Mobilização"
+      },
+      {
+        "Id": 24,
+        "Name": "Dasa - Mobilização"
+      },
+      {
+        "Id": 25,
+        "Name": "Engepack - Mobilização"
+      },
+      {
+        "Id": 302,
+        "Name": "Engepack - Mensal"
+      },
+      {
+        "Id": 26,
+        "Name": "Grupo Cornélio Brennand - Mobilização"
+      },
+      {
+        "Id": 27,
+        "Name": "Ibema - Mobilização"
+      },
+      {
+        "Id": 28,
+        "Name": "Sylvamo - Mobilização"
+      },
+      {
+        "Id": 166,
+        "Name": "Sylvamo - Mensal"
+      },
+      {
+        "Id": 29,
+        "Name": "Moove - Mobilização"
+      },
+      {
+        "Id": 30,
+        "Name": "Santa Helena - Mobilização"
+      },
+      {
+        "Id": 157,
+        "Name": "Santa Helena - Homologação"
+      },
+      {
+        "Id": 31,
+        "Name": "The Lycra - Mobilização"
+      },
+      {
+        "Id": 304,
+        "Name": "The Lycra - Mensal"
+      },
+      {
+        "Id": 32,
+        "Name": "Tim Brasil - Mobilização"
+      },
+      {
+        "Id": 303,
+        "Name": "Tim Brasil - Mensal"
+      },
+      {
+        "Id": 34,
+        "Name": "GRT - Mobilização"
+      },
+      {
+        "Id": 92,
+        "Name": "GRT - Mensal"
+      },
+      {
+        "Id": 120,
+        "Name": "GRT - Webinars Gestores"
+      },
+      {
+        "Id": 121,
+        "Name": "GRT - Homologação"
+      },
+      {
+        "Id": 597,
+        "Name": "Conhecendo o Homologue"
+      },
+      {
+        "Id": 688,
+        "Name": "Treinamento Qualidade GRT Trabalhista"
+      },
+      {
+        "Id": 708,
+        "Name": "Treinamento Integração Trabalhista"
+      },
+      {
+        "Id": 860,
+        "Name": "TESTE"
+      },
+      {
+        "Id": 40,
+        "Name": "Pilotos - Mobilização"
+      },
+      {
+        "Id": 41,
+        "Name": "Pilotos - Homologação"
+      },
+      {
+        "Id": 43,
+        "Name": "Tequimar - Mobilização"
+      },
+      {
+        "Id": 44,
+        "Name": "AENA - Mobilização"
+      },
+      {
+        "Id": 45,
+        "Name": "Ardagh Group -  Mobilização"
+      },
+      {
+        "Id": 172,
+        "Name": "Ardagh - Mensal"
+      },
+      {
+        "Id": 588,
+        "Name": "Ardagh Homologação"
+      },
+      {
+        "Id": 46,
+        "Name": "Barry - Mobilização"
+      },
+      {
+        "Id": 48,
+        "Name": "Exterran - Mobilização"
+      },
+      {
+        "Id": 67,
+        "Name": "Foxconn - Mobilização"
+      },
+      {
+        "Id": 50,
+        "Name": "Grupo Monto - Mobilização"
+      },
+      {
+        "Id": 51,
+        "Name": "Henkel - Mobilização"
+      },
+      {
+        "Id": 52,
+        "Name": "Ingredion - Mobilização"
+      },
+      {
+        "Id": 54,
+        "Name": "Isa Cteep - Mobilização"
+      },
+      {
+        "Id": 112,
+        "Name": "Isa Cteep - Mensal"
+      },
+      {
+        "Id": 55,
+        "Name": "Localiza - Mobilização"
+      },
+      {
+        "Id": 56,
+        "Name": "Renner - Mobilização"
+      },
+      {
+        "Id": 108,
+        "Name": "Renner - Mensal"
+      },
+      {
+        "Id": 57,
+        "Name": "Nestlé - Mobilização"
+      },
+      {
+        "Id": 58,
+        "Name": "Norks Hydro - Mobilização"
+      },
+      {
+        "Id": 60,
+        "Name": "Santo Antônio - Mobilização"
+      },
+      {
+        "Id": 213,
+        "Name": "Santo Antônio - Mensal"
+      },
+      {
+        "Id": 61,
+        "Name": "Unilever - Mobilização"
+      },
+      {
+        "Id": 62,
+        "Name": "Usina Santa Adélia - Mobilização"
+      },
+      {
+        "Id": 63,
+        "Name": "Accor - Homologação"
+      },
+      {
+        "Id": 69,
+        "Name": "Momento F5 - Mobilização"
+      },
+      {
+        "Id": 84,
+        "Name": "Gestores - Implantação"
+      },
+      {
+        "Id": 85,
+        "Name": "Takasago - Mobilização"
+      },
+      {
+        "Id": 87,
+        "Name": "PADTEC - Mobilização"
+      },
+      {
+        "Id": 307,
+        "Name": "Padtec - Mensal"
+      },
+      {
+        "Id": 88,
+        "Name": "Alpek - Mobilização"
+      },
+      {
+        "Id": 90,
+        "Name": "Amazon - Mensal"
+      },
+      {
+        "Id": 93,
+        "Name": "Aeris - Mobilização"
+      },
+      {
+        "Id": 150,
+        "Name": "Aeris - Mensal"
+      },
+      {
+        "Id": 95,
+        "Name": "Enel - Mensal"
+      },
+      {
+        "Id": 97,
+        "Name": "Alunorte - Mensal"
+      },
+      {
+        "Id": 98,
+        "Name": "Claro - Mensal"
+      },
+      {
+        "Id": 100,
+        "Name": "Hydro - Mensal"
+      },
+      {
+        "Id": 101,
+        "Name": "Positel - Mobilização"
+      },
+      {
+        "Id": 104,
+        "Name": "Tereos - Mensal"
+      },
+      {
+        "Id": 151,
+        "Name": "Tereos - Mobilização"
+      },
+      {
+        "Id": 105,
+        "Name": "Albras - Mensal"
+      },
+      {
+        "Id": 107,
+        "Name": "Citrosuco - Mensal"
+      },
+      {
+        "Id": 113,
+        "Name": "Libbs - Mensal"
+      },
+      {
+        "Id": 114,
+        "Name": "Sky - Mensal"
+      },
+      {
+        "Id": 115,
+        "Name": "Siemens - Mobilização"
+      },
+      {
+        "Id": 117,
+        "Name": "Evoltz - Homologação"
+      },
+      {
+        "Id": 144,
+        "Name": "Evoltz - Mobilização"
+      },
+      {
+        "Id": 306,
+        "Name": "Evoltz - Mensal"
+      },
+      {
+        "Id": 118,
+        "Name": "Sanofi - Mensal"
+      },
+      {
+        "Id": 119,
+        "Name": "NET - Mensal"
+      },
+      {
+        "Id": 122,
+        "Name": "Hydro Paragominas - Mensal"
+      },
+      {
+        "Id": 128,
+        "Name": "Mosaic - Mensal"
+      },
+      {
+        "Id": 153,
+        "Name": "Mosaic - Mobilização"
+      },
+      {
+        "Id": 129,
+        "Name": "Itaú Cultural - Mensal"
+      },
+      {
+        "Id": 130,
+        "Name": "Acumuladores Moura - Mensal"
+      },
+      {
+        "Id": 132,
+        "Name": "BASF - Mensal"
+      },
+      {
+        "Id": 195,
+        "Name": "Basf - Mobilização"
+      },
+      {
+        "Id": 133,
+        "Name": "Alcoa - Mensal"
+      },
+      {
+        "Id": 134,
+        "Name": "Embratel - Mensal"
+      },
+      {
+        "Id": 137,
+        "Name": "Carrefour - Mobilização"
+      },
+      {
+        "Id": 139,
+        "Name": "Patrus - Mensal"
+      },
+      {
+        "Id": 140,
+        "Name": "Johnson Controls - Mensal"
+      },
+      {
+        "Id": 142,
+        "Name": "Johnson Controls - Mobilização"
+      },
+      {
+        "Id": 145,
+        "Name": "Light - Homologação"
+      },
+      {
+        "Id": 146,
+        "Name": "Terphane - Mobilização (Implantação)"
+      },
+      {
+        "Id": 147,
+        "Name": "Terphane - Mensal (Implantação)"
+      },
+      {
+        "Id": 154,
+        "Name": "Hospital Care - Homologação"
+      },
+      {
+        "Id": 155,
+        "Name": "TAG - Homologação"
+      },
+      {
+        "Id": 156,
+        "Name": "TAG - Mobilização"
+      },
+      {
+        "Id": 158,
+        "Name": "Receita Federal - Mensal"
+      },
+      {
+        "Id": 159,
+        "Name": "Receita Federal - Mobilização"
+      },
+      {
+        "Id": 160,
+        "Name": "Cibra - Mensal"
+      },
+      {
+        "Id": 161,
+        "Name": "Cibra - Mobilização"
+      },
+      {
+        "Id": 162,
+        "Name": "Cibra - Homologação"
+      },
+      {
+        "Id": 584,
+        "Name": "CIBRA - Integração"
+      },
+      {
+        "Id": 163,
+        "Name": "Equatorial - Mobilização"
+      },
+      {
+        "Id": 167,
+        "Name": "Dow - Mensal"
+      },
+      {
+        "Id": 168,
+        "Name": "Dow Agroscience - Mensal"
+      },
+      {
+        "Id": 214,
+        "Name": "Ítaú - Mobilização"
+      },
+      {
+        "Id": 170,
+        "Name": "Michelin - Mensal"
+      },
+      {
+        "Id": 173,
+        "Name": "Floripa Airport - Mensal"
+      },
+      {
+        "Id": 175,
+        "Name": "Guardian - Mobilização"
+      },
+      {
+        "Id": 318,
+        "Name": "Guardian ECS - Integração"
+      },
+      {
+        "Id": 377,
+        "Name": "Guardian - Integração"
+      },
+      {
+        "Id": 679,
+        "Name": "Integração - Guardian Porto Real"
+      },
+      {
+        "Id": 176,
+        "Name": "Energimp - Homologação"
+      },
+      {
+        "Id": 177,
+        "Name": "Novozymes - Mensal"
+      },
+      {
+        "Id": 178,
+        "Name": "Novozymes - Mobilização"
+      },
+      {
+        "Id": 179,
+        "Name": "Vopak - Mensal"
+      },
+      {
+        "Id": 180,
+        "Name": "Vopak - Homologação"
+      },
+      {
+        "Id": 181,
+        "Name": "Vopak - Mobilização"
+      },
+      {
+        "Id": 183,
+        "Name": "Grupo Maringá - Mobilização"
+      },
+      {
+        "Id": 184,
+        "Name": "Grupo Maringá - Mensal\t"
+      },
+      {
+        "Id": 185,
+        "Name": "Grupo Maringá - Homologação"
+      },
+      {
+        "Id": 186,
+        "Name": "ADT - Mobilização"
+      },
+      {
+        "Id": 187,
+        "Name": "ADT - Mensal"
+      },
+      {
+        "Id": 188,
+        "Name": "Sensormatic - Mobilização"
+      },
+      {
+        "Id": 189,
+        "Name": "Sensormatic - Mensal"
+      },
+      {
+        "Id": 190,
+        "Name": "Federação Paulista de Futebol - Homologação"
+      },
+      {
+        "Id": 191,
+        "Name": "AVB - Mobilização"
+      },
+      {
+        "Id": 192,
+        "Name": "AVB - Mensal"
+      },
+      {
+        "Id": 193,
+        "Name": "AVB - Homologação"
+      },
+      {
+        "Id": 201,
+        "Name": "Compalead - Mensal"
+      },
+      {
+        "Id": 202,
+        "Name": "Compalead - Homologação"
+      },
+      {
+        "Id": 210,
+        "Name": "LDC - Mobilização"
+      },
+      {
+        "Id": 211,
+        "Name": "LDC - Mensal"
+      },
+      {
+        "Id": 212,
+        "Name": "LDC - Homologação"
+      },
+      {
+        "Id": 215,
+        "Name": "Braskem - Mensal"
+      },
+      {
+        "Id": 216,
+        "Name": "Symrise Pet Food - Mensal"
+      },
+      {
+        "Id": 217,
+        "Name": "Symrise Pet Food - Mobilização"
+      },
+      {
+        "Id": 218,
+        "Name": "Dunlop - Homologação"
+      },
+      {
+        "Id": 223,
+        "Name": "Dunlop - Mobilização"
+      },
+      {
+        "Id": 219,
+        "Name": "Epasa - Mensal"
+      },
+      {
+        "Id": 220,
+        "Name": "Nutrien - Mensal"
+      },
+      {
+        "Id": 221,
+        "Name": "Nutrien - Mobilização"
+      },
+      {
+        "Id": 222,
+        "Name": "Integração (Novatos) - Mobi"
+      },
+      {
+        "Id": 294,
+        "Name": "PCH Verde 2 - Mobilização"
+      },
+      {
+        "Id": 295,
+        "Name": "PCH Verde 2 - Mensal"
+      },
+      {
+        "Id": 296,
+        "Name": "Elera - Mobilização"
+      },
+      {
+        "Id": 297,
+        "Name": "Elera - Mensal"
+      },
+      {
+        "Id": 308,
+        "Name": "Horizonte - Mensal"
+      },
+      {
+        "Id": 309,
+        "Name": "Horizonte - Mobilização"
+      },
+      {
+        "Id": 310,
+        "Name": "IHS - Mobilização"
+      },
+      {
+        "Id": 311,
+        "Name": "Porto de Itapoá - Mensal"
+      },
+      {
+        "Id": 312,
+        "Name": "Porto de Itapoá - Mobilização"
+      },
+      {
+        "Id": 313,
+        "Name": "Porto de Itapoá - Homologação"
+      },
+      {
+        "Id": 314,
+        "Name": "Olist - Mensal"
+      },
+      {
+        "Id": 315,
+        "Name": "Olist - Mobilização"
+      },
+      {
+        "Id": 316,
+        "Name": "Olist - Homologação"
+      },
+      {
+        "Id": 319,
+        "Name": "Sherwin - Mensal"
+      },
+      {
+        "Id": 363,
+        "Name": "Sherwin - Homologação"
+      },
+      {
+        "Id": 320,
+        "Name": "EDF NORTE FLUMINENSE - Mobilização"
+      },
+      {
+        "Id": 321,
+        "Name": "Volvo Car - Mensal"
+      },
+      {
+        "Id": 322,
+        "Name": "Iguatemi Empresa de Shopping Centers S.A.  - Mensal"
+      },
+      {
+        "Id": 323,
+        "Name": "Iguatemi Empresa de Shopping Centers S.A.  - Homologação"
+      },
+      {
+        "Id": 324,
+        "Name": "DAFITI - Mensal"
+      },
+      {
+        "Id": 325,
+        "Name": "DAFITI - Homologação"
+      },
+      {
+        "Id": 326,
+        "Name": "Argo Energia - Mensal"
+      },
+      {
+        "Id": 327,
+        "Name": "Argo Energia - Mobilização"
+      },
+      {
+        "Id": 328,
+        "Name": "GRUPO NEOENERGIA  - Mobilização"
+      },
+      {
+        "Id": 329,
+        "Name": "GRUPO NEOENERGIA - Mensal"
+      },
+      {
+        "Id": 347,
+        "Name": "Integração (Novatos) - Mensal"
+      },
+      {
+        "Id": 349,
+        "Name": "Alstom - Mensal "
+      },
+      {
+        "Id": 350,
+        "Name": "Alstom - Mobilização"
+      },
+      {
+        "Id": 364,
+        "Name": "CMAA - Homologação"
+      },
+      {
+        "Id": 389,
+        "Name": "CMAA - Mobilização"
+      },
+      {
+        "Id": 406,
+        "Name": "CMAA - Mensal"
+      },
+      {
+        "Id": 375,
+        "Name": "Viveo - Mensal"
+      },
+      {
+        "Id": 376,
+        "Name": "Viveo - Mobilização"
+      },
+      {
+        "Id": 386,
+        "Name": "Teles Pires - Mobilização"
+      },
+      {
+        "Id": 387,
+        "Name": "Quantiq - Mobilização"
+      },
+      {
+        "Id": 390,
+        "Name": "Grupo Edson - Mensal"
+      },
+      {
+        "Id": 391,
+        "Name": "Grupo Edson - Homologação"
+      },
+      {
+        "Id": 392,
+        "Name": "Grupo Edson - Mobilização"
+      },
+      {
+        "Id": 393,
+        "Name": "BNP Paribas - Mensal"
+      },
+      {
+        "Id": 394,
+        "Name": "Supervia - Mobilização"
+      },
+      {
+        "Id": 395,
+        "Name": "Schaeffler - Homologação"
+      },
+      {
+        "Id": 396,
+        "Name": "Schaeffler - Mensal"
+      },
+      {
+        "Id": 407,
+        "Name": "C&C - Mensal"
+      },
+      {
+        "Id": 408,
+        "Name": "C&C - Homologação"
+      },
+      {
+        "Id": 410,
+        "Name": "IOCHPE MAXION - Mensal"
+      },
+      {
+        "Id": 411,
+        "Name": "Subsea7 - Mensal"
+      },
+      {
+        "Id": 415,
+        "Name": "Tropical Transportes Ipiranga - Mensal"
+      },
+      {
+        "Id": 416,
+        "Name": "Tropical Transportes Ipiranga - Mobilização"
+      },
+      {
+        "Id": 417,
+        "Name": "Tropical Transportes Ipiranga - Homologação"
+      },
+      {
+        "Id": 437,
+        "Name": "John Deere - Mobilização"
+      },
+      {
+        "Id": 452,
+        "Name": "Grupo SEB - Mensal"
+      },
+      {
+        "Id": 453,
+        "Name": "Grupo SEB - Mobilização"
+      },
+      {
+        "Id": 461,
+        "Name": "I. Systems - Mensal"
+      },
+      {
+        "Id": 478,
+        "Name": "Viveo - Mobilização"
+      },
+      {
+        "Id": 479,
+        "Name": "Wavin - Homologação"
+      },
+      {
+        "Id": 520,
+        "Name": "Prodesp - Mensal"
+      },
+      {
+        "Id": 541,
+        "Name": "Capacitação Convenção Coletiva"
+      },
+      {
+        "Id": 557,
+        "Name": "MRS LOGISTICA S.A - Monitoramento Trabalhista"
+      },
+      {
+        "Id": 575,
+        "Name": "Lacan - Trabalhista"
+      },
+      {
+        "Id": 576,
+        "Name": "Lacan - Mobilização"
+      },
+      {
+        "Id": 577,
+        "Name": "Lacan - Homologação"
+      },
+      {
+        "Id": 578,
+        "Name": "Integração site Siemens Brasil"
+      },
+      {
+        "Id": 809,
+        "Name": "Integração Projetos/Serviços  Siemens Brasil"
+      },
+      {
+        "Id": 882,
+        "Name": "SPMAR ONLINE"
+      },
+      {
+        "Id": 886,
+        "Name": "SPMAR PRESENCIAL"
+      },
+      {
+        "Id": 897,
+        "Name": "GRUPO PAX Lubricantes LTDA - ONLINE"
+      },
+      {
+        "Id": 899,
+        "Name": "OURO FINO - ONLINE"
+      },
+      {
+        "Id": 904,
+        "Name": "CRISTALIA PRODUTOS QUIMICOS FARMACEUTICOS LTDA"
+      },
+      {
+        "Id": 911,
+        "Name": "INTEGRAÇÕES ON LINE UNIGRT"
+      },
+      {
+        "Id": 913,
+        "Name": "GRUPO CARREFOUR BRASIL"
+      },
+      {
+        "Id": 921,
+        "Name": "GUARDIAN PORTO REAL"
+      },
+      {
+        "Id": 937,
+        "Name": "INTEGRAÇÃO COPEL"
+      }
+    ]
+  },
+  "elapsed_seconds": 5.702753
+}

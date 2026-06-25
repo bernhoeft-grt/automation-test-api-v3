@@ -1,0 +1,6 @@
+{
+  "Mensagens": [
+    "The JSON value could not be converted to System.Collections.Generic.IEnumerable`1[System.Int32]. Path: $ | LineNumber: 0 | BytePositionInLine: 1.",
+    "[Payload] - Este campo é obrigatório e precisa ser informado."
+  ]
+}
