@@ -1,0 +1,20 @@
+{
+  "status_code": 400,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "x-cloud-trace-context": "428d7bc3a11950a11137c20e81083eea",
+    "date": "Fri, 26 Jun 2026 18:42:20 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Mensagens": [
+      "[Descricao] - Já existe uma área no mesmo grupo de área, com esta descrição e status inativo."
+    ]
+  },
+  "elapsed_seconds": 0.141927
+}

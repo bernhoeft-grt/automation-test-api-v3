@@ -1,0 +1,21 @@
+{
+  "status_code": 400,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "x-cloud-trace-context": "f27d20b78cd877d4cd8265d37a3b2ec0",
+    "date": "Fri, 26 Jun 2026 18:42:32 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Mensagens": [
+      "[] - Este campo é obrigatório e precisa ser informado.",
+      "The JSON value could not be converted to System.DateOnly. Path: $.DataInicio | LineNumber: 0 | BytePositionInLine: 95."
+    ]
+  },
+  "elapsed_seconds": 0.132633
+}
