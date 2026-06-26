@@ -1,0 +1,233 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Fri, 26 Jun 2026 12:47:06 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1000000000,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Fantasia": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "CPForCNPJ": "39.253.433/0001-94"
+      },
+      {
+        "Id": 1000000221,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779734903777",
+        "Fantasia": "FANTASIA QE-125 1779734903777",
+        "CPForCNPJ": "11.903.777/0001-82"
+      },
+      {
+        "Id": 1000000222,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779740121521",
+        "Fantasia": "FANTASIA QE-125 1779740121521",
+        "CPForCNPJ": "11.121.521/0001-13"
+      },
+      {
+        "Id": 1000000223,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779740179243",
+        "Fantasia": "FANTASIA QE-125 1779740179243",
+        "CPForCNPJ": "11.179.243/0001-55"
+      },
+      {
+        "Id": 1000000224,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779801068770",
+        "Fantasia": "FANTASIA QE-125 1779801068770",
+        "CPForCNPJ": "11.068.770/0001-92"
+      },
+      {
+        "Id": 1000000225,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779805778114",
+        "Fantasia": "FANTASIA QE-125 1779805778114",
+        "CPForCNPJ": "11.778.114/0001-83"
+      },
+      {
+        "Id": 1000000226,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779805876154",
+        "Fantasia": "FANTASIA QE-125 1779805876154",
+        "CPForCNPJ": "11.876.154/0001-68"
+      },
+      {
+        "Id": 1000000227,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779820651279",
+        "Fantasia": "FANTASIA QE-125 1779820651279",
+        "CPForCNPJ": "11.651.279/0001-90"
+      },
+      {
+        "Id": 1000000228,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779820750957",
+        "Fantasia": "FANTASIA QE-125 1779820750957",
+        "CPForCNPJ": "11.750.957/0001-71"
+      },
+      {
+        "Id": 1000000229,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779822806445",
+        "Fantasia": "FANTASIA QE-125 1779822806445",
+        "CPForCNPJ": "11.806.445/0001-80"
+      },
+      {
+        "Id": 1000000230,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779884507595",
+        "Fantasia": "FANTASIA QE-125 1779884507595",
+        "CPForCNPJ": "11.507.595/0001-92"
+      },
+      {
+        "Id": 1000000231,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779884738636",
+        "Fantasia": "FANTASIA QE-125 1779884738636",
+        "CPForCNPJ": "11.738.636/0001-51"
+      },
+      {
+        "Id": 1000000232,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779884795282",
+        "Fantasia": "FANTASIA QE-125 1779884795282",
+        "CPForCNPJ": "11.795.283/0001-21"
+      },
+      {
+        "Id": 1000000233,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779890076370",
+        "Fantasia": "FANTASIA QE-125 1779890076370",
+        "CPForCNPJ": "11.076.370/0001-29"
+      },
+      {
+        "Id": 1000000234,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779896279370",
+        "Fantasia": "FANTASIA QE-125 1779896279370",
+        "CPForCNPJ": "11.279.370/0001-26"
+      },
+      {
+        "Id": 1000000235,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779896310295",
+        "Fantasia": "FANTASIA QE-125 1779896310295",
+        "CPForCNPJ": "11.310.295/0001-19"
+      },
+      {
+        "Id": 1000000236,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779896397230",
+        "Fantasia": "FANTASIA QE-125 1779896397230",
+        "CPForCNPJ": "11.397.230/0001-52"
+      },
+      {
+        "Id": 1000000237,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779900936152",
+        "Fantasia": "FANTASIA QE-125 1779900936152",
+        "CPForCNPJ": "11.936.152/0001-17"
+      },
+      {
+        "Id": 1000000238,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779912570148",
+        "Fantasia": "FANTASIA QE-125 1779912570148",
+        "CPForCNPJ": "11.570.148/0001-88"
+      },
+      {
+        "Id": 1000000239,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779912633865",
+        "Fantasia": "FANTASIA QE-125 1779912633865",
+        "CPForCNPJ": "11.633.865/0001-01"
+      },
+      {
+        "Id": 1000000240,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779912706275",
+        "Fantasia": "FANTASIA QE-125 1779912706275",
+        "CPForCNPJ": "11.706.275/0001-61"
+      },
+      {
+        "Id": 1000000241,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779914781287",
+        "Fantasia": "FANTASIA QE-125 1779914781287",
+        "CPForCNPJ": "11.781.287/0001-50"
+      },
+      {
+        "Id": 1000000242,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779978899509",
+        "Fantasia": "FANTASIA QE-125 1779978899509",
+        "CPForCNPJ": "11.899.509/0001-34"
+      },
+      {
+        "Id": 1000000243,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779978983086",
+        "Fantasia": "FANTASIA QE-125 1779978983086",
+        "CPForCNPJ": "11.983.086/0001-36"
+      },
+      {
+        "Id": 1000000244,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779986805091",
+        "Fantasia": "FANTASIA QE-125 1779986805091",
+        "CPForCNPJ": "11.805.091/0001-59"
+      },
+      {
+        "Id": 1000000245,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1779987962825",
+        "Fantasia": "FANTASIA QE-125 1779987962825",
+        "CPForCNPJ": "11.962.825/0001-03"
+      },
+      {
+        "Id": 1000000246,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1780078444325",
+        "Fantasia": "FANTASIA QE-125 1780078444325",
+        "CPForCNPJ": "11.444.325/0001-80"
+      },
+      {
+        "Id": 1000000247,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1780078554608",
+        "Fantasia": "FANTASIA QE-125 1780078554608",
+        "CPForCNPJ": "11.554.608/0001-84"
+      },
+      {
+        "Id": 1000000248,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1780095596767",
+        "Fantasia": "FANTASIA QE-125 1780095596767",
+        "CPForCNPJ": "11.596.767/0001-41"
+      },
+      {
+        "Id": 1000000249,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATANTE TESTE QE-125 1780099677723",
+        "Fantasia": "FANTASIA QE-125 1780099677723",
+        "CPForCNPJ": "11.677.723/0001-46"
+      }
+    ],
+    "QuantidadeTotal": 67,
+    "Paginas": 3,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.243537
+}
