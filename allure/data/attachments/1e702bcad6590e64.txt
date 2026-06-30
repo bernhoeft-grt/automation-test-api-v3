@@ -1,0 +1,5 @@
+tests/contratante/test_update_familia.py:42: in test_update_familia
+    assert_status_code(response, [200, 204])
+utils/helpers.py:152: in assert_status_code
+    assert response.status_code in expected_statuses, (
+E   AssertionError: Status code inesperado. Esperado um de [200, 204], recebido 400
