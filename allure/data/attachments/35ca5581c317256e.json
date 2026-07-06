@@ -1,0 +1,20 @@
+{
+  "status_code": 400,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "x-cloud-trace-context": "db1e57c38a937b05861ac671a9e70b41",
+    "date": "Mon, 06 Jul 2026 18:42:00 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Mensagens": [
+      "[GrupoAreaId] - O valor informado deve ser maior que 0."
+    ]
+  },
+  "elapsed_seconds": 0.209915
+}
