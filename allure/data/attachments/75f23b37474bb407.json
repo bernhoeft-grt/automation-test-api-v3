@@ -1,0 +1,20 @@
+{
+  "status_code": 400,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "x-cloud-trace-context": "4d7f89bf4f82e4395f7a46d50f6c9b58",
+    "date": "Thu, 09 Jul 2026 12:59:35 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Mensagens": [
+      "[ContratoId] - O valor informado deve ser maior que 0."
+    ]
+  },
+  "elapsed_seconds": 0.217811
+}
