@@ -1,0 +1,21 @@
+{
+  "status_code": 400,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "x-cloud-trace-context": "03cf49cb9933d512cf4bf7e8e41510b8",
+    "date": "Wed, 15 Jul 2026 12:31:51 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Mensagens": [
+      "The value 'test' is not valid for Pasta.",
+      "[Arquivo] - Este campo é obrigatório e precisa ser informado."
+    ]
+  },
+  "elapsed_seconds": 0.158594
+}
