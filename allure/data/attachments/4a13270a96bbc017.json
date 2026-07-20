@@ -1,0 +1,263 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Mon, 20 Jul 2026 12:45:40 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1000000000,
+        "Ativo": true,
+        "RazaoSocial": "SELECT TESTES",
+        "Fantasia": "SELECT TESTES",
+        "CPForCNPJ": "57.213.568/0001-08",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000001,
+        "Ativo": true,
+        "RazaoSocial": "SUBCONTRATADA PRÉ-PRODUÇÃO",
+        "Fantasia": "SUBCONTRATADA PRÉ-PRODUÇÃO",
+        "CPForCNPJ": "39.224.408/0001-82",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000002,
+        "Ativo": true,
+        "RazaoSocial": "MATHEUS DE OLIVEIRA PACHECO 11325707945",
+        "Fantasia": "MATHEUS DE OLIVEIRA PACHECO 11325707945",
+        "CPForCNPJ": "39.333.001/0001-93",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000003,
+        "Ativo": true,
+        "RazaoSocial": "RMX SOLUCOES TECNOLOGICAS LTDA",
+        "Fantasia": "RMX SOLUCOES TECNOLOGICAS LTDA",
+        "CPForCNPJ": "13.845.216/0001-08",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000004,
+        "Ativo": true,
+        "RazaoSocial": "LUCIANA PEREIRA BATISTA 83127232268",
+        "Fantasia": "LUCIANA PEREIRA BATISTA 83127232268",
+        "CPForCNPJ": "28.857.272/0001-21",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000005,
+        "Ativo": true,
+        "RazaoSocial": "GIOVANNA GOMES CAETANO 47042179811",
+        "Fantasia": "GIOVANNA GOMES CAETANO 47042179811",
+        "CPForCNPJ": "43.341.881/0001-17",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000006,
+        "Ativo": true,
+        "RazaoSocial": "CONTRATADA TESTE REGRESSIVO 1103",
+        "Fantasia": "CONTRATADA TESTE REGRESSIVO 1103",
+        "CPForCNPJ": "63.490.163/0001-10",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000007,
+        "Ativo": true,
+        "RazaoSocial": "DAVID MENDES DA SILVA",
+        "Fantasia": "DAVID MENDES DA SILVA",
+        "CPForCNPJ": "10.592.541/0001-00",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000008,
+        "Ativo": true,
+        "RazaoSocial": "EDUARDO HIKE DOS SANTOS PAGEU LTDA",
+        "Fantasia": "EDUARDO HIKE DOS SANTOS PAGEU LTDA",
+        "CPForCNPJ": "15.626.830/0001-04",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000009,
+        "Ativo": true,
+        "RazaoSocial": "ELEICAO 2024 VITOR FERREIRA DA SILVA VEREADOR",
+        "Fantasia": "ELEICAO 2024 VITOR FERREIRA DA SILVA VEREADOR",
+        "CPForCNPJ": "56.243.650/0001-12",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000010,
+        "Ativo": true,
+        "RazaoSocial": "ELEICAO 2024 VITOR FERREIRA DA SILVA VEREADOR",
+        "Fantasia": "ELEICAO 2024 VITOR FERREIRA DA SILVA VEREADOR",
+        "CPForCNPJ": "56.243.650/0001-12",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000011,
+        "Ativo": true,
+        "RazaoSocial": "52.771.795 PAULA REGINA LOURENCO MEDINA",
+        "Fantasia": "52.771.795 PAULA REGINA LOURENCO MEDINA",
+        "CPForCNPJ": "52.771.795/0001-35",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000012,
+        "Ativo": true,
+        "RazaoSocial": "52.771.795 PAULA REGINA LOURENCO MEDINA",
+        "Fantasia": "52.771.795 PAULA REGINA LOURENCO MEDINA",
+        "CPForCNPJ": "52.771.795/0001-35",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000014,
+        "Ativo": true,
+        "RazaoSocial": "FRAMBRUIG SUCOS LTDA",
+        "Fantasia": "FRAMBRUIG SUCOS LTDA",
+        "CPForCNPJ": "00.626.878/0001-37",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000015,
+        "Ativo": true,
+        "RazaoSocial": "BARBARA MARIA PAIVA CORREA LTDA",
+        "Fantasia": "BARBARA MARIA PAIVA CORREA LTDA",
+        "CPForCNPJ": "57.074.487/0001-74",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000016,
+        "Ativo": true,
+        "RazaoSocial": "52.771.795 PAULA REGINA LOURENCO MEDINA",
+        "Fantasia": "52.771.795 PAULA REGINA LOURENCO MEDINA",
+        "CPForCNPJ": "52.771.795/0001-35",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000017,
+        "Ativo": true,
+        "RazaoSocial": "58.751.667 FABIO DA SILVA",
+        "Fantasia": "58.751.667 FABIO DA SILVA",
+        "CPForCNPJ": "58.751.667/0001-06",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000019,
+        "Ativo": true,
+        "RazaoSocial": "52.771.795 PAULA REGINA LOURENCO MEDINA",
+        "Fantasia": "52.771.795 PAULA REGINA LOURENCO MEDINA",
+        "CPForCNPJ": "52.771.795/0001-35",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000020,
+        "Ativo": true,
+        "RazaoSocial": "58.726.005 VINICIUS WALLACE DA SILVA",
+        "Fantasia": "58.726.005 VINICIUS WALLACE DA SILVA",
+        "CPForCNPJ": "58.726.005/0001-86",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000023,
+        "Ativo": true,
+        "RazaoSocial": "63.550.400 MAYARA LICIO BLANCO",
+        "Fantasia": "63.550.400 MAYARA LICIO BLANCO",
+        "CPForCNPJ": "63.550.400/0001-90",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000024,
+        "Ativo": true,
+        "RazaoSocial": "GISELE DE AZEVEDO DURAZZO 19133930899",
+        "Fantasia": "GISELE DE AZEVEDO DURAZZO 19133930899",
+        "CPForCNPJ": "22.370.062/0001-28",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000026,
+        "Ativo": true,
+        "RazaoSocial": "52.771.795 PAULA REGINA LOURENCO MEDINA",
+        "Fantasia": "52.771.795 PAULA REGINA LOURENCO MEDINA",
+        "CPForCNPJ": "52.771.795/0001-35",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000029,
+        "Ativo": true,
+        "RazaoSocial": "FRANCISCO LIBONATI NETO",
+        "Fantasia": "FRANCISCO LIBONATI NETO",
+        "CPForCNPJ": "71.641.922/0001-26",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000030,
+        "Ativo": true,
+        "RazaoSocial": "SIEMENS BRASIL LTDA",
+        "Fantasia": "SIEMENS BRASIL LTDA",
+        "CPForCNPJ": "34.776.007/0001-11",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000032,
+        "Ativo": true,
+        "RazaoSocial": "SANTA HELENA INDUSTRIA DE ALIMENTOS S/A",
+        "Fantasia": "SANTA HELENA INDUSTRIA DE ALIMENTOS S/A",
+        "CPForCNPJ": "45.256.997/0001-83",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000034,
+        "Ativo": true,
+        "RazaoSocial": "UNILEVER BRASIL LTDA.",
+        "Fantasia": "UNILEVER BRASIL LTDA.",
+        "CPForCNPJ": "61.068.276/0012-59",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000036,
+        "Ativo": true,
+        "RazaoSocial": "TESTE001",
+        "Fantasia": "TESTE001",
+        "CPForCNPJ": "80.766.730/6866-16",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000037,
+        "Ativo": true,
+        "RazaoSocial": "CIMAR - CIMENTOS DO MARANHAO S.A.",
+        "Fantasia": "CIMAR - CIMENTOS DO MARANHAO S.A.",
+        "CPForCNPJ": "15.129.010/0001-07",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000038,
+        "Ativo": true,
+        "RazaoSocial": "TESTE28042026",
+        "Fantasia": "TESTE28042026",
+        "CPForCNPJ": "95.775.727/0108-96",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 1000000040,
+        "Ativo": true,
+        "RazaoSocial": "teste224",
+        "Fantasia": "teste224",
+        "CPForCNPJ": "40.945.841/3308-11",
+        "TipoPessoa": "PJ"
+      }
+    ],
+    "QuantidadeTotal": 976,
+    "Paginas": 33,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.236174
+}
