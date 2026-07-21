@@ -1,0 +1,175 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Tue, 21 Jul 2026 18:32:25 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1000000000,
+        "Ativo": true,
+        "Descricao": "ASO - Atestado de Saúde Ocupacional",
+        "CriteriosDoObjetoCarregamento": "TESTE",
+        "ParticularidadeDoObjetoCarregamento": "TESTE"
+      },
+      {
+        "Id": 1000000001,
+        "Ativo": true,
+        "Descricao": "PCMSO - Programa de Controle Médico de Saúde Ocupacional"
+      },
+      {
+        "Id": 1000000002,
+        "Ativo": true,
+        "Descricao": "CARTÃO DE PONTO"
+      },
+      {
+        "Id": 1000000003,
+        "Ativo": true,
+        "Descricao": "FOPAG"
+      },
+      {
+        "Id": 1000000004,
+        "Ativo": true,
+        "Descricao": "ASO DEMISSIONAL"
+      },
+      {
+        "Id": 1000000005,
+        "Ativo": true,
+        "Descricao": "VEICULO"
+      },
+      {
+        "Id": 1000000006,
+        "Ativo": true,
+        "Descricao": "NR35"
+      },
+      {
+        "Id": 1000000007,
+        "Ativo": true,
+        "Descricao": "AMBIENTALEMPRESA"
+      },
+      {
+        "Id": 1000000008,
+        "Ativo": true,
+        "Descricao": "AMBIENTALNORMAL"
+      },
+      {
+        "Id": 1000000009,
+        "Ativo": true,
+        "Descricao": "Comprovante de Salários"
+      },
+      {
+        "Id": 1000000010,
+        "Ativo": true,
+        "Descricao": "PLANO ODONTOLÓGICO"
+      },
+      {
+        "Id": 1000000012,
+        "Ativo": true,
+        "Descricao": "VALE REFEIÇÃO"
+      },
+      {
+        "Id": 1000000013,
+        "Ativo": true,
+        "Descricao": "PLANO DE SAÚDE"
+      },
+      {
+        "Id": 1000000014,
+        "Ativo": true,
+        "Descricao": "VALE TRANSPORTE"
+      },
+      {
+        "Id": 1000000015,
+        "Ativo": true,
+        "Descricao": "PGR"
+      },
+      {
+        "Id": 1000000016,
+        "Ativo": true,
+        "Descricao": "AVISO DE DESLIGAMENTO OU ACORDO DEMISSIONAL"
+      },
+      {
+        "Id": 1000000017,
+        "Ativo": true,
+        "Descricao": "CTPS"
+      },
+      {
+        "Id": 1000000018,
+        "Ativo": true,
+        "Descricao": "RG E CPF"
+      },
+      {
+        "Id": 1000000019,
+        "Ativo": true,
+        "Descricao": "CNH"
+      },
+      {
+        "Id": 1000000020,
+        "Ativo": true,
+        "Descricao": "VALE ALIMENTAÇÃO"
+      },
+      {
+        "Id": 1000000024,
+        "Ativo": true,
+        "Descricao": "Teste colaborador mensal"
+      },
+      {
+        "Id": 1000000025,
+        "Ativo": true,
+        "Descricao": "Teste empresa mensal"
+      },
+      {
+        "Id": 1000000026,
+        "Ativo": true,
+        "Descricao": "Teste mobi colab"
+      },
+      {
+        "Id": 1000000027,
+        "Ativo": true,
+        "Descricao": "Teste mobi empresa"
+      },
+      {
+        "Id": 1000000032,
+        "Ativo": true,
+        "Descricao": "Regressivo 18/03 - Mensal Colab"
+      },
+      {
+        "Id": 1000000033,
+        "Ativo": true,
+        "Descricao": "Regressivo 18/03 - Mensal Empresa"
+      },
+      {
+        "Id": 1000000034,
+        "Ativo": true,
+        "Descricao": "Regressivo 18/03 - Mobi colab"
+      },
+      {
+        "Id": 1000000035,
+        "Ativo": true,
+        "Descricao": "Regressivo 18/03 - Mobi Empresa"
+      },
+      {
+        "Id": 1000000039,
+        "Ativo": true,
+        "Descricao": "Teste Regressivo 2303 - colab mensal"
+      },
+      {
+        "Id": 1000000040,
+        "Ativo": true,
+        "Descricao": "Teste Regressivo 2303 - empresa mensal"
+      }
+    ],
+    "QuantidadeTotal": 330,
+    "Paginas": 11,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.238049
+}
