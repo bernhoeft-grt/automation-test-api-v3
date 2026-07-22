@@ -1,0 +1,20 @@
+{
+  "status_code": 400,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "x-cloud-trace-context": "c51131a35686d71de3dbaa811ab4f707",
+    "date": "Wed, 22 Jul 2026 18:29:01 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Mensagens": [
+      "[TipoPessoa] - Deve ser um dos seguintes valores: PF, PJ"
+    ]
+  },
+  "elapsed_seconds": 0.135727
+}

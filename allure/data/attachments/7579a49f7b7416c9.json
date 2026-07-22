@@ -1,0 +1,15 @@
+{
+  "status_code": 401,
+  "headers": {
+    "www-authenticate": "Bearer, Bearer, Bearer error=\"invalid_token\", error_description=\"The issuer 'https://securetoken.google.com/grt-app-preprod' is invalid\"",
+    "x-cloud-trace-context": "387ade0989c0a1ab7a15997697345a75",
+    "date": "Wed, 22 Jul 2026 18:29:35 GMT",
+    "content-type": "text/html",
+    "server": "Google Frontend",
+    "Content-Length": "0",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "body": "",
+  "elapsed_seconds": 0.136234
+}
