@@ -1,0 +1,293 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Wed, 22 Jul 2026 12:36:29 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1000000000,
+        "Ativo": true,
+        "Numero": "001TESTE",
+        "ContratadaRazaoSocial": "SELECT TESTES",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-02-19",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000001,
+        "Ativo": true,
+        "Numero": "VEICULO001",
+        "ContratadaRazaoSocial": "SELECT TESTES",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-02-26",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000002,
+        "Ativo": true,
+        "Numero": "AMBIENTAL001",
+        "ContratadaRazaoSocial": "SELECT TESTES",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-02-26",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000007,
+        "Ativo": true,
+        "Numero": "001 - Teste Regressivo 1103",
+        "ContratadaRazaoSocial": "SELECT TESTES",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-03-11",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000010,
+        "Ativo": true,
+        "Numero": "010Teste",
+        "ContratadaRazaoSocial": "SELECT TESTES",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-03-16",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000028,
+        "Ativo": true,
+        "Numero": "Ambiental002",
+        "ContratadaRazaoSocial": "CONTRATADA TESTE REGRESSIVO 1103",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-02",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000032,
+        "Ativo": true,
+        "Numero": "Ambiental005",
+        "ContratadaRazaoSocial": "SELECT TESTES",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-02",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000038,
+        "Ativo": true,
+        "Numero": "A_AMG36TESTE",
+        "ContratadaRazaoSocial": "SIEMENS BRASIL LTDA",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-14",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000040,
+        "Ativo": true,
+        "Numero": "A_AMG37TESTE",
+        "ContratadaRazaoSocial": "SANTA HELENA INDUSTRIA DE ALIMENTOS S/A",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-16",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000042,
+        "Ativo": true,
+        "Numero": "085/SAVOY(Jerome Case (Av), 2400 - Planta 9 - Sorocaba)",
+        "ContratadaRazaoSocial": "UNILEVER BRASIL LTDA.",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-22",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000043,
+        "Ativo": true,
+        "Numero": "2204",
+        "ContratadaRazaoSocial": "SUBCONTRATADA PRÉ-PRODUÇÃO",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-22",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000044,
+        "Ativo": true,
+        "Numero": "22042026TESTE",
+        "ContratadaRazaoSocial": "SELECT TESTES",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-22",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000045,
+        "Ativo": true,
+        "Numero": "0010TESTE",
+        "ContratadaRazaoSocial": "TESTE001",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-27",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000046,
+        "Ativo": true,
+        "Numero": "10010TESTE",
+        "ContratadaRazaoSocial": "TESTE001",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-27",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000048,
+        "Ativo": true,
+        "Numero": "123456TESTE",
+        "ContratadaRazaoSocial": "TESTE001",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-27",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000049,
+        "Ativo": true,
+        "Numero": "12345678TESTE",
+        "ContratadaRazaoSocial": "TESTE001",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-28",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000050,
+        "Ativo": true,
+        "Numero": "A_AMG39TESTE",
+        "ContratadaRazaoSocial": "CIMAR - CIMENTOS DO MARANHAO S.A.",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-28",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000052,
+        "Ativo": true,
+        "Numero": "CT-QA-1777408936013",
+        "ContratadaRazaoSocial": "CONTRATADA QA 1777408936012",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-28",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000053,
+        "Ativo": true,
+        "Numero": "CT-QA-1777409604859",
+        "ContratadaRazaoSocial": "CONTRATADA QA 1777409604859",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-28",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000054,
+        "Ativo": true,
+        "Numero": "CT-QA-1777409639531",
+        "ContratadaRazaoSocial": "CONTRATADA QA 1777409639530",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-28",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000055,
+        "Ativo": true,
+        "Numero": "CT-QA-1777409658192",
+        "ContratadaRazaoSocial": "CONTRATADA QA 1777409658192",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-28",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000056,
+        "Ativo": true,
+        "Numero": "CT-QA-1777410101959",
+        "ContratadaRazaoSocial": "CONTRATADA QA 1777410101959",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-28",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000057,
+        "Ativo": true,
+        "Numero": "CT-QA-1777485417007",
+        "ContratadaRazaoSocial": "CONTRATADA QA 1777485417006",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-29",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000058,
+        "Ativo": true,
+        "Numero": "CT-QA-1777485423718",
+        "ContratadaRazaoSocial": "CONTRATADA QA 1777485423718",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-29",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000059,
+        "Ativo": true,
+        "Numero": "CT-QA-1777487821854",
+        "ContratadaRazaoSocial": "CONTRATADA QA 1777487821854",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-29",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000060,
+        "Ativo": true,
+        "Numero": "CT-QA-1777548481473",
+        "ContratadaRazaoSocial": "CONTRATADA QA 1777548481472",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-30",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000061,
+        "Ativo": true,
+        "Numero": "CT-QA-1777551226191",
+        "ContratadaRazaoSocial": "CONTRATADA QA 1777551226190",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-30",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000062,
+        "Ativo": true,
+        "Numero": "CT-QA-1777551937710",
+        "ContratadaRazaoSocial": "CONTRATADA QA 1777551937709",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-30",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000063,
+        "Ativo": true,
+        "Numero": "CT-QA-1777552516339",
+        "ContratadaRazaoSocial": "CONTRATADA QA 1777552516338",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-30",
+        "PermitirIntegracaoTodosColaboradores": false
+      },
+      {
+        "Id": 1000000064,
+        "Ativo": true,
+        "Numero": "CT-QA-1777555024389",
+        "ContratadaRazaoSocial": "CONTRATADA QA 1777555024389",
+        "ContratanteId": 1000000000,
+        "DataInclusao": "2026-04-30",
+        "PermitirIntegracaoTodosColaboradores": false
+      }
+    ],
+    "QuantidadeTotal": 376,
+    "Paginas": 13,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.179119
+}
