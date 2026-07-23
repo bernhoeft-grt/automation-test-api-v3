@@ -1,0 +1,7 @@
+{
+  "method": "PUT",
+  "url": "/familia/1",
+  "data": {
+    "nome": "Updated"
+  }
+}
