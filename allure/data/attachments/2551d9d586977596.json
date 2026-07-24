@@ -1,0 +1,21 @@
+{
+  "status_code": 400,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "x-cloud-trace-context": "cf90f44812ad2f5c28f91e7d3c47e136;o=1",
+    "date": "Fri, 24 Jul 2026 18:34:07 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Mensagens": [
+      "[] - Este campo é obrigatório e precisa ser informado.",
+      "The value 'test' is not valid for Type."
+    ]
+  },
+  "elapsed_seconds": 0.166686
+}
