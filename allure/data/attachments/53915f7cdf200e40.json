@@ -1,0 +1,158 @@
+{
+  "Dados": [
+    {
+      "Id": 4,
+      "Ativo": true,
+      "Descricao": "Empregado Aprendiz"
+    },
+    {
+      "Id": 5,
+      "Ativo": true,
+      "Descricao": "Sócio/PJ"
+    },
+    {
+      "Id": 6,
+      "Ativo": true,
+      "Descricao": "Estagiário"
+    },
+    {
+      "Id": 7,
+      "Ativo": true,
+      "Descricao": "Autônomo"
+    },
+    {
+      "Id": 8,
+      "Ativo": true,
+      "Descricao": "Cooperado"
+    },
+    {
+      "Id": 9,
+      "Ativo": true,
+      "Descricao": "Estrangeiro"
+    },
+    {
+      "Id": 10,
+      "Ativo": true,
+      "Descricao": "Temporário"
+    },
+    {
+      "Id": 11,
+      "Ativo": true,
+      "Descricao": "TAC Agregado"
+    },
+    {
+      "Id": 12,
+      "Ativo": true,
+      "Descricao": "TAC Independente"
+    },
+    {
+      "Id": 13,
+      "Ativo": true,
+      "Descricao": "Intermitente"
+    },
+    {
+      "Id": 14,
+      "Ativo": true,
+      "Descricao": "Inquilino"
+    },
+    {
+      "Id": 15,
+      "Ativo": true,
+      "Descricao": "Veículos e Equipamentos"
+    },
+    {
+      "Id": 16,
+      "Ativo": true,
+      "Descricao": "Avulso"
+    },
+    {
+      "Id": 18,
+      "Ativo": true,
+      "Descricao": "Caminhão"
+    },
+    {
+      "Id": 19,
+      "Ativo": true,
+      "Descricao": "Carro"
+    },
+    {
+      "Id": 20,
+      "Ativo": true,
+      "Descricao": "Moto"
+    },
+    {
+      "Id": 21,
+      "Ativo": true,
+      "Descricao": "Outros Veículos Pesados"
+    },
+    {
+      "Id": 23,
+      "Ativo": true,
+      "Descricao": "Embarcação"
+    },
+    {
+      "Id": 24,
+      "Ativo": true,
+      "Descricao": "Máquinas e Equipamentos"
+    },
+    {
+      "Id": 25,
+      "Ativo": true,
+      "Descricao": "Voluntário"
+    },
+    {
+      "Id": 1000000007,
+      "Ativo": true,
+      "Descricao": "Teste regre 604"
+    },
+    {
+      "Id": 1000000008,
+      "Ativo": true,
+      "Descricao": "Teste Regressivos 13042026"
+    },
+    {
+      "Id": 1000000009,
+      "Ativo": true,
+      "Descricao": "TESTE14042026"
+    },
+    {
+      "Id": 1000000010,
+      "Ativo": true,
+      "Descricao": "16042026TESTE"
+    },
+    {
+      "Id": 1000000011,
+      "Ativo": true,
+      "Descricao": "CLASS COLAB QA 1776630396539"
+    },
+    {
+      "Id": 1000000012,
+      "Ativo": true,
+      "Descricao": "CLASS COLAB QA 1776630798416"
+    },
+    {
+      "Id": 1000000013,
+      "Ativo": true,
+      "Descricao": "CLASS COLAB QA 1776630811351"
+    },
+    {
+      "Id": 1000000014,
+      "Ativo": true,
+      "Descricao": "CLASS COLAB QA 1776630821076"
+    },
+    {
+      "Id": 1000000015,
+      "Ativo": true,
+      "Descricao": "CLASS COLAB QA 1776630822539"
+    },
+    {
+      "Id": 1000000016,
+      "Ativo": true,
+      "Descricao": "CLASS COLAB QA 1776630832381"
+    }
+  ],
+  "QuantidadeTotal": 371,
+  "Paginas": 13,
+  "Quantidade": 30,
+  "Pagina": 1
+}
