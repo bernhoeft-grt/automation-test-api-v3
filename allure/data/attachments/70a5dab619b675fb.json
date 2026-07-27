@@ -1,0 +1,54 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Mon, 27 Jul 2026 13:07:57 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 1000000000,
+      "Numero": "001TESTE",
+      "ObjetoContratual": "1",
+      "LocalServico": "Recife",
+      "ObservacoesGerais": "teste diogo",
+      "Responsavel": "dorgyfilho218@live.com",
+      "ExibeMensal": true,
+      "ExibeMobilizacao": true,
+      "DataInicio": "2024-01-01",
+      "DataFim": "2029-06-30",
+      "Ativo": true,
+      "PermitirIntegracaoTodosColaboradores": false,
+      "DataInclusao": "2026-02-19",
+      "UltimaModificacao": "2026-07-22",
+      "ContratanteId": 1000000000,
+      "Contratada": {
+        "Id": 1000000000,
+        "TipoPessoa": "PJ",
+        "RazaoSocial": "SELECT TESTES",
+        "Fantasia": "SELECT TESTES",
+        "CPForCNPJ": "57.213.568/0001-08"
+      },
+      "GrupoAreaId": 1000000000,
+      "AreaId": 1000000000,
+      "FamiliaId": 1000000000,
+      "SubFamiliaId": 1000000000,
+      "Unidades": [
+        1000000000
+      ],
+      "ContratoAssinado": true,
+      "CusteioAlimentacao": false,
+      "CusteioAbastecimento": false,
+      "HeadCountHabilitado": true,
+      "HeadCountLimite": 999999,
+      "HeadCountTipoSinalizacao": 2
+    }
+  },
+  "elapsed_seconds": 0.638231
+}
