@@ -1,0 +1,21 @@
+{
+  "status_code": 400,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "x-cloud-trace-context": "9c7d30fee46a44376325f3fd754b8789",
+    "date": "Thu, 30 Jul 2026 18:34:28 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Mensagens": [
+      "The JSON value could not be converted to System.Collections.Generic.IEnumerable`1[System.Int32]. Path: $ | LineNumber: 0 | BytePositionInLine: 1.",
+      "[Payload] - Este campo é obrigatório e precisa ser informado."
+    ]
+  },
+  "elapsed_seconds": 0.14405
+}
