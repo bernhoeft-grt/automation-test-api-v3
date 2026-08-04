@@ -1,0 +1,173 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Tue, 04 Aug 2026 12:40:32 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1000000000,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000001,
+        "Ativo": true,
+        "Descricao": "FAMILIA 2"
+      },
+      {
+        "Id": 1000000002,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776630407564"
+      },
+      {
+        "Id": 1000000003,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776630841657"
+      },
+      {
+        "Id": 1000000004,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776630846060"
+      },
+      {
+        "Id": 1000000005,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776630860360"
+      },
+      {
+        "Id": 1000000006,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776631833208"
+      },
+      {
+        "Id": 1000000007,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776703702682"
+      },
+      {
+        "Id": 1000000008,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776703703053"
+      },
+      {
+        "Id": 1000000009,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776703709934"
+      },
+      {
+        "Id": 1000000010,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776703986295"
+      },
+      {
+        "Id": 1000000011,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776704549454"
+      },
+      {
+        "Id": 1000000012,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776704624920"
+      },
+      {
+        "Id": 1000000013,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776704880837"
+      },
+      {
+        "Id": 1000000014,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776705465552"
+      },
+      {
+        "Id": 1000000015,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776705667032"
+      },
+      {
+        "Id": 1000000016,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776705687706"
+      },
+      {
+        "Id": 1000000017,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776712697242"
+      },
+      {
+        "Id": 1000000018,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776713493668"
+      },
+      {
+        "Id": 1000000019,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776717003823"
+      },
+      {
+        "Id": 1000000020,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776717024802"
+      },
+      {
+        "Id": 1000000021,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776718220966"
+      },
+      {
+        "Id": 1000000022,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776718241489"
+      },
+      {
+        "Id": 1000000023,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776760615209"
+      },
+      {
+        "Id": 1000000024,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776760637313"
+      },
+      {
+        "Id": 1000000025,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776786311079"
+      },
+      {
+        "Id": 1000000026,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776786331463"
+      },
+      {
+        "Id": 1000000027,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776846978681"
+      },
+      {
+        "Id": 1000000028,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776847000014"
+      },
+      {
+        "Id": 1000000029,
+        "Ativo": true,
+        "Descricao": "FAMÍLIA QA 1776857766009"
+      }
+    ],
+    "QuantidadeTotal": 351,
+    "Paginas": 12,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.182395
+}
