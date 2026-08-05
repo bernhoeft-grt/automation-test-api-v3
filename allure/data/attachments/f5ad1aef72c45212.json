@@ -1,0 +1,20 @@
+{
+  "status_code": 400,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "x-cloud-trace-context": "172fe9d8e17d37635a076527b6637b67",
+    "date": "Wed, 05 Aug 2026 18:36:10 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Mensagens": [
+      "[TipoAmostragemAdmissao] - Deve ser um dos seguintes valores: Número, Porcentagem"
+    ]
+  },
+  "elapsed_seconds": 0.139848
+}
