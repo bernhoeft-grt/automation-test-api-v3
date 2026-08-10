@@ -1,0 +1,11 @@
+{
+  "Dados": {
+    "Id": 5,
+    "Ativo": true,
+    "Descricao": "Sócio/PJ Veiculo",
+    "Temporario": false,
+    "ValidarCPF": true,
+    "ValidarRG": false,
+    "Veiculo": true
+  }
+}
