@@ -1,0 +1,5 @@
+{
+  "Mensagens": [
+    "The JSON value could not be converted to System.DateOnly. Path: $.DataInicio | LineNumber: 0 | BytePositionInLine: 92."
+  ]
+}
