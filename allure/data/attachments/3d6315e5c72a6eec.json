@@ -1,0 +1,9 @@
+{
+  "method": "PUT",
+  "url": "/contratada/1000000000",
+  "data": {
+    "nome": "Updated Contratada",
+    "Descricao": "Updated Description",
+    "TipoPessoa": "PJ"
+  }
+}
