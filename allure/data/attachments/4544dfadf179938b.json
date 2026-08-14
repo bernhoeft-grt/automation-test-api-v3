@@ -1,0 +1,233 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Fri, 14 Aug 2026 12:19:06 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1000000000,
+        "Ativo": true,
+        "Descricao": "Votorantim",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 2
+      },
+      {
+        "Id": 1000000001,
+        "Ativo": true,
+        "Descricao": "Recife",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 2
+      },
+      {
+        "Id": 1000000002,
+        "Ativo": true,
+        "Descricao": "Caruaru",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 2
+      },
+      {
+        "Id": 1000000003,
+        "Ativo": true,
+        "Descricao": "São Paulo",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 2
+      },
+      {
+        "Id": 1000000004,
+        "Ativo": true,
+        "Descricao": "Curitiba",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 2
+      },
+      {
+        "Id": 1000000005,
+        "Ativo": true,
+        "Descricao": "Rio de Janeiro",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 2
+      },
+      {
+        "Id": 1000000006,
+        "Ativo": true,
+        "Descricao": "Florianópolis",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 2
+      },
+      {
+        "Id": 1000000007,
+        "Ativo": true,
+        "Descricao": "M Dias Branco",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 2
+      },
+      {
+        "Id": 1000000008,
+        "Ativo": true,
+        "Descricao": "LOCAL SERVICO QA 1776630415088",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 0
+      },
+      {
+        "Id": 1000000009,
+        "Ativo": true,
+        "Descricao": "LOCAL SERVICO QA 1776630859766",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 0
+      },
+      {
+        "Id": 1000000010,
+        "Ativo": true,
+        "Descricao": "LOCAL SERVICO QA 1776630861080",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 0
+      },
+      {
+        "Id": 1000000011,
+        "Ativo": true,
+        "Descricao": "LOCAL SERVICO QA 1776630878815",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 0
+      },
+      {
+        "Id": 1000000012,
+        "Ativo": true,
+        "Descricao": "LOCAL SERVICO QA 1776631839787",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 0
+      },
+      {
+        "Id": 1000000013,
+        "Ativo": true,
+        "Descricao": "LOCAL SERVICO QA 1776703715309",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 0
+      },
+      {
+        "Id": 1000000014,
+        "Ativo": true,
+        "Descricao": "LOCAL SERVICO QA 1776703720957",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 0
+      },
+      {
+        "Id": 1000000015,
+        "Ativo": true,
+        "Descricao": "LOCAL SERVICO QA 1776703728343",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 0
+      },
+      {
+        "Id": 1000000016,
+        "Ativo": true,
+        "Descricao": "LOCAL SERVICO QA 1776703751223",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 0
+      },
+      {
+        "Id": 1000000017,
+        "Ativo": true,
+        "Descricao": "LOCAL SERVICO QA 1776704002993",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 0
+      },
+      {
+        "Id": 1000000018,
+        "Ativo": true,
+        "Descricao": "LOCAL SERVICO QA 1776704563903",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 0
+      },
+      {
+        "Id": 1000000019,
+        "Ativo": true,
+        "Descricao": "LOCAL SERVICO QA 1776704646053",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 0
+      },
+      {
+        "Id": 1000000020,
+        "Ativo": true,
+        "Descricao": "LOCAL SERVICO QA 1776704668034",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 0
+      },
+      {
+        "Id": 1000000021,
+        "Ativo": true,
+        "Descricao": "LOCAL SERVICO QA 1776704913985",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 0
+      },
+      {
+        "Id": 1000000022,
+        "Ativo": true,
+        "Descricao": "LOCAL SERVICO QA 1776704937756",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 0
+      },
+      {
+        "Id": 1000000023,
+        "Ativo": true,
+        "Descricao": "LOCAL SERVICO QA 1776705491702",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 0
+      },
+      {
+        "Id": 1000000024,
+        "Ativo": true,
+        "Descricao": "LOCAL SERVICO QA 1776705718973",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 0
+      },
+      {
+        "Id": 1000000025,
+        "Ativo": true,
+        "Descricao": "LOCAL SERVICO QA 1776705739650",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 0
+      },
+      {
+        "Id": 1000000026,
+        "Ativo": true,
+        "Descricao": "LOCAL SERVICO QA 1776712726536",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 0
+      },
+      {
+        "Id": 1000000027,
+        "Ativo": true,
+        "Descricao": "LOCAL SERVICO QA 1776713524431",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 0
+      },
+      {
+        "Id": 1000000028,
+        "Ativo": true,
+        "Descricao": "LOCAL SERVICO QA 1776717061680",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 0
+      },
+      {
+        "Id": 1000000029,
+        "Ativo": true,
+        "Descricao": "LOCAL SERVICO QA 1776717082106",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 0
+      }
+    ],
+    "QuantidadeTotal": 375,
+    "Paginas": 13,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.243506
+}
