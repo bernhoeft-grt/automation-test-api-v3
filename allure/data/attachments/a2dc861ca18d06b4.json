@@ -1,0 +1,9 @@
+{
+  "method": "PUT",
+  "url": "/amostragem-grupo-area/1000000216",
+  "data": {
+    "nome": "Updated Amostragem Grupo Area",
+    "Descricao": "Updated Description",
+    "TipoAmostragemSolicitacao": "Porcentagem"
+  }
+}
