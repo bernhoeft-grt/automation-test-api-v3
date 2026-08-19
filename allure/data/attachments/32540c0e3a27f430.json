@@ -1,0 +1,7 @@
+{
+  "expected": [
+    200
+  ],
+  "actual": 200,
+  "url": "https://contractwebapi.preprod.bernhoeft.com.br/api/v1/amostragem-grupo-area/1000000217"
+}

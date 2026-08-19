@@ -1,0 +1,203 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Wed, 19 Aug 2026 12:09:55 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1000000217,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1780099403508"
+      },
+      {
+        "Id": 1000000218,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "Regressivo 2603"
+      },
+      {
+        "Id": 1000000219,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776892442599"
+      },
+      {
+        "Id": 1000000220,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000221,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1779884699647"
+      },
+      {
+        "Id": 1000000222,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1779224405382"
+      },
+      {
+        "Id": 1000000223,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776703583131"
+      },
+      {
+        "Id": 1000000224,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1780337750658"
+      },
+      {
+        "Id": 1000000225,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1780427450451"
+      },
+      {
+        "Id": 1000000226,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1779392180842"
+      },
+      {
+        "Id": 1000000227,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1779211590084"
+      },
+      {
+        "Id": 1000000228,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1778254999001"
+      },
+      {
+        "Id": 1000000229,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776631792795"
+      },
+      {
+        "Id": 1000000230,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776860558420"
+      },
+      {
+        "Id": 1000000231,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776896378722"
+      },
+      {
+        "Id": 1000000232,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "VEICULOS"
+      },
+      {
+        "Id": 1000000233,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1778090587910"
+      },
+      {
+        "Id": 1000000234,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776705409959"
+      },
+      {
+        "Id": 1000000235,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1780343070084"
+      },
+      {
+        "Id": 1000000236,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1780495759372"
+      },
+      {
+        "Id": 1000000237,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1778776065132"
+      },
+      {
+        "Id": 1000000238,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776712646728"
+      },
+      {
+        "Id": 1000000239,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1780931136202"
+      },
+      {
+        "Id": 1000000240,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1777970030303"
+      },
+      {
+        "Id": 1000000241,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1778163276748"
+      },
+      {
+        "Id": 1000000242,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1781268518921"
+      },
+      {
+        "Id": 1000000243,
+        "Ativo": true,
+        "Tipo": false,
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000244,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1780515536566"
+      },
+      {
+        "Id": 1000000245,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1777904858945"
+      },
+      {
+        "Id": 1000000246,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1777317095779"
+      }
+    ],
+    "QuantidadeTotal": 43,
+    "Paginas": 2,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.181962
+}
