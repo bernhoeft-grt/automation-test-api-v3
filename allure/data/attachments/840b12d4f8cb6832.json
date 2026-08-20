@@ -1,0 +1,218 @@
+{
+  "Dados": [
+    {
+      "Id": 1000000000,
+      "Ativo": true,
+      "Descricao": "Unidade Teste",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": true
+    },
+    {
+      "Id": 1000000001,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776629821622",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000002,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776630468806",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000003,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776631049568",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000004,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776631093320",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000005,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776631096577",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000006,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776631934851",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000007,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776703927528",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000008,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776703946069",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000009,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776704002138",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000010,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776704120326",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000011,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776704674591",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000012,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776704864269",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000013,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776705147879",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000014,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776705612466",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000015,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776706022827",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000016,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776706042829",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000017,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776712932009",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000018,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776713723082",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000019,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776717487344",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000020,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776717509313",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000021,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776718713258",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000022,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776718733681",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000023,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776761104375",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000024,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776761126571",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000025,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776786795493",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000026,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776786812616",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000027,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776847453010",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000028,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776847472016",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    },
+    {
+      "Id": 1000000029,
+      "Ativo": true,
+      "Descricao": "UNIDADE QA 1776858037253",
+      "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+      "TemIntegracaoUnidade": false
+    }
+  ],
+  "QuantidadeTotal": 341,
+  "Paginas": 12,
+  "Quantidade": 30,
+  "Pagina": 1
+}

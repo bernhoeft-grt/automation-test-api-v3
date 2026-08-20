@@ -1,0 +1,51 @@
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/urllib3/connectionpool.py:534: in _make_request
+    response = conn.getresponse()
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/urllib3/connection.py:571: in getresponse
+    httplib_response = super().getresponse()
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/http/client.py:1443: in getresponse
+    response.begin()
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/http/client.py:337: in begin
+    version, status, reason = self._read_status()
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/http/client.py:298: in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/socket.py:718: in readinto
+    return self._sock.recv_into(b)
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/ssl.py:1314: in recv_into
+    return self.read(nbytes, buffer)
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/ssl.py:1166: in read
+    return self._sslobj.read(len, buffer)
+E   TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/adapters.py:486: in send
+    resp = conn.urlopen(
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/urllib3/connectionpool.py:842: in urlopen
+    retries = retries.increment(
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/urllib3/util/retry.py:498: in increment
+    raise reraise(type(error), error, _stacktrace)
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/urllib3/util/util.py:39: in reraise
+    raise value
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/urllib3/connectionpool.py:788: in urlopen
+    response = self._make_request(
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/urllib3/connectionpool.py:536: in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/urllib3/connectionpool.py:367: in _raise_timeout
+    raise ReadTimeoutError(
+E   urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='contractwebapi.preprod.bernhoeft.com.br', port=443): Read timed out. (read timeout=30)
+
+During handling of the above exception, another exception occurred:
+tests/test_all_endpoints.py:413: in test_endpoint
+    response = page.call()
+tests/test_all_endpoints.py:56: in call
+    response = self.api_client.get(path)
+utils/api_client.py:55: in get
+    return self._make_request("GET", endpoint, params=params, headers=headers)
+utils/api_client.py:35: in _make_request
+    response = self.session.request(
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/sessions.py:589: in request
+    resp = self.send(prep, **send_kwargs)
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/sessions.py:703: in send
+    r = adapter.send(request, **kwargs)
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/adapters.py:532: in send
+    raise ReadTimeout(e, request=request)
+E   requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='contractwebapi.preprod.bernhoeft.com.br', port=443): Read timed out. (read timeout=30)
