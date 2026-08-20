@@ -1,0 +1,173 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Thu, 20 Aug 2026 18:10:27 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1000000000,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000001,
+        "Ativo": true,
+        "Descricao": "Teste Regressivos 26022026"
+      },
+      {
+        "Id": 1000000002,
+        "Ativo": true,
+        "Descricao": "Teste regressivo 1103"
+      },
+      {
+        "Id": 1000000014,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776630411480"
+      },
+      {
+        "Id": 1000000015,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776630850582"
+      },
+      {
+        "Id": 1000000016,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776630851833"
+      },
+      {
+        "Id": 1000000017,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776630867600"
+      },
+      {
+        "Id": 1000000018,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776631836919"
+      },
+      {
+        "Id": 1000000019,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776703706154"
+      },
+      {
+        "Id": 1000000020,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776703712054"
+      },
+      {
+        "Id": 1000000021,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776703719317"
+      },
+      {
+        "Id": 1000000022,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776703991998"
+      },
+      {
+        "Id": 1000000023,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776704559017"
+      },
+      {
+        "Id": 1000000024,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776704635537"
+      },
+      {
+        "Id": 1000000025,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776704895604"
+      },
+      {
+        "Id": 1000000026,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776705474420"
+      },
+      {
+        "Id": 1000000027,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776705680410"
+      },
+      {
+        "Id": 1000000028,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776705698747"
+      },
+      {
+        "Id": 1000000029,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776712710152"
+      },
+      {
+        "Id": 1000000030,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776713509648"
+      },
+      {
+        "Id": 1000000031,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776717022210"
+      },
+      {
+        "Id": 1000000032,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776717042003"
+      },
+      {
+        "Id": 1000000033,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776718241637"
+      },
+      {
+        "Id": 1000000034,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776718262580"
+      },
+      {
+        "Id": 1000000035,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776760630805"
+      },
+      {
+        "Id": 1000000036,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776760650121"
+      },
+      {
+        "Id": 1000000037,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776786326097"
+      },
+      {
+        "Id": 1000000038,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776786344316"
+      },
+      {
+        "Id": 1000000039,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776846993978"
+      },
+      {
+        "Id": 1000000040,
+        "Ativo": true,
+        "Descricao": "GRUPO CONTRATANTE QA 1776847013002"
+      }
+    ],
+    "QuantidadeTotal": 354,
+    "Paginas": 12,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.144203
+}

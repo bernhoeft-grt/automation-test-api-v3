@@ -1,0 +1,20 @@
+{
+  "Dados": {
+    "Id": 1000000220,
+    "Ativo": true,
+    "Tipo": true,
+    "FaixaInicio": 1,
+    "FaixaFinal": 9999,
+    "AmostragemSolicitacao": 999,
+    "TipoAmostragemSolicitacao": "Número",
+    "AmostragemAdmissao": 999,
+    "TipoAmostragemAdmissao": "Número",
+    "AmostragemDemissao": 999,
+    "TipoAmostragemDemissao": "Número",
+    "AmostragemAtivos": 999,
+    "TipoAmostragemAtivos": "Número",
+    "AmostragemMinimo": 1,
+    "AmostragemMaxima": 9999,
+    "GrupoAreaId": 1000000000
+  }
+}
