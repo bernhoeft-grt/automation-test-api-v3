@@ -1,0 +1,14 @@
+{
+  "Dados": {
+    "Id": 1,
+    "Ativo": true,
+    "Descricao": "Alto",
+    "Bloqueia": true,
+    "Contratantes": [
+      1000000320,
+      1000000321,
+      1000000322,
+      1000000323
+    ]
+  }
+}
