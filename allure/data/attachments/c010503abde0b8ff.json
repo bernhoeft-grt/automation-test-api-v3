@@ -1,0 +1,248 @@
+{
+  "Dados": [
+    {
+      "Id": 1,
+      "Descricao": "ASO - Veris API",
+      "Classificar": true,
+      "SistemaClassificador": 3,
+      "SistemaClassificadorDescription": "Veris API",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 2,
+      "Descricao": "Identificação Oficial",
+      "Classificar": false,
+      "SistemaClassificador": 0,
+      "SistemaClassificadorDescription": "Sem Classificação",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 3,
+      "Descricao": "FOPAG",
+      "Classificar": false,
+      "SistemaClassificador": 0,
+      "SistemaClassificadorDescription": "Sem Classificação",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 4,
+      "Descricao": "GRRF/Demonstrativo do Trabalhador",
+      "Classificar": false,
+      "SistemaClassificador": 0,
+      "SistemaClassificadorDescription": "Sem Classificação",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 5,
+      "Descricao": "TRCT",
+      "Classificar": false,
+      "SistemaClassificador": 0,
+      "SistemaClassificadorDescription": "Sem Classificação",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 7,
+      "Descricao": "SEFIP",
+      "Classificar": false,
+      "SistemaClassificador": 0,
+      "SistemaClassificadorDescription": "Sem Classificação",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 8,
+      "Descricao": "PONTO",
+      "Classificar": true,
+      "SistemaClassificador": 3,
+      "SistemaClassificadorDescription": "Veris API",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 9,
+      "Descricao": "SALÁRIO",
+      "Classificar": true,
+      "SistemaClassificador": 3,
+      "SistemaClassificadorDescription": "Veris API",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 10,
+      "Descricao": "VALE-TRANSPORTE",
+      "Classificar": true,
+      "SistemaClassificador": 3,
+      "SistemaClassificadorDescription": "Veris API",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 11,
+      "Descricao": "VALE ALIMENTAÇÃO/ REFEIÇÃO/ CESTA BASICA",
+      "Classificar": true,
+      "SistemaClassificador": 3,
+      "SistemaClassificadorDescription": "Veris API",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 12,
+      "Descricao": "PLANO DE SAÚDE",
+      "Classificar": true,
+      "SistemaClassificador": 3,
+      "SistemaClassificadorDescription": "Veris API",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 13,
+      "Descricao": "PLANO ODONTOLOGICO",
+      "Classificar": true,
+      "SistemaClassificador": 3,
+      "SistemaClassificadorDescription": "Veris API",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 14,
+      "Descricao": "SEGURO DE VIDA",
+      "Classificar": false,
+      "SistemaClassificador": 0,
+      "SistemaClassificadorDescription": "Sem Classificação",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 16,
+      "Descricao": "CTPS",
+      "Classificar": true,
+      "SistemaClassificador": 3,
+      "SistemaClassificadorDescription": "Veris API",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 17,
+      "Descricao": "CPF",
+      "Classificar": false,
+      "SistemaClassificador": 0,
+      "SistemaClassificadorDescription": "Sem Classificação",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 18,
+      "Descricao": "CNH",
+      "Classificar": true,
+      "SistemaClassificador": 3,
+      "SistemaClassificadorDescription": "Veris API",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 19,
+      "Descricao": "NR",
+      "Classificar": false,
+      "SistemaClassificador": 0,
+      "SistemaClassificadorDescription": "Sem Classificação",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 22,
+      "Descricao": "teste",
+      "Classificar": false,
+      "SistemaClassificador": 0,
+      "SistemaClassificadorDescription": "Sem Classificação",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 23,
+      "Descricao": "teste 2",
+      "Classificar": false,
+      "SistemaClassificador": 0,
+      "SistemaClassificadorDescription": "Sem Classificação",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 24,
+      "Descricao": "teste3",
+      "Classificar": false,
+      "SistemaClassificador": 0,
+      "SistemaClassificadorDescription": "Sem Classificação",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 25,
+      "Descricao": "teste gabi",
+      "Classificar": false,
+      "SistemaClassificador": 0,
+      "SistemaClassificadorDescription": "Sem Classificação",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 26,
+      "Descricao": "teste 22",
+      "Classificar": false,
+      "SistemaClassificador": 0,
+      "SistemaClassificadorDescription": "Sem Classificação",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 27,
+      "Descricao": "teste 55",
+      "Classificar": false,
+      "SistemaClassificador": 0,
+      "SistemaClassificadorDescription": "Sem Classificação",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 28,
+      "Descricao": "FOPAG AUTOMACAO",
+      "Classificar": true,
+      "SistemaClassificador": 1,
+      "SistemaClassificadorDescription": "Automação API",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 29,
+      "Descricao": "SEFIP AUTOMACAO",
+      "Classificar": true,
+      "SistemaClassificador": 1,
+      "SistemaClassificadorDescription": "Automação API",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 30,
+      "Descricao": "GRF AUTOMACAO",
+      "Classificar": true,
+      "SistemaClassificador": 1,
+      "SistemaClassificadorDescription": "Automação API",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 31,
+      "Descricao": "GPS",
+      "Classificar": true,
+      "SistemaClassificador": 0,
+      "SistemaClassificadorDescription": "Sem Classificação",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 32,
+      "Descricao": "GPS AUTOMAÇÃO",
+      "Classificar": true,
+      "SistemaClassificador": 1,
+      "SistemaClassificadorDescription": "Automação API",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 33,
+      "Descricao": "Acordo/Convenção Coletiva da Categoria",
+      "Classificar": false,
+      "SistemaClassificador": 1,
+      "SistemaClassificadorDescription": "Automação API",
+      "ObjetoBaseAnaliseAutomatica": false
+    },
+    {
+      "Id": 34,
+      "Descricao": "ASO - Automação",
+      "Classificar": true,
+      "SistemaClassificador": 1,
+      "SistemaClassificadorDescription": "Automação API",
+      "ObjetoBaseAnaliseAutomatica": false
+    }
+  ],
+  "QuantidadeTotal": 456,
+  "Paginas": 16,
+  "Quantidade": 30,
+  "Pagina": 1
+}
