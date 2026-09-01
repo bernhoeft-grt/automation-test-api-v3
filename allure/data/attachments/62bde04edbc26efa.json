@@ -1,0 +1,248 @@
+{
+  "Dados": [
+    {
+      "Id": 1000000000,
+      "Ativo": true,
+      "Descricao": "GRUPO FATURAMENTO PRÉ-PRODUÇÃO",
+      "DataCadastro": "2026-02-19",
+      "DataVigenciaInicial": "2026-02-01",
+      "DataVigenciaFinal": "2030-12-31"
+    },
+    {
+      "Id": 1000000001,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776630010661",
+      "DataCadastro": "2026-04-19",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000002,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776630413547",
+      "DataCadastro": "2026-04-19",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000003,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776630851658",
+      "DataCadastro": "2026-04-19",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000004,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776630857713",
+      "DataCadastro": "2026-04-19",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000005,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776630875804",
+      "DataCadastro": "2026-04-19",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000006,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776631839228",
+      "DataCadastro": "2026-04-19",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000007,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776703711393",
+      "DataCadastro": "2026-04-20",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000008,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776703719900",
+      "DataCadastro": "2026-04-20",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000009,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776703838014",
+      "DataCadastro": "2026-04-20",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000010,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776703995189",
+      "DataCadastro": "2026-04-20",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000011,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776704557322",
+      "DataCadastro": "2026-04-20",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000012,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776704637473",
+      "DataCadastro": "2026-04-20",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000013,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776704902694",
+      "DataCadastro": "2026-04-20",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000014,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776705487807",
+      "DataCadastro": "2026-04-20",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000015,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776705706273",
+      "DataCadastro": "2026-04-20",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000016,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776705726214",
+      "DataCadastro": "2026-04-20",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000017,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776712712472",
+      "DataCadastro": "2026-04-20",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000018,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776713508314",
+      "DataCadastro": "2026-04-20",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000019,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776717044669",
+      "DataCadastro": "2026-04-20",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000020,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776717066091",
+      "DataCadastro": "2026-04-20",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000021,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776718264451",
+      "DataCadastro": "2026-04-20",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000022,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776718288359",
+      "DataCadastro": "2026-04-20",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000023,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776760658756",
+      "DataCadastro": "2026-04-21",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000024,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776760680760",
+      "DataCadastro": "2026-04-21",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000025,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776786351783",
+      "DataCadastro": "2026-04-21",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000026,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776786372311",
+      "DataCadastro": "2026-04-21",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000027,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776847020545",
+      "DataCadastro": "2026-04-22",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000028,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776847042080",
+      "DataCadastro": "2026-04-22",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    },
+    {
+      "Id": 1000000029,
+      "Ativo": true,
+      "Descricao": "GRUPO FAT QA 1776857788646",
+      "DataCadastro": "2026-04-22",
+      "DataVigenciaInicial": "2026-04-10",
+      "DataVigenciaFinal": "2026-04-20"
+    }
+  ],
+  "QuantidadeTotal": 369,
+  "Paginas": 13,
+  "Quantidade": 30,
+  "Pagina": 1
+}
