@@ -1,0 +1,25 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Wed, 02 Sep 2026 12:16:08 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 1,
+      "Ativo": true,
+      "Descricao": "teste",
+      "DataCadastro": "2025-07-01",
+      "DataVigenciaInicial": "2025-07-01",
+      "DataVigenciaFinal": "2025-07-03"
+    }
+  },
+  "elapsed_seconds": 0.266374
+}

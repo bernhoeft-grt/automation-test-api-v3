@@ -1,0 +1,10 @@
+{
+  "Dados": {
+    "Id": 1,
+    "Ativo": true,
+    "Descricao": "teste",
+    "DataCadastro": "2025-07-01",
+    "DataVigenciaInicial": "2025-07-01",
+    "DataVigenciaFinal": "2025-07-03"
+  }
+}
