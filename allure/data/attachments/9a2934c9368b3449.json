@@ -1,0 +1,58 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Thu, 03 Sep 2026 12:16:44 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1,
+        "Ativo": true,
+        "Descricao": "Alto"
+      },
+      {
+        "Id": 2,
+        "Ativo": true,
+        "Descricao": "Médio"
+      },
+      {
+        "Id": 3,
+        "Ativo": true,
+        "Descricao": "Extremo"
+      },
+      {
+        "Id": 4,
+        "Ativo": true,
+        "Descricao": "Baixo"
+      },
+      {
+        "Id": 7,
+        "Ativo": true,
+        "Descricao": "28122025TESTE"
+      },
+      {
+        "Id": 8,
+        "Ativo": true,
+        "Descricao": "19012026TESTE"
+      },
+      {
+        "Id": 1000000012,
+        "Ativo": true,
+        "Descricao": "Baixissimo"
+      }
+    ],
+    "QuantidadeTotal": 7,
+    "Paginas": 1,
+    "Quantidade": 7,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.176089
+}

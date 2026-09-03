@@ -1,0 +1,173 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Thu, 03 Sep 2026 12:16:33 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 22160,
+        "Ativo": true,
+        "Descricao": "Contrato Social, Requerimento do Empresário ou CCMEI"
+      },
+      {
+        "Id": 24223,
+        "Ativo": true,
+        "Descricao": "KS - Cadastro da Condição de Microempreendedor Individual - CCMEI"
+      },
+      {
+        "Id": 27377,
+        "Ativo": true,
+        "Descricao": "(USA)- Cartão de Ponto com totalização de horas extras e/ou noturnas"
+      },
+      {
+        "Id": 27378,
+        "Ativo": true,
+        "Descricao": "(USA)- Contracheque assinado ou Relação Bancária Listando os Pagamentos Efetuados"
+      },
+      {
+        "Id": 27379,
+        "Ativo": true,
+        "Descricao": "(USA)- GRRF (Guia de Recolhimento Rescisório do FGTS + Demonstrativo do Trabalhador + Comprovante de Pagamento)"
+      },
+      {
+        "Id": 27380,
+        "Ativo": true,
+        "Descricao": "(USA)- Termo de Rescisão pago + Registro de entrega dos documentos rescisórios + Pedido de Demissão (se aplicável)"
+      },
+      {
+        "Id": 27381,
+        "Ativo": true,
+        "Descricao": "GFD - Guia do FGTS Digital Rescisória + Detalhamento da Guia (Relação de Trabalhadores) + Comprovante de Pagamento"
+      },
+      {
+        "Id": 27382,
+        "Ativo": true,
+        "Descricao": "(USA)- Acordo/Convenção Coletiva da Categoria"
+      },
+      {
+        "Id": 27383,
+        "Ativo": true,
+        "Descricao": "(USA)- GPS - guia do INSS ou DARF pago + recibo de entrega e relatório de débitos DCTFWeb"
+      },
+      {
+        "Id": 27384,
+        "Ativo": true,
+        "Descricao": "(USA)- GRF (Guia do FGTS + Comprovante de Pagamento)"
+      },
+      {
+        "Id": 27385,
+        "Ativo": true,
+        "Descricao": "(USA)- FOPAG  (Folha de pagamento analítica + Resumo com as bases de INSS e FGTS + CND Federal da Competência/Memória de Cálculo do INSS)"
+      },
+      {
+        "Id": 27386,
+        "Ativo": true,
+        "Descricao": "(USA)- Relação SEFIP (RE + RET + FPAS + protocolo da conectividade social)"
+      },
+      {
+        "Id": 27387,
+        "Ativo": true,
+        "Descricao": "USA - GRF paga + SEFIP(BRANCO) das competências com recolhimento postergado, envolvendo os demitidos do mês ou Guia de antecipação paga"
+      },
+      {
+        "Id": 27388,
+        "Ativo": true,
+        "Descricao": "GFD - Guia do FGTS Digital Mensal + Detalhamento da Guia (Relação de Trabalhadores) + Comprovante de Pagamento"
+      },
+      {
+        "Id": 27389,
+        "Ativo": true,
+        "Descricao": "Raízen - Relatório de Mapeamento de Exposição ao Risco Laboral (conforme modelo disponível na plataforma) Informar todas as atividades que serão executadas na Raízen dos colaboradores mobilizados."
+      },
+      {
+        "Id": 27390,
+        "Ativo": true,
+        "Descricao": "Raízen - Comprovantes de realização de Fit Test (atividades que exijam uso do respirador)."
+      },
+      {
+        "Id": 27391,
+        "Ativo": true,
+        "Descricao": "Raízen - PGR  Programa de Gerenciamento de Riscos - com Identificação de riscos, EPIs e CNAE"
+      },
+      {
+        "Id": 27392,
+        "Ativo": true,
+        "Descricao": "Raízen - PCMSO - Documento da Empresa"
+      },
+      {
+        "Id": 27393,
+        "Ativo": true,
+        "Descricao": "Raízen - Programa de Proteção Respiratória PPR - Documento da Empresa"
+      },
+      {
+        "Id": 27394,
+        "Ativo": true,
+        "Descricao": "Raízen - Pedido de Compras ou  E-mail de Autorização de Subcontratação - Para todas as áreas da Raízen"
+      },
+      {
+        "Id": 27395,
+        "Ativo": true,
+        "Descricao": "Raízen -  CTPS dos funcionários terceirizados (páginas: qualificação civil, contrato de trabalho e atualizações)"
+      },
+      {
+        "Id": 27396,
+        "Ativo": true,
+        "Descricao": "Raízen - Termo de Integração (Fornecedor, favor marcar N/A - Uso exclusivo Raízen)"
+      },
+      {
+        "Id": 27397,
+        "Ativo": true,
+        "Descricao": "Raízen - ASO - Atestado de Saúde Ocupacional"
+      },
+      {
+        "Id": 27398,
+        "Ativo": true,
+        "Descricao": "Raízen - Comprovantes de Participação de Treinamentos de Segurança do Trabalho, conforme NRs (com conteúdo programático) + Carta de anuência para NR 35 (se aplicável)."
+      },
+      {
+        "Id": 27399,
+        "Ativo": true,
+        "Descricao": "Raízen - Comprovante de entrega de EPIs (Equipamentos de Proteção Individual) - obrigatória atualização a cada 3 meses"
+      },
+      {
+        "Id": 27400,
+        "Ativo": true,
+        "Descricao": "Raízen  - Ordem de Serviço - NR1 (Função atualizada de acordo com o ASO)"
+      },
+      {
+        "Id": 27401,
+        "Ativo": true,
+        "Descricao": "Raízen - Contrato Social, Requerimento do empresário ou CCMEI"
+      },
+      {
+        "Id": 27402,
+        "Ativo": true,
+        "Descricao": "Raízen - Proposta ou Contrato de serviço do Autônomo"
+      },
+      {
+        "Id": 27403,
+        "Ativo": true,
+        "Descricao": "Raízen - CNH (apenas para motoristas e operadores de máquinas, caso não seja necessária a apresentação colocar o comentário não se aplica)  Apresentar Frente e Verso"
+      },
+      {
+        "Id": 27404,
+        "Ativo": true,
+        "Descricao": "Raízen - RG"
+      }
+    ],
+    "QuantidadeTotal": 639,
+    "Paginas": 22,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.175684
+}
