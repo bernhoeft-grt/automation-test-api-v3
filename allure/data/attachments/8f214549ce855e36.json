@@ -1,0 +1,14 @@
+{
+  "status_code": 403,
+  "headers": {
+    "x-cloud-trace-context": "49ffa6043609a0bc01a5f464b62e5eab",
+    "date": "Thu, 03 Sep 2026 18:15:23 GMT",
+    "content-type": "text/html",
+    "server": "Google Frontend",
+    "Content-Length": "0",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "body": "",
+  "elapsed_seconds": 0.163507
+}
