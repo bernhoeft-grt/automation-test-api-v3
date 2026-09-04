@@ -1,0 +1,203 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Fri, 04 Sep 2026 12:16:03 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1000000000,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA PRÉ-PRODUÇÃO",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000001,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776629807100",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000002,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776630467185",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000003,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776631039723",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000004,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776631081836",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000005,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776631086208",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000006,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776631930728",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000007,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776703916678",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000008,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776703935282",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000009,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776703991218",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000010,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776704114734",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000011,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776704669473",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000012,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776704854067",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000013,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776705136915",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000014,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776705605196",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000015,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776705979191",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000016,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776705996980",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000017,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776712926598",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000018,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776713714568",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000019,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776717471340",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000020,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776717494481",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000021,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776718697067",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000022,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776718719778",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000023,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776761087208",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000024,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776761109994",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000025,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776786763958",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000026,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776786782887",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000027,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776847438951",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000028,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776847459475",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000029,
+        "Ativo": true,
+        "Descricao": "SUBFAMÍLIA QA 1776858033921",
+        "DescricaoFamilia": "FAMÍLIA PRÉ-PRODUÇÃO"
+      }
+    ],
+    "QuantidadeTotal": 367,
+    "Paginas": 13,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.216202
+}

@@ -1,0 +1,261 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Fri, 04 Sep 2026 12:15:47 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 2,
+        "Ativo": true,
+        "Descricao": "Ceva Logistics",
+        "DataCadastro": "2015-11-25",
+        "DataVigenciaInicial": "2015-11-01",
+        "DataVigenciaFinal": "2020-11-01"
+      },
+      {
+        "Id": 3,
+        "Ativo": true,
+        "Descricao": "Boticário",
+        "DataCadastro": "2015-11-25",
+        "DataVigenciaInicial": "2015-12-01",
+        "DataVigenciaFinal": "2020-12-01"
+      },
+      {
+        "Id": 4,
+        "Ativo": true,
+        "Descricao": "Grupo Pão de Açúcar",
+        "DataCadastro": "2015-12-18",
+        "DataVigenciaInicial": "2015-12-01",
+        "DataVigenciaFinal": "2017-12-30"
+      },
+      {
+        "Id": 5,
+        "Ativo": true,
+        "Descricao": "Concessionária do Aeroporto Internacional de Confins S/A",
+        "DataCadastro": "2016-01-11",
+        "DataVigenciaInicial": "2016-01-01",
+        "DataVigenciaFinal": "2018-01-01"
+      },
+      {
+        "Id": 6,
+        "Ativo": true,
+        "Descricao": "JBS S/A",
+        "DataCadastro": "2016-01-13",
+        "DataVigenciaInicial": "2016-01-13",
+        "DataVigenciaFinal": "2017-01-13"
+      },
+      {
+        "Id": 7,
+        "Ativo": true,
+        "Descricao": "M Dias Branco",
+        "DataCadastro": "2016-03-28",
+        "DataVigenciaInicial": "2016-04-01",
+        "DataVigenciaFinal": "2020-04-01"
+      },
+      {
+        "Id": 8,
+        "Ativo": true,
+        "Descricao": "Bernhoeft Teste SP - Grupo de faturamento",
+        "DataCadastro": "2016-07-21",
+        "DataVigenciaInicial": "2016-01-01",
+        "DataVigenciaFinal": "2050-12-31"
+      },
+      {
+        "Id": 10,
+        "Ativo": true,
+        "Descricao": "Heinz",
+        "DataCadastro": "2017-07-17",
+        "DataVigenciaInicial": "2017-07-01",
+        "DataVigenciaFinal": "2027-07-01"
+      },
+      {
+        "Id": 11,
+        "Ativo": true,
+        "Descricao": "Voith",
+        "DataCadastro": "2017-07-17",
+        "DataVigenciaInicial": "2017-07-01",
+        "DataVigenciaFinal": "2027-07-01"
+      },
+      {
+        "Id": 12,
+        "Ativo": true,
+        "Descricao": "Engepack",
+        "DataCadastro": "2017-07-17",
+        "DataVigenciaInicial": "2017-07-01",
+        "DataVigenciaFinal": "2027-07-01"
+      },
+      {
+        "Id": 13,
+        "Ativo": true,
+        "Descricao": "Comgás mobilização",
+        "DataCadastro": "2018-01-24",
+        "DataVigenciaInicial": "2017-01-01",
+        "DataVigenciaFinal": "2050-12-31"
+      },
+      {
+        "Id": 14,
+        "Ativo": true,
+        "Descricao": "Siemens",
+        "DataCadastro": "2018-01-24",
+        "DataVigenciaInicial": "2017-01-01",
+        "DataVigenciaFinal": "2050-01-01"
+      },
+      {
+        "Id": 15,
+        "Ativo": true,
+        "Descricao": "CIMENTO BRAVO",
+        "DataCadastro": "2018-02-28",
+        "DataVigenciaInicial": "2018-02-01",
+        "DataVigenciaFinal": "2050-12-31"
+      },
+      {
+        "Id": 16,
+        "Ativo": true,
+        "Descricao": "METSO",
+        "DataCadastro": "2018-03-02",
+        "DataVigenciaInicial": "2017-11-01",
+        "DataVigenciaFinal": "2050-12-31"
+      },
+      {
+        "Id": 17,
+        "Ativo": true,
+        "Descricao": "Raízen",
+        "DataCadastro": "2018-04-03",
+        "DataVigenciaInicial": "2018-04-01",
+        "DataVigenciaFinal": "2020-04-01"
+      },
+      {
+        "Id": 18,
+        "Ativo": true,
+        "Descricao": "Down",
+        "DataCadastro": "2018-05-04",
+        "DataVigenciaInicial": "2015-01-01",
+        "DataVigenciaFinal": "2020-01-01"
+      },
+      {
+        "Id": 20,
+        "Ativo": true,
+        "Descricao": "Itaú Unibanco",
+        "DataCadastro": "2018-05-29",
+        "DataVigenciaInicial": "2018-05-01",
+        "DataVigenciaFinal": "2018-12-31"
+      },
+      {
+        "Id": 21,
+        "Ativo": true,
+        "Descricao": "Renner",
+        "DataCadastro": "2018-05-29",
+        "DataVigenciaInicial": "2018-05-01",
+        "DataVigenciaFinal": "2020-12-31"
+      },
+      {
+        "Id": 22,
+        "Ativo": true,
+        "Descricao": "RUMO",
+        "DataCadastro": "2018-06-07",
+        "DataVigenciaInicial": "2018-06-01",
+        "DataVigenciaFinal": "2050-12-31"
+      },
+      {
+        "Id": 23,
+        "Ativo": true,
+        "Descricao": "Imerys",
+        "DataCadastro": "2018-07-13",
+        "DataVigenciaInicial": "2018-07-01",
+        "DataVigenciaFinal": "2050-12-31"
+      },
+      {
+        "Id": 24,
+        "Ativo": true,
+        "Descricao": "GCB",
+        "DataCadastro": "2018-07-13",
+        "DataVigenciaInicial": "2018-07-01",
+        "DataVigenciaFinal": "2050-12-31"
+      },
+      {
+        "Id": 26,
+        "Ativo": true,
+        "Descricao": "Ball",
+        "DataCadastro": "2018-08-17",
+        "DataVigenciaInicial": "2018-08-01",
+        "DataVigenciaFinal": "2050-12-31"
+      },
+      {
+        "Id": 27,
+        "Ativo": true,
+        "Descricao": "LAER",
+        "DataCadastro": "2018-09-06",
+        "DataVigenciaInicial": "2018-09-01",
+        "DataVigenciaFinal": "2050-12-31"
+      },
+      {
+        "Id": 28,
+        "Ativo": true,
+        "Descricao": "GOODYEAR",
+        "DataCadastro": "2018-12-03",
+        "DataVigenciaInicial": "2018-12-01",
+        "DataVigenciaFinal": "2050-12-03"
+      },
+      {
+        "Id": 29,
+        "Ativo": true,
+        "Descricao": "GOODYEAR",
+        "DataCadastro": "2018-12-03",
+        "DataVigenciaInicial": "2018-12-01",
+        "DataVigenciaFinal": "2050-12-01"
+      },
+      {
+        "Id": 30,
+        "Ativo": true,
+        "Descricao": "Grupo Boticário",
+        "DataCadastro": "2019-01-28",
+        "DataVigenciaInicial": "2010-01-01",
+        "DataVigenciaFinal": "2050-12-31"
+      },
+      {
+        "Id": 32,
+        "Ativo": true,
+        "Descricao": "Ball - Mensal",
+        "DataCadastro": "2019-01-30",
+        "DataVigenciaInicial": "2019-01-30",
+        "DataVigenciaFinal": "2050-01-01"
+      },
+      {
+        "Id": 33,
+        "Ativo": true,
+        "Descricao": "Dasa",
+        "DataCadastro": "2019-02-06"
+      },
+      {
+        "Id": 34,
+        "Ativo": true,
+        "Descricao": "Dow Agrosciences",
+        "DataCadastro": "2019-04-16",
+        "DataVigenciaInicial": "2015-01-01",
+        "DataVigenciaFinal": "2020-01-01"
+      },
+      {
+        "Id": 35,
+        "Ativo": true,
+        "Descricao": "Ibema - Mensal",
+        "DataCadastro": "2019-04-18",
+        "DataVigenciaInicial": "2019-04-18",
+        "DataVigenciaFinal": "2050-04-18"
+      }
+    ],
+    "QuantidadeTotal": 433,
+    "Paginas": 15,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.241723
+}
