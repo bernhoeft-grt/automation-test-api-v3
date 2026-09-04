@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Fri, 04 Sep 2026 18:14:53 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 3811,
+      "Ativo": true,
+      "TipoPessoa": "PJ",
+      "RazaoSocial": "BERNHOEFT - TESTE RELACIONAMENTO",
+      "Fantasia": "BERNHOEFT - TESTE RELACIONAMENTO",
+      "CPForCNPJ": "89.604.506/0001-13",
+      "Endereco": "Bernhoeft",
+      "Numero": "0",
+      "Bairro": "Bernhoeft",
+      "Cidade": "Bernhoeft",
+      "UF": "PE",
+      "CEP": "00000000",
+      "BloqueioEntregaDocumento": false,
+      "EmailResponsavel": "fvalenca@bernhoeft.com.br"
+    }
+  },
+  "elapsed_seconds": 0.257969
+}

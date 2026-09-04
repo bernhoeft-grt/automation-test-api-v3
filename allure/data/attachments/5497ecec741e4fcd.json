@@ -1,0 +1,203 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Fri, 04 Sep 2026 18:14:51 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 8,
+        "Ativo": true,
+        "Descricao": "Cooperado",
+        "ValidarRG": true
+      },
+      {
+        "Id": 9,
+        "Ativo": true,
+        "Descricao": "Estrangeiro",
+        "ValidarRG": false
+      },
+      {
+        "Id": 10,
+        "Ativo": true,
+        "Descricao": "Temporário",
+        "ValidarRG": true
+      },
+      {
+        "Id": 11,
+        "Ativo": true,
+        "Descricao": "TAC Agregado",
+        "ValidarRG": false
+      },
+      {
+        "Id": 12,
+        "Ativo": true,
+        "Descricao": "TAC Independente",
+        "ValidarRG": false
+      },
+      {
+        "Id": 13,
+        "Ativo": true,
+        "Descricao": "Intermitente",
+        "ValidarRG": true
+      },
+      {
+        "Id": 14,
+        "Ativo": true,
+        "Descricao": "Inquilino",
+        "ValidarRG": false
+      },
+      {
+        "Id": 15,
+        "Ativo": true,
+        "Descricao": "Veículos e Equipamentos",
+        "ValidarRG": false
+      },
+      {
+        "Id": 16,
+        "Ativo": true,
+        "Descricao": "Avulso",
+        "ValidarRG": true
+      },
+      {
+        "Id": 17,
+        "Ativo": true,
+        "Descricao": "teste",
+        "ValidarRG": true
+      },
+      {
+        "Id": 18,
+        "Ativo": true,
+        "Descricao": "Caminhão",
+        "ValidarRG": false
+      },
+      {
+        "Id": 19,
+        "Ativo": true,
+        "Descricao": "Carro",
+        "ValidarRG": false
+      },
+      {
+        "Id": 20,
+        "Ativo": true,
+        "Descricao": "Moto",
+        "ValidarRG": false
+      },
+      {
+        "Id": 21,
+        "Ativo": true,
+        "Descricao": "Outros Veículos Pesados",
+        "ValidarRG": false
+      },
+      {
+        "Id": 23,
+        "Ativo": true,
+        "Descricao": "Embarcação",
+        "ValidarRG": false
+      },
+      {
+        "Id": 24,
+        "Ativo": true,
+        "Descricao": "Máquinas e Equipamentos",
+        "ValidarRG": false
+      },
+      {
+        "Id": 25,
+        "Ativo": true,
+        "Descricao": "Voluntário",
+        "ValidarRG": true
+      },
+      {
+        "Id": 1000000007,
+        "Ativo": true,
+        "Descricao": "Teste regre 604",
+        "ValidarRG": true
+      },
+      {
+        "Id": 1000000008,
+        "Ativo": true,
+        "Descricao": "Teste Regressivos 13042026",
+        "ValidarRG": true
+      },
+      {
+        "Id": 1000000009,
+        "Ativo": true,
+        "Descricao": "TESTE14042026",
+        "ValidarRG": false
+      },
+      {
+        "Id": 1000000010,
+        "Ativo": true,
+        "Descricao": "16042026TESTE",
+        "ValidarRG": false
+      },
+      {
+        "Id": 1000000011,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776630396539",
+        "ValidarRG": false
+      },
+      {
+        "Id": 1000000012,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776630798416",
+        "ValidarRG": false
+      },
+      {
+        "Id": 1000000013,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776630811351",
+        "ValidarRG": false
+      },
+      {
+        "Id": 1000000014,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776630821076",
+        "ValidarRG": false
+      },
+      {
+        "Id": 1000000015,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776630822539",
+        "ValidarRG": false
+      },
+      {
+        "Id": 1000000016,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776630832381",
+        "ValidarRG": false
+      },
+      {
+        "Id": 1000000017,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776630844458",
+        "ValidarRG": false
+      },
+      {
+        "Id": 1000000018,
+        "Ativo": true,
+        "Descricao": "CLASS COLAB QA 1776631822168",
+        "ValidarRG": false
+      },
+      {
+        "Id": 1000000019,
+        "Ativo": true,
+        "Descricao": "Classificação 20042026",
+        "ValidarRG": false
+      }
+    ],
+    "QuantidadeTotal": 390,
+    "Paginas": 13,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.160764
+}

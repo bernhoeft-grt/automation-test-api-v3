@@ -1,0 +1,20 @@
+{
+  "status_code": 400,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "x-cloud-trace-context": "d9ae4b22796dd9e125ae6bef85324422",
+    "date": "Fri, 04 Sep 2026 18:14:20 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Mensagens": [
+      "[] - Este campo é obrigatório e precisa ser informado."
+    ]
+  },
+  "elapsed_seconds": 0.168806
+}
