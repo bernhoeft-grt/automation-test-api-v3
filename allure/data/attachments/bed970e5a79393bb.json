@@ -1,0 +1,7 @@
+{
+  "method": "POST",
+  "url": "/contratada",
+  "data": {
+    "nome": "Test Contratada"
+  }
+}
