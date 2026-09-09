@@ -1,0 +1,11 @@
+{
+  "method": "POST",
+  "url": "/events/pre-process-status/test",
+  "data": {
+    "ids": [
+      1,
+      2,
+      3
+    ]
+  }
+}

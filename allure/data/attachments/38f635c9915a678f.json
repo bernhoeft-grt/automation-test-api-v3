@@ -1,0 +1,7 @@
+{
+  "method": "POST",
+  "url": "/contrato",
+  "data": {
+    "numero": "TEST-001"
+  }
+}
