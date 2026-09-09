@@ -1,0 +1,7 @@
+tests/contrato/test_update.py:27: in test_update
+    test_id = get_existing_resource_id(page.get_all())
+utils/helpers.py:243: in get_existing_resource_id
+    assert_status_code(response, 200, context="Verify GET_ALL response status code")
+utils/helpers.py:147: in assert_status_code
+    assert response.status_code == expected_statuses[0], (
+E   AssertionError: Status code inesperado. Esperado 200, recebido 500
