@@ -1,0 +1,11 @@
+{
+  "Dados": {
+    "Id": 16,
+    "Ativo": true,
+    "Descricao": "Avulso",
+    "Temporario": false,
+    "ValidarCPF": true,
+    "ValidarRG": true,
+    "Veiculo": false
+  }
+}

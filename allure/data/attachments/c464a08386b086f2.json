@@ -1,0 +1,7 @@
+{
+  "method": "PATCH",
+  "url": "/contratada/1",
+  "data": {
+    "nome": "Patched"
+  }
+}
