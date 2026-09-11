@@ -1,0 +1,173 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Fri, 11 Sep 2026 18:14:39 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 12,
+        "Nome": "PGR - Programa de Gerenciamento de Riscos",
+        "Apelido": "PGR"
+      },
+      {
+        "Id": 15,
+        "Nome": "Cópia da CTPS (Física ou Digital) dos terceiros mobilizados",
+        "Apelido": "CTPS"
+      },
+      {
+        "Id": 16,
+        "Nome": "ASO - Atestado de Saúde Ocupacional",
+        "Apelido": "ASO"
+      },
+      {
+        "Id": 19,
+        "Nome": "Comprovante de entrega de EPIs com os respectivos CAs",
+        "Apelido": "Comprov. Entrega de EPI"
+      },
+      {
+        "Id": 21,
+        "Nome": "PCMSO - Programa de Controle Médico de Saúde Ocupacional",
+        "Apelido": "PCMSO"
+      },
+      {
+        "Id": 22,
+        "Nome": "SESMT - Serviços Especializados em Engenharia de Segurança e em Medicina do Trabalho",
+        "Apelido": "SESMT"
+      },
+      {
+        "Id": 23,
+        "Nome": "Ordem de Serviço - NR-01",
+        "Apelido": "NR 01"
+      },
+      {
+        "Id": 24,
+        "Nome": "Cópia do RG e CPF",
+        "Apelido": "RG e CPF"
+      },
+      {
+        "Id": 26,
+        "Nome": "Cópia da CNH - Carteira Nacional de Habilitação",
+        "Apelido": "CNH"
+      },
+      {
+        "Id": 27,
+        "Nome": "Certificado de Treinamentos de Segurança do Trabalho: NR 06 - Equipamentos de Proteção Individual",
+        "Apelido": "NR 06"
+      },
+      {
+        "Id": 28,
+        "Nome": "Certificado de Treinamentos de Segurança do Trabalho: NR 10 - Trabalhos com Eletricidade",
+        "Apelido": "NR 10"
+      },
+      {
+        "Id": 29,
+        "Nome": "Certificado de Treinamentos de Segurança do Trabalho: NR 10 SEP - Sistema Elétrico de Potência",
+        "Apelido": "NR 10 - SEP"
+      },
+      {
+        "Id": 30,
+        "Nome": "Certificado de Treinamentos de Segurança do Trabalho: NR 11 - Transporte, Movimentação, Armazenagem e Manuseio de Materiais",
+        "Apelido": "NR 11"
+      },
+      {
+        "Id": 31,
+        "Nome": "Certificado de Treinamentos de Segurança do Trabalho: NR 12 - Máquinas e Equipamentos",
+        "Apelido": "NR 12"
+      },
+      {
+        "Id": 32,
+        "Nome": "Certificado de Treinamentos de Segurança do Trabalho: NR 13 - Caldeiras e Vasos de Pressão",
+        "Apelido": "NR 13"
+      },
+      {
+        "Id": 33,
+        "Nome": "Certificado de Treinamentos de Segurança do Trabalho: NR 18 - Construção Civil",
+        "Apelido": "NR 18 - CONST. CIVIL"
+      },
+      {
+        "Id": 34,
+        "Nome": "Certificado de Treinamentos de Segurança do Trabalho: NR 18 - Trabalho à Quente",
+        "Apelido": "NR 18 - Trab. a Quente"
+      },
+      {
+        "Id": 35,
+        "Nome": "Certificado de Treinamentos de Segurança do Trabalho: NR 31 - Segurança e Saúde na Agricultura, Pecuária Silvicultura, Exploração Florestal e Aquicultura",
+        "Apelido": "NR 31"
+      },
+      {
+        "Id": 36,
+        "Nome": "Certificado de Treinamentos de Segurança do Trabalho: NR 20 - Inflamáveis - Básico",
+        "Apelido": "NR 20 - Basico"
+      },
+      {
+        "Id": 37,
+        "Nome": "Certificado de Treinamentos de Segurança do Trabalho: NR 33 - Trabalhos em Espaço Confinado (Trabalhador|Vigia)",
+        "Apelido": "NR 33 - Trab."
+      },
+      {
+        "Id": 38,
+        "Nome": "Certificado de Treinamentos de Segurança do Trabalho: NR 33 - Trabalhos em Espaço Confinado (Supervisor)",
+        "Apelido": "NR 33 - Superv."
+      },
+      {
+        "Id": 39,
+        "Nome": "Certificado de Treinamentos de Segurança do Trabalho: NR 34 - Trabalhos à Quente",
+        "Apelido": "NR 34"
+      },
+      {
+        "Id": 40,
+        "Nome": "Certificado de Treinamentos de Segurança do Trabalho: NR 35 - Trabalhos em Altura",
+        "Apelido": "NR 35"
+      },
+      {
+        "Id": 45,
+        "Nome": "PPR - Programa de Proteção Respiratória",
+        "Apelido": "PPR"
+      },
+      {
+        "Id": 46,
+        "Nome": "CIPA - Comissão Interna de Prevenção de Acidentes",
+        "Apelido": "CIPA"
+      },
+      {
+        "Id": 47,
+        "Nome": "Declaração de Recebimento do Guia de Instruções de SMA",
+        "Apelido": "DECLARAÇÃO DE INSTRUÇÕES SMA"
+      },
+      {
+        "Id": 48,
+        "Nome": "Instrução de Trabalho ou Procedimento Operacional",
+        "Apelido": "INSTRUÇÃO DE TRABALHO OU PROCEDIMENTO OPERACIONAL"
+      },
+      {
+        "Id": 49,
+        "Nome": "Inventário de Químicos",
+        "Apelido": "Inventário de Quimicos"
+      },
+      {
+        "Id": 50,
+        "Nome": "PCA - Programa de Conservação Auditiva",
+        "Apelido": "PCA"
+      },
+      {
+        "Id": 51,
+        "Nome": "Plano de SMA",
+        "Apelido": "Plano de SMA"
+      }
+    ],
+    "QuantidadeTotal": 1256,
+    "Paginas": 42,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.190626
+}

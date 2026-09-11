@@ -1,0 +1,11 @@
+{
+  "Dados": {
+    "Id": 18,
+    "Ativo": true,
+    "Descricao": "Caminhão",
+    "Temporario": false,
+    "ValidarCPF": false,
+    "ValidarRG": false,
+    "Veiculo": true
+  }
+}
