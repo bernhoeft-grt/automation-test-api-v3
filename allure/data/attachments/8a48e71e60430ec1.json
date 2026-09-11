@@ -1,0 +1,1458 @@
+{
+  "Dados": [
+    {
+      "Id": 1,
+      "Ativo": true,
+      "Nome": "SISTEMA",
+      "Email": "techgrt@bernhoeft.onmicrosoft.com",
+      "Telefone": "(00)00000-0000",
+      "Perfis": [
+        {
+          "Id": 1,
+          "Descricao": "Perfil - Administrador",
+          "TipoPerfil": 0
+        }
+      ]
+    },
+    {
+      "Id": 1000000004,
+      "Ativo": true,
+      "Nome": "QA-TEAM",
+      "Email": "qa.bern2025@gmail.com",
+      "Telefone": "(81)98146-8138",
+      "Perfis": [
+        {
+          "Id": 1,
+          "Descricao": "Perfil - Administrador",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000056,
+          "Descricao": "Perfil Automação 1780930968196",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000057,
+          "Descricao": "Perfil Automação 1780930973056",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000058,
+          "Descricao": "Perfil Automação 1780930973711",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000059,
+          "Descricao": "Perfil Automação 1780930978798",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000060,
+          "Descricao": "Perfil Automação 1780930979418",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000061,
+          "Descricao": "Perfil Automação 1780931828861",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000062,
+          "Descricao": "Perfil Automação 1780931834902",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000063,
+          "Descricao": "Perfil Automação 1780931838328",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000064,
+          "Descricao": "Perfil Automação 1780931840555",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000065,
+          "Descricao": "Perfil Automação 1780931843712",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000066,
+          "Descricao": "Perfil Automação 1780943565247",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000067,
+          "Descricao": "Perfil Automação 1780943571702",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000068,
+          "Descricao": "Perfil Automação 1780943578248",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000069,
+          "Descricao": "Perfil Automação 1780943584794",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000070,
+          "Descricao": "Perfil Automação 1780943587386",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000071,
+          "Descricao": "Perfil Automação 1780954752004",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000072,
+          "Descricao": "Perfil Automação 1780954757994",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000073,
+          "Descricao": "Perfil Automação 1780954763886",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000074,
+          "Descricao": "Perfil Automação 1780954769744",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000075,
+          "Descricao": "Perfil Automação 1780954775739",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000076,
+          "Descricao": "Perfil Automação 1781034141099",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000077,
+          "Descricao": "Perfil Automação 1781034146371",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000078,
+          "Descricao": "Perfil Automação 1781034151882",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000079,
+          "Descricao": "Perfil Automação 1781034157534",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000080,
+          "Descricao": "Perfil Automação 1781034162360",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000081,
+          "Descricao": "Perfil Automação 1781036744056",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000082,
+          "Descricao": "Perfil Automação 1781036749351",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000083,
+          "Descricao": "Perfil Automação 1781036750634",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000084,
+          "Descricao": "Perfil Automação 1781036755266",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000085,
+          "Descricao": "Perfil Automação 1781036756117",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000086,
+          "Descricao": "Perfil Automação 1781095977079",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000087,
+          "Descricao": "Perfil Automação 1781095982286",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000088,
+          "Descricao": "Perfil Automação 1781095987462",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000089,
+          "Descricao": "Perfil Automação 1781095992595",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000090,
+          "Descricao": "Perfil Automação 1781095997617",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000091,
+          "Descricao": "Perfil Automação 1781097447343",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000092,
+          "Descricao": "Perfil Automação 1781097453117",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000093,
+          "Descricao": "Perfil Automação 1781097459565",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000094,
+          "Descricao": "Perfil Automação 1781097465318",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000095,
+          "Descricao": "Perfil Automação 1781097471301",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000096,
+          "Descricao": "Perfil Automação 1781196455077",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000097,
+          "Descricao": "Perfil Automação 1781196460627",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000098,
+          "Descricao": "Perfil Automação 1781196466111",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000099,
+          "Descricao": "Perfil Automação 1781196471636",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000100,
+          "Descricao": "Perfil Automação 1781196477223",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000101,
+          "Descricao": "Perfil Automação 1781269219025",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000102,
+          "Descricao": "Perfil Automação 1781269224730",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000103,
+          "Descricao": "Perfil Automação 1781269226650",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000104,
+          "Descricao": "Perfil Automação 1781269230636",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000105,
+          "Descricao": "Perfil Automação 1781269232700",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000106,
+          "Descricao": "Perfil Automação 1781524912404",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000107,
+          "Descricao": "Perfil Automação 1781524918412",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000108,
+          "Descricao": "Perfil Automação 1781524921371",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000109,
+          "Descricao": "Perfil Automação 1781524927987",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000110,
+          "Descricao": "Perfil Automação 1781524930576",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000111,
+          "Descricao": "Perfil Automação 1781544879283",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000112,
+          "Descricao": "Perfil Automação 1781544889227",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000113,
+          "Descricao": "Perfil Automação 1781544891282",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000114,
+          "Descricao": "Perfil Automação 1781544898893",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000115,
+          "Descricao": "Perfil Automação 1781544901562",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000116,
+          "Descricao": "Perfil Automação 1781544912406",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000117,
+          "Descricao": "Perfil Automação 1781544918342",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000118,
+          "Descricao": "Perfil Automação 1781544921697",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000119,
+          "Descricao": "Perfil Automação 1781544927928",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000120,
+          "Descricao": "Perfil Automação 1781544931513",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000121,
+          "Descricao": "Perfil Automação 1781549345335",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000122,
+          "Descricao": "Perfil Automação 1781549351271",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000123,
+          "Descricao": "Perfil Automação 1781549357177",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000124,
+          "Descricao": "Perfil Automação 1781549362854",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000125,
+          "Descricao": "Perfil Automação 1781549368674",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000126,
+          "Descricao": "Perfil Automação 1781720034330",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000127,
+          "Descricao": "Perfil Automação 1781720036970",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000128,
+          "Descricao": "Perfil Automação 1781720041259",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000129,
+          "Descricao": "Perfil Automação 1781720044197",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000130,
+          "Descricao": "Perfil Automação 1781720047638",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000131,
+          "Descricao": "Perfil Automação 1781808835454",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000132,
+          "Descricao": "Perfil Automação 1781808841413",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000133,
+          "Descricao": "Perfil Automação 1781808844044",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000134,
+          "Descricao": "Perfil Automação 1781808847203",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000135,
+          "Descricao": "Perfil Automação 1781808850032",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000136,
+          "Descricao": "Perfil Automação 1781879733505",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000137,
+          "Descricao": "Perfil Automação 1781879739682",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000138,
+          "Descricao": "Perfil Automação 1781879745798",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000139,
+          "Descricao": "Perfil Automação 1781879751953",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000140,
+          "Descricao": "Perfil Automação 1781879758332",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000141,
+          "Descricao": "Perfil Automação 1781889696033",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000142,
+          "Descricao": "Perfil Automação 1781889701895",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000143,
+          "Descricao": "Perfil Automação 1781889707698",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000144,
+          "Descricao": "Perfil Automação 1781889713760",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000145,
+          "Descricao": "Perfil Automação 1781889719724",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000146,
+          "Descricao": "Perfil Automação 1782152369314",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000147,
+          "Descricao": "Perfil Automação 1782152376937",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000148,
+          "Descricao": "Perfil Automação 1782152376796",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000149,
+          "Descricao": "Perfil Automação 1782152383866",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000150,
+          "Descricao": "Perfil Automação 1782152383818",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000151,
+          "Descricao": "Perfil Automação 1782412097535",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000152,
+          "Descricao": "Perfil Automação 1782412104955",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000153,
+          "Descricao": "Perfil Automação 1782412106026",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000154,
+          "Descricao": "Perfil Automação 1782412112976",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000155,
+          "Descricao": "Perfil Automação 1782412113897",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000156,
+          "Descricao": "Perfil Automação 1782734998035",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000157,
+          "Descricao": "Perfil Automação 1782735007284",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000158,
+          "Descricao": "Perfil Automação 1782735008430",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000159,
+          "Descricao": "Perfil Automação 1782735017861",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000160,
+          "Descricao": "Perfil Automação 1782735019373",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000161,
+          "Descricao": "Perfil Automação 1782737264424",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000162,
+          "Descricao": "Perfil Automação 1782737271453",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000163,
+          "Descricao": "Perfil Automação 1782737278149",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000164,
+          "Descricao": "Perfil Automação 1782737284443",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000165,
+          "Descricao": "Perfil Automação 1782737290788",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000166,
+          "Descricao": "Perfil Automação 1782833601033",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000167,
+          "Descricao": "Perfil Automação 1782833607693",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000168,
+          "Descricao": "Perfil Automação 1782833608609",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000169,
+          "Descricao": "Perfil Automação 1782833614292",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000170,
+          "Descricao": "Perfil Automação 1782833616036",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000171,
+          "Descricao": "Perfil Automação 1782927110046",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000172,
+          "Descricao": "Perfil Automação 1782927117947",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000173,
+          "Descricao": "Perfil Automação 1782927121753",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000174,
+          "Descricao": "Perfil Automação 1782927125800",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000175,
+          "Descricao": "Perfil Automação 1782927128999",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000176,
+          "Descricao": "Perfil Automação 1783093486061",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000177,
+          "Descricao": "Perfil Automação 1783093492062",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000178,
+          "Descricao": "Perfil Automação 1783093497763",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000179,
+          "Descricao": "Perfil Automação 1783093503926",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000180,
+          "Descricao": "Perfil Automação 1783093509745",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000181,
+          "Descricao": "Perfil Automação 1783448328085",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000182,
+          "Descricao": "Perfil Automação 1783448334445",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000183,
+          "Descricao": "Perfil Automação 1783448335847",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000184,
+          "Descricao": "Perfil Automação 1783448340444",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000185,
+          "Descricao": "Perfil Automação 1783448342716",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000186,
+          "Descricao": "Perfil Automação 1783975097734",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000187,
+          "Descricao": "Perfil Automação 1783975104758",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000188,
+          "Descricao": "Perfil Automação 1783975106408",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000189,
+          "Descricao": "Perfil Automação 1783975132911",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000190,
+          "Descricao": "Perfil Automação 1783975135002",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000191,
+          "Descricao": "Perfil Automação 1784566426091",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000192,
+          "Descricao": "Perfil Automação 1784566432969",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000193,
+          "Descricao": "Perfil Automação 1784566440168",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000194,
+          "Descricao": "Perfil Automação 1784566443109",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000195,
+          "Descricao": "Perfil Automação 1784566447967",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000196,
+          "Descricao": "Perfil Automação 1784581707744",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000197,
+          "Descricao": "Perfil Automação 1784581707739",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000198,
+          "Descricao": "Perfil Automação 1784581715105",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000199,
+          "Descricao": "Perfil Automação 1784581715101",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000200,
+          "Descricao": "Perfil Automação 1784581721804",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000201,
+          "Descricao": "Perfil Automação 1784588452263",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000202,
+          "Descricao": "Perfil Automação 1784588457285",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000203,
+          "Descricao": "Perfil Automação 1784588468449",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000204,
+          "Descricao": "Perfil Automação 1784588472391",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000205,
+          "Descricao": "Perfil Automação 1784588483573",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000206,
+          "Descricao": "Perfil Automação 1784630350378",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000207,
+          "Descricao": "Perfil Automação 1784630364553",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000208,
+          "Descricao": "Perfil Automação 1784630365978",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000209,
+          "Descricao": "Perfil Automação 1784630378647",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000210,
+          "Descricao": "Perfil Automação 1784630381101",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000211,
+          "Descricao": "Perfil Automação 1784656246853",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000212,
+          "Descricao": "Perfil Automação 1784656261530",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000213,
+          "Descricao": "Perfil Automação 1784656263108",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000214,
+          "Descricao": "Perfil Automação 1784656277052",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000215,
+          "Descricao": "Perfil Automação 1784656278297",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000216,
+          "Descricao": "Perfil Automação 1784733832536",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000217,
+          "Descricao": "Perfil Automação 1784733850613",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000218,
+          "Descricao": "Perfil Automação 1784733857639",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000219,
+          "Descricao": "Perfil Automação 1784733870536",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000220,
+          "Descricao": "Perfil Automação 1784733876426",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000221,
+          "Descricao": "Perfil Automação 1784734170944",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000222,
+          "Descricao": "Perfil Automação 1784734182852",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000223,
+          "Descricao": "Perfil Automação 1784734185268",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000224,
+          "Descricao": "Perfil Automação 1784734196598",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000225,
+          "Descricao": "Perfil Automação 1784734200089",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000226,
+          "Descricao": "Perfil Automação 1784836714304",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000227,
+          "Descricao": "Perfil Automação 1784836731187",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000228,
+          "Descricao": "Perfil Automação 1784836734723",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000229,
+          "Descricao": "Perfil Automação 1784836748128",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000230,
+          "Descricao": "Perfil Automação 1784836750864",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000231,
+          "Descricao": "Perfil Automação 1784921143030",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000232,
+          "Descricao": "Perfil Automação 1784921151381",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000233,
+          "Descricao": "Perfil Automação 1784921161450",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000234,
+          "Descricao": "Perfil Automação 1784921167520",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000235,
+          "Descricao": "Perfil Automação 1784921176303",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000236,
+          "Descricao": "Perfil Automação 1784927892339",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000237,
+          "Descricao": "Perfil Automação 1784927903648",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000238,
+          "Descricao": "Perfil Automação 1784927905693",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000239,
+          "Descricao": "Perfil Automação 1784927917292",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000240,
+          "Descricao": "Perfil Automação 1784927921962",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000241,
+          "Descricao": "Perfil Automação 1785153826256",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000242,
+          "Descricao": "Perfil Automação 1785153834208",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000243,
+          "Descricao": "Perfil Automação 1785153842038",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000244,
+          "Descricao": "Perfil Automação 1785153849639",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000245,
+          "Descricao": "Perfil Automação 1785153857553",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000246,
+          "Descricao": "Perfil Automação 1785262318309",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000247,
+          "Descricao": "Perfil Automação 1785262323759",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000248,
+          "Descricao": "Perfil Automação 1785262337367",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000249,
+          "Descricao": "Perfil Automação 1785262339169",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000250,
+          "Descricao": "Perfil Automação 1785262352451",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000251,
+          "Descricao": "Perfil Automação 1785355326781",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000252,
+          "Descricao": "Perfil Automação 1785355343057",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000253,
+          "Descricao": "Perfil Automação 1785355346371",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000254,
+          "Descricao": "Perfil Automação 1785355360702",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000255,
+          "Descricao": "Perfil Automação 1785355366633",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000256,
+          "Descricao": "Perfil Automação 1785358445449",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000257,
+          "Descricao": "Perfil Automação 1785358474643",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000258,
+          "Descricao": "Perfil Automação 1785513534735",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000259,
+          "Descricao": "Perfil Automação 1785513535917",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000260,
+          "Descricao": "Perfil Automação 1785513552841",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000261,
+          "Descricao": "Perfil Automação 1785513553658",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000262,
+          "Descricao": "Perfil Automação 1785513568338",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000263,
+          "Descricao": "Perfil Automação 1785847489855",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000264,
+          "Descricao": "Perfil Automação 1785847505294",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000265,
+          "Descricao": "Perfil Automação 1785847508590",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000266,
+          "Descricao": "Perfil Automação 1785847520374",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000267,
+          "Descricao": "Perfil Automação 1785847524286",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000268,
+          "Descricao": "Perfil Automação 1785959475461",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000269,
+          "Descricao": "Perfil Automação 1785959485253",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000270,
+          "Descricao": "Perfil Automação 1785959493793",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000271,
+          "Descricao": "Perfil Automação 1785959503513",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000272,
+          "Descricao": "Perfil Automação 1785959511843",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000273,
+          "Descricao": "Perfil Automação 1786109904061",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000274,
+          "Descricao": "Perfil Automação 1786109906706",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000275,
+          "Descricao": "Perfil Automação 1786109919886",
+          "TipoPerfil": 1
+        },
+        {
+          "Id": 1000000276,
+          "Descricao": "Perfil Automação 1786109922181",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000277,
+          "Descricao": "Perfil Automação 1786109933516",
+          "TipoPerfil": 2
+        }
+      ]
+    },
+    {
+      "Id": 1000000005,
+      "Ativo": true,
+      "Nome": "Teste Gabrielzinho",
+      "Email": "testegabriel@gmail.com",
+      "Telefone": "(74)99904-2394",
+      "Perfis": []
+    },
+    {
+      "Id": 1000000006,
+      "Ativo": true,
+      "Nome": "Teste Regressivos 26022026",
+      "Email": "ketani4416@ostahie.com",
+      "Telefone": "(81)99319-2399",
+      "Perfis": [
+        {
+          "Id": 1,
+          "Descricao": "Perfil - Administrador",
+          "TipoPerfil": 0
+        }
+      ]
+    },
+    {
+      "Id": 1000000007,
+      "Ativo": true,
+      "Nome": "Leandro",
+      "Email": "leandrotsampa@yahoo.com.br",
+      "Telefone": "(11)96111-1111",
+      "Perfis": []
+    },
+    {
+      "Id": 1000000009,
+      "Ativo": true,
+      "Nome": "Teste Gabriel 2",
+      "Email": "testegabriel009@gmail.com",
+      "Telefone": "(81)99506-8833",
+      "Perfis": [
+        {
+          "Id": 1,
+          "Descricao": "Perfil - Administrador",
+          "TipoPerfil": 0
+        },
+        {
+          "Id": 1000000013,
+          "Descricao": "Teste - Gabriel 2",
+          "TipoPerfil": 2
+        }
+      ]
+    },
+    {
+      "Id": 1000000011,
+      "Ativo": true,
+      "Nome": "DORGINHO16032026",
+      "Email": "bikewe4602@soco7.com",
+      "Telefone": "(81)98146-8138",
+      "Perfis": [
+        {
+          "Id": 1,
+          "Descricao": "Perfil - Administrador",
+          "TipoPerfil": 0
+        }
+      ]
+    },
+    {
+      "Id": 1000000013,
+      "Ativo": true,
+      "Nome": "Teste Gabriel",
+      "Email": "testegabriel123@gmail.com",
+      "Telefone": "(81)98146-8138",
+      "Perfis": [
+        {
+          "Id": 1,
+          "Descricao": "Perfil - Administrador",
+          "TipoPerfil": 0
+        }
+      ]
+    },
+    {
+      "Id": 1000000014,
+      "Ativo": true,
+      "Nome": "DORGINHO18032026TESTE",
+      "Email": "temis75123@soco7.com",
+      "Telefone": "(81)98146-8138",
+      "Perfis": [
+        {
+          "Id": 1,
+          "Descricao": "Perfil - Administrador",
+          "TipoPerfil": 0
+        }
+      ]
+    },
+    {
+      "Id": 1000000016,
+      "Ativo": true,
+      "Nome": "DORGIVAL FILHO",
+      "Email": "xiwit69138@pazard.com",
+      "Telefone": "(81)31363-773",
+      "Perfis": [
+        {
+          "Id": 1,
+          "Descricao": "Perfil - Administrador",
+          "TipoPerfil": 0
+        }
+      ]
+    },
+    {
+      "Id": 1000000017,
+      "Ativo": true,
+      "Nome": "TESTE18032026",
+      "Email": "vobike9276@lxbeta.com",
+      "Telefone": "(81)98146-8138",
+      "Perfis": []
+    },
+    {
+      "Id": 1000000018,
+      "Ativo": true,
+      "Nome": "DORGINHOTESTE33",
+      "Email": "bovate4157@onbap.com",
+      "Telefone": "(81)98146-8138",
+      "Perfis": []
+    },
+    {
+      "Id": 1000000019,
+      "Ativo": true,
+      "Nome": "DORGINHO123456",
+      "Email": "lotep55195@onbap.com",
+      "Telefone": "(81)98146-8138",
+      "Perfis": []
+    },
+    {
+      "Id": 1000000020,
+      "Ativo": true,
+      "Nome": "Teste Regressivo 2303",
+      "Email": "TesteRegressivo2303@gmail.com",
+      "Telefone": "(74)99946-0719",
+      "Perfis": []
+    },
+    {
+      "Id": 1000000021,
+      "Ativo": true,
+      "Nome": "ace@yahoo.com.br",
+      "Email": "ace@yahoo.com.br",
+      "Telefone": "(81)98801-7425",
+      "Perfis": [
+        {
+          "Id": 1000000031,
+          "Descricao": "Perfil Automação 1780405132329",
+          "TipoPerfil": 1
+        }
+      ]
+    },
+    {
+      "Id": 1000000024,
+      "Ativo": true,
+      "Nome": "Teste3103",
+      "Email": "Teste3103@gmail.com",
+      "Telefone": "(81)78963-5505",
+      "Perfis": [
+        {
+          "Id": 1,
+          "Descricao": "Perfil - Administrador",
+          "TipoPerfil": 0
+        }
+      ]
+    },
+    {
+      "Id": 1000000028,
+      "Ativo": true,
+      "Nome": "Gabs teste 0604",
+      "Email": "gabsteste0604@gmail.com",
+      "Telefone": "(81)78963-550",
+      "Perfis": [
+        {
+          "Id": 1,
+          "Descricao": "Perfil - Administrador",
+          "TipoPerfil": 0
+        }
+      ]
+    },
+    {
+      "Id": 1000000029,
+      "Ativo": true,
+      "Nome": "princess@oi.com.br",
+      "Email": "princess@oi.com.br",
+      "Telefone": "(28)9938-67732",
+      "Perfis": [
+        {
+          "Id": 1000000012,
+          "Descricao": "deploy0704.Personalizado",
+          "TipoPerfil": 2
+        },
+        {
+          "Id": 1000000011,
+          "Descricao": "deploy0704",
+          "TipoPerfil": 2
+        }
+      ]
+    },
+    {
+      "Id": 1000000031,
+      "Ativo": true,
+      "Nome": "Teste Regressivos 10/04/2026",
+      "Email": "piladon825@nyspring.com",
+      "Telefone": "(81)99319-2399",
+      "Perfis": []
+    },
+    {
+      "Id": 1000000032,
+      "Ativo": true,
+      "Nome": "Teste Regressivos 13042026 edit",
+      "Email": "poped44553@sskaid.com",
+      "Telefone": "(81)99319-2399",
+      "Perfis": []
+    },
+    {
+      "Id": 1000000034,
+      "Ativo": true,
+      "Nome": "Operador14042026Edited",
+      "Email": "bayem95076@sixoplus.com",
+      "Telefone": "(81)98146-8138",
+      "Perfis": [
+        {
+          "Id": 1000000019,
+          "Descricao": "teste14042026",
+          "TipoPerfil": 2
+        }
+      ]
+    },
+    {
+      "Id": 1000000035,
+      "Ativo": true,
+      "Nome": "DORGINHO",
+      "Email": "xonawi5446@sixoplus.com",
+      "Telefone": "(81)9814-68138",
+      "Perfis": [
+        {
+          "Id": 1000000019,
+          "Descricao": "teste14042026",
+          "TipoPerfil": 2
+        }
+      ]
+    },
+    {
+      "Id": 1000000037,
+      "Ativo": true,
+      "Nome": "regressivo1604teste",
+      "Email": "regressivo1604@gmail.com",
+      "Telefone": "(81)78963-550",
+      "Perfis": [
+        {
+          "Id": 1,
+          "Descricao": "Perfil - Administrador",
+          "TipoPerfil": 0
+        }
+      ]
+    },
+    {
+      "Id": 1000000038,
+      "Ativo": true,
+      "Nome": "Operador16042026",
+      "Email": "hisiwe3360@dwseal.com",
+      "Telefone": "(81)98146-8138",
+      "Perfis": []
+    },
+    {
+      "Id": 1000000039,
+      "Ativo": true,
+      "Nome": "OPERADOR QA 1776630870134",
+      "Email": "qa.operador.1776630870134@teste.com",
+      "Telefone": "(11)41186-665",
+      "Perfis": []
+    },
+    {
+      "Id": 1000000040,
+      "Ativo": true,
+      "Nome": "DORGINHO20042026",
+      "Email": "fitexom787@sixoplus.com",
+      "Telefone": "(81)98891-9265",
+      "Perfis": []
+    },
+    {
+      "Id": 1000000041,
+      "Ativo": true,
+      "Nome": "Operador20042026",
+      "Email": "tosevey124@spotshops.com",
+      "Telefone": "(81)98146-8138",
+      "Perfis": []
+    },
+    {
+      "Id": 1000000042,
+      "Ativo": true,
+      "Nome": "OPERADOR QA 1776706615164",
+      "Email": "qa.operador.1776706615164@teste.com",
+      "Telefone": "(81)98146-8138",
+      "Perfis": []
+    },
+    {
+      "Id": 1000000043,
+      "Ativo": true,
+      "Nome": "OPERADOR QA 1776706696300",
+      "Email": "qa.operador.1776706696300@teste.com",
+      "Telefone": "(81)98146-8138",
+      "Perfis": []
+    },
+    {
+      "Id": 1000000044,
+      "Ativo": true,
+      "Nome": "OPERADOR QA 1776706824271",
+      "Email": "qa.operador.1776706824271@teste.com",
+      "Telefone": "(81)98146-8138",
+      "Perfis": []
+    }
+  ],
+  "QuantidadeTotal": 317,
+  "Paginas": 11,
+  "Quantidade": 30,
+  "Pagina": 1
+}

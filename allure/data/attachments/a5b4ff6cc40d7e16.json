@@ -1,0 +1,8 @@
+{
+  "method": "POST",
+  "url": "/operador/vinculo",
+  "data": {
+    "operadorId": 1,
+    "contratadaId": 1
+  }
+}
