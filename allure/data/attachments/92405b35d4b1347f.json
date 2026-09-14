@@ -1,0 +1,20 @@
+{
+  "status_code": 400,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "x-cloud-trace-context": "d4682881095c2b92b7a3b74e235213c9",
+    "date": "Mon, 14 Sep 2026 12:16:38 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Mensagens": [
+      "[DataInicio] - O valor informado deve ser maior que 0."
+    ]
+  },
+  "elapsed_seconds": 0.218881
+}
