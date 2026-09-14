@@ -1,0 +1,11 @@
+{
+  "Dados": {
+    "Id": 20,
+    "Ativo": true,
+    "Descricao": "Moto",
+    "Temporario": false,
+    "ValidarCPF": false,
+    "ValidarRG": false,
+    "Veiculo": true
+  }
+}
