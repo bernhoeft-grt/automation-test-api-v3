@@ -1,0 +1,11 @@
+{
+  "Dados": {
+    "Id": 23,
+    "Ativo": true,
+    "Descricao": "Embarcação",
+    "Temporario": false,
+    "ValidarCPF": false,
+    "ValidarRG": false,
+    "Veiculo": true
+  }
+}
