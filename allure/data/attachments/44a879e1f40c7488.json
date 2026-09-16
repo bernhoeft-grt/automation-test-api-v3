@@ -1,0 +1,7 @@
+{
+  "expected": [
+    201
+  ],
+  "actual": 403,
+  "url": "https://contractwebapi.preprod.bernhoeft.com.br/api/v1/avisos"
+}
