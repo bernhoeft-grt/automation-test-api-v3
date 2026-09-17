@@ -1,0 +1,21 @@
+{
+  "Dados": [
+    {
+      "Id": 1000000088,
+      "Ativo": true,
+      "Nome": "TESTE17092026",
+      "Telas": [
+        0,
+        5,
+        2,
+        3,
+        4,
+        1
+      ]
+    }
+  ],
+  "QuantidadeTotal": 1,
+  "Paginas": 1,
+  "Quantidade": 1,
+  "Pagina": 1
+}
