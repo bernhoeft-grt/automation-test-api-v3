@@ -1,0 +1,10 @@
+{
+  "method": "PUT",
+  "url": "/contratante/1/familia",
+  "data": {
+    "familiaIds": [
+      1,
+      2
+    ]
+  }
+}
