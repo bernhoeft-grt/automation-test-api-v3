@@ -1,0 +1,14 @@
+{
+  "status_code": 404,
+  "headers": {
+    "x-cloud-trace-context": "b860a9adc5c0bce9adca818dd06faed4",
+    "date": "Fri, 18 Sep 2026 12:15:16 GMT",
+    "content-type": "text/html",
+    "server": "Google Frontend",
+    "Content-Length": "0",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "body": "",
+  "elapsed_seconds": 0.162264
+}

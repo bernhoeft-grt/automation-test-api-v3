@@ -1,0 +1,17 @@
+{
+  "status_code": 404,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "x-cloud-trace-context": "b784b9d410e9ad7badca818dd06fa67a",
+    "date": "Fri, 18 Sep 2026 12:15:16 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {},
+  "elapsed_seconds": 0.201073
+}
