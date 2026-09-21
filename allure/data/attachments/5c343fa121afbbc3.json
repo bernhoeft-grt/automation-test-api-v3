@@ -1,0 +1,7 @@
+{
+  "expected": [
+    201
+  ],
+  "actual": 400,
+  "url": "https://contractwebapi.preprod.bernhoeft.com.br/api/v1/events/test"
+}

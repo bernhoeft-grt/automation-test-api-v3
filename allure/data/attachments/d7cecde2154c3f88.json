@@ -1,0 +1,15 @@
+{
+  "status_code": 401,
+  "headers": {
+    "www-authenticate": "Bearer, Bearer",
+    "x-cloud-trace-context": "2cd79b46b2e80ff11eacd7c1a0ff89fb",
+    "date": "Mon, 21 Sep 2026 12:15:48 GMT",
+    "content-type": "text/html",
+    "server": "Google Frontend",
+    "Content-Length": "0",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "body": "",
+  "elapsed_seconds": 0.149598
+}
