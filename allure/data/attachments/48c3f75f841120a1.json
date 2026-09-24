@@ -1,0 +1,7 @@
+{
+  "method": "POST",
+  "url": "/events/test",
+  "data": {
+    "data": "test_data"
+  }
+}
