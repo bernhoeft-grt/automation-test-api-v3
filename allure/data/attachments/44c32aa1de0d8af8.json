@@ -1,0 +1,11 @@
+{
+  "Dados": {
+    "Id": 4,
+    "Ativo": true,
+    "Descricao": "Empregado Aprendiz",
+    "Temporario": false,
+    "ValidarCPF": true,
+    "ValidarRG": false,
+    "Veiculo": false
+  }
+}
