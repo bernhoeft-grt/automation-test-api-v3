@@ -1,0 +1,62 @@
+{
+  "Dados": [
+    {
+      "Id": 1000000278,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1776949910748"
+    },
+    {
+      "Id": 1000000279,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1779058908303"
+    },
+    {
+      "Id": 1000000280,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1779740085346"
+    },
+    {
+      "Id": 1000000281,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1779371819039"
+    },
+    {
+      "Id": 1000000282,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1777037972635"
+    },
+    {
+      "Id": 1000000283,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1780412340928"
+    },
+    {
+      "Id": 1000000284,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1785354375495"
+    },
+    {
+      "Id": 1000000285,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "VEICULOS"
+    },
+    {
+      "Id": 1000000286,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1785512970885"
+    }
+  ],
+  "QuantidadeTotal": 9,
+  "Paginas": 1,
+  "Quantidade": 9,
+  "Pagina": 1
+}
