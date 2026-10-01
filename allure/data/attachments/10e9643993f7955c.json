@@ -1,0 +1,5 @@
+{
+  "method": "POST",
+  "url": "/events/test",
+  "data": null
+}
