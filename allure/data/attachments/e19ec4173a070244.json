@@ -1,0 +1,89 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Wed, 07 Oct 2026 18:18:39 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1000000287,
+        "Ativo": true,
+        "Tipo": false,
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000288,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000289,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1779311277546"
+      },
+      {
+        "Id": 1000000290,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1789675299892"
+      },
+      {
+        "Id": 1000000291,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "MF - MOM"
+      },
+      {
+        "Id": 1000000292,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1778203670630"
+      },
+      {
+        "Id": 1000000293,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1779801042201"
+      },
+      {
+        "Id": 1000000294,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1782734098280"
+      },
+      {
+        "Id": 1000000295,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1777051450319"
+      },
+      {
+        "Id": 1000000296,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "VEICULOS"
+      },
+      {
+        "Id": 1000000297,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "Teste Regressivos 13042026"
+      }
+    ],
+    "QuantidadeTotal": 11,
+    "Paginas": 1,
+    "Quantidade": 11,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.158705
+}
