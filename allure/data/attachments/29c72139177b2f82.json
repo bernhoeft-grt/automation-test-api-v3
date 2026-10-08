@@ -1,0 +1,858 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Thu, 08 Oct 2026 18:17:08 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 478,
+      "Ativo": true,
+      "TipoPessoa": "PJ",
+      "RazaoSocial": "MARS BRASIL | 10100333",
+      "Fantasia": "MARS BRASIL | 10100333",
+      "CPForCNPJ": "29.737.368/0014-33",
+      "InscricaoEstadual": "100001",
+      "InscricaoMunicipal": "100002",
+      "Endereco": "AVENIDA CAETANO SCHINCARIOL",
+      "Numero": 900,
+      "Complemento": "A",
+      "Bairro": "SEDE",
+      "Cidade": "MOGI MIRIM",
+      "UF": "SP",
+      "CEP": "13803-340",
+      "Fone": "(19)2127-0000",
+      "Fax": "(19)2127-0000",
+      "CNAE": "1066000                                           ",
+      "Contato": "19 2127960",
+      "Email": "GROUP_XXXXXX@EFFEM.COM",
+      "EmailDominiosPermitidos": [],
+      "EmailsAlertaBlacklist": [],
+      "Site": "https://www.masterfoods.com.au/",
+      "GrupoContratanteId": 368,
+      "CobrarCompetencia": true,
+      "BloquearInativacaoComPendencia": true,
+      "EnviarPendenciasOperadorExpirado": false,
+      "AlterarStatusSeDocumentoPendente": false,
+      "IncluirContratanteNoAssuntoEmail": false,
+      "EmailGestorObrigatorio": false,
+      "ToleranciaDiasAdmissao": 100,
+      "ExibirProcedimento": true,
+      "Notificar7DiasAntes": false,
+      "Notificar15DiasAntes": false,
+      "Notificar30DiasAntes": true,
+      "Notificar45DiasAntes": false,
+      "Notificar60DiasAntes": true,
+      "Notificar75DiasAntes": false,
+      "Notificar90DiasAntes": false,
+      "NotificarAteXDiasAposVencimento": 1,
+      "DiasUteisAnalise": 3,
+      "ExibirStatusAnalise": false,
+      "PermitirCobrancaPosFimContrato": true,
+      "DataLimite": 30,
+      "DataEntrega": 18,
+      "LimiteReanalise": 10,
+      "MinimoReanalisesParaFaturar": 99,
+      "ValorReanalise": 1,
+      "DataInicioCobranca": "2026-03-18",
+      "CentroCusto": "840|Jhonny Victor|Brainfarma - Fornecedor",
+      "EmpresaFaturamento": "empresa-1",
+      "FaturamentoAnualMob": {
+        "Ativo": false,
+        "DataInicioCobranca": "2026-03-02",
+        "CentroCusto": "840|Jhonny Victor|Ibema - Fornecedor",
+        "EmpresaFaturamento": "empresa-1",
+        "Valor": 100
+      },
+      "PermitirSalarioZerado": false,
+      "CarregarTrabalhadoresMobilizados": false,
+      "Classificacoes": [
+        {
+          "Id": 2,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 4,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 5,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 6,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 7,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 8,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 9,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 10,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 11,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 12,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 13,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 14,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 15,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 16,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 25,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        }
+      ],
+      "PrazoIntegracao": 12,
+      "IntegracaoSemValidade": false,
+      "HoraLimiteAgendamento": 23,
+      "PermitirAdicionarColaboradorIntegracaoAntiga": false,
+      "ExigirDocumentacaoValidaParaAgendamento": false,
+      "AlertaReintegracaoColaboradores": "TESTE",
+      "OcultarTurmaParaPerfisSelecionados": false,
+      "SuprimirAvisoColaboradorIntegracao": false,
+      "TipoPermissaoIntegracaoColaborador": 0,
+      "NaoPermitirIntegracaoMesmoDia": false,
+      "AgendaUnicaPorTurma": false,
+      "IsIntegracaoOnline": false,
+      "SolicitarContratoAssinado": 0,
+      "BloquearImpressaoCrachaNaoAprovado": false,
+      "BloquearImpressaoSemFoto": false,
+      "PermitirVisualizarCrachaQrCode": true,
+      "PermitirVisualizarDocumentosColab": true,
+      "PermitirVisualizarFlagAptidoes": true,
+      "ExibirAptidoesNoCracha": true,
+      "PermitirVisualizarFlagArea": false,
+      "ExibirAreaCracha": false,
+      "ExibirAptidaoCrachaNaoConforme": false,
+      "ExibirStatusDesligamentoCracha": false,
+      "PermitirImpressaoSomenteComStatusAprovado": false,
+      "OrdenacaoCracha": 1,
+      "ExibicaoCracha": 0,
+      "ExibicaoCrachaRodape": 0,
+      "PrazosAnalise": {
+        "DataEntregaDocumentosAnalise": "2026-06-15",
+        "DataEntregaDocumentosReanalise": "2026-07-15",
+        "DataEnvioRelatorioNaoConformidadeAnalise": "2026-06-30",
+        "DataEnvioRelatorioNaoConformidadeReanalise": "2026-07-30",
+        "PrazoReanalise": 1
+      },
+      "MensagemRelatorioPendencias": "Teste",
+      "MensagemBloqueioPermanente": "Teste",
+      "MensagemBloqueioTemporario": "Teste",
+      "TipoObjetoBloqueio": 0,
+      "ObjetosBloqueados": [],
+      "UsarIndicadoresRelatorioColaboradoresMobilizacao": false,
+      "UsarIndicadoresRelatorioNr": false,
+      "OcultarEmailCliente": true,
+      "TipoVencimento": true,
+      "DiasVencimento": 30,
+      "ValidarEntregaDocumento": true,
+      "Riscos": [
+        4,
+        3,
+        2
+      ],
+      "TempoBloqueio": 549,
+      "TipoObjeto": [],
+      "PermitirMobilizacaoExpress": false,
+      "QuantidadeDiasMobilizacaoExpress": 0,
+      "DiaCriacaoCompetenciaAmbiental": 1,
+      "CobrarCompetenciaEmpresaAmbiental": false,
+      "PermitirReaproveitamentoDocumento": false,
+      "HeadCountHabilitado": false,
+      "HeadCountTipoContabilizacao": 0,
+      "HeadCountTipoLimitacaoPadrao": 0,
+      "TipoPrestadorObrigatorio": false,
+      "AtividadeRiscoObrigatoria": false,
+      "ReaproveitamentoDocumentoConfiguracao": [
+        {
+          "ObjetoOficialId": 12,
+          "ObjetoOficialNome": "PGR - Programa de Gerenciamento de Riscos",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 15,
+          "ObjetoOficialNome": "Cópia da CTPS (Física ou Digital) dos terceiros mobilizados",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 16,
+          "ObjetoOficialNome": "ASO - Atestado de Saúde Ocupacional",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 19,
+          "ObjetoOficialNome": "Comprovante de entrega de EPIs com os respectivos CAs",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 21,
+          "ObjetoOficialNome": "PCMSO - Programa de Controle Médico de Saúde Ocupacional",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 22,
+          "ObjetoOficialNome": "SESMT - Serviços Especializados em Engenharia de Segurança e em Medicina do Trabalho",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 23,
+          "ObjetoOficialNome": "Ordem de Serviço - NR-01",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 24,
+          "ObjetoOficialNome": "Cópia do RG e CPF",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 26,
+          "ObjetoOficialNome": "Cópia da CNH - Carteira Nacional de Habilitação",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 27,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 06 - Equipamentos de Proteção Individual",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 28,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 10 - Trabalhos com Eletricidade",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 29,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 10 SEP - Sistema Elétrico de Potência",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 30,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 11 - Transporte, Movimentação, Armazenagem e Manuseio de Materiais",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 31,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 12 - Máquinas e Equipamentos",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 32,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 13 - Caldeiras e Vasos de Pressão",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 33,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 18 - Construção Civil",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 34,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 18 - Trabalho à Quente",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 36,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 20 - Inflamáveis - Básico",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 37,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 33 - Trabalhos em Espaço Confinado (Trabalhador|Vigia)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 38,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 33 - Trabalhos em Espaço Confinado (Supervisor)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 39,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 34 - Trabalhos à Quente",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 40,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 35 - Trabalhos em Altura",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 45,
+          "ObjetoOficialNome": "PPR - Programa de Proteção Respiratória",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 53,
+          "ObjetoOficialNome": "LTCAT - Laudo Técnico de Condições Ambientais de Trabalho",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 56,
+          "ObjetoOficialNome": "Contrato de Trabalho",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 58,
+          "ObjetoOficialNome": "Formulário de Exposição de Risco",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 59,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 18 - PEMT - Plataforma Elevatória Móvel de Trabalho",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 64,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 20 - Inflamáveis - Intermediário - Classe I",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 65,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 20 - Inflamáveis - Intermediário - Classe II e III",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 66,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 20 - Inflamáveis - Avançado I - Classe II",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 67,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 20 - Inflamáveis - Avançado II - Classe III",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 68,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 20 - Inflamáveis - Específico",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 69,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 20 - Inflamáveis - Iniciação sobre Inflamáveis e Combustíveis",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 70,
+          "ObjetoOficialNome": "Ficha de Registro do empregado ou Evento 2200 do eSocial",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 72,
+          "ObjetoOficialNome": "Contrato de prestação de serviço",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 92,
+          "ObjetoOficialNome": "Proposta ou Contrato de serviço do Autônomo",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 105,
+          "ObjetoOficialNome": "Contrato Social, Requerimento do empresário ou CCMEI",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 115,
+          "ObjetoOficialNome": "Trabalhos em Espaço Confinado - Treinamento de Emergência e Salvamento Operacional (NR 33)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 151,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 18 - Montador de Andaimes",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 152,
+          "ObjetoOficialNome": "DARF INSS pago + recibo de entrega do DCTFWEB, relatório de débitos DCTFWEB e  CND federal atualizada",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 153,
+          "ObjetoOficialNome": "GFIP/SEFIP (Relação de trabalhadores, RET, Comprovante de Declaração por FPAS e Protocolo de Conectividade)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 154,
+          "ObjetoOficialNome": "Guia de Recolhimento do FGTS - GRF + Comprovante de Pagamento",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 155,
+          "ObjetoOficialNome": "FOPAG - (Folha de pagamento analítica + Resumo com as bases de INSS e FGTS)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 156,
+          "ObjetoOficialNome": "Cartão de Ponto com totalização de horas extras e/ou noturnas",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 157,
+          "ObjetoOficialNome": "Comprovante de pagamento de Salário",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 158,
+          "ObjetoOficialNome": "Recibo de Férias/Aviso de Férias + Comprovante de Pagamento",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 159,
+          "ObjetoOficialNome": "Guia de recolhimento rescisório do FGTS - GRRF",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 160,
+          "ObjetoOficialNome": "Carta de pedido de demissão",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 161,
+          "ObjetoOficialNome": "Termo de Rescisão de Contrato de Trabalho",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 162,
+          "ObjetoOficialNome": "ASO Demissional (Atestado de Saúde Ocupacional Demissional)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 163,
+          "ObjetoOficialNome": "Contrato Social",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 165,
+          "ObjetoOficialNome": "Convenção Coletiva",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 168,
+          "ObjetoOficialNome": "Cadastro da Condição de Microempreendedor Individual - CCMEI",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 173,
+          "ObjetoOficialNome": "Declaração de subcontratação(quando aplicável)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 174,
+          "ObjetoOficialNome": "Guia da Previdência Social - GPS (Referente ao parcelamento) - Comprovante + Extrato Dataprev + CND atualizada",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 176,
+          "ObjetoOficialNome": "Acordo Individual de Banco de Horas (mensal ou semestral)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 180,
+          "ObjetoOficialNome": "GRF paga + SEFIP (BRANCO) das competências com recolhimento postergado, envolvendo os demitidos do mês ou Guia de antecipação paga",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 182,
+          "ObjetoOficialNome": "Vale Transporte (pagamento mensal, boleto e lista de beneficiários)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 183,
+          "ObjetoOficialNome": "Vale Alimentação (pagamento mensal, boleto e lista de beneficiários)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 184,
+          "ObjetoOficialNome": "Vale Refeição (pagamento mensal, boleto e lista de beneficiários)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 185,
+          "ObjetoOficialNome": "Seguro de Vida (Boleto, Comprovante de Pagamento e Relação de Segurados)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 186,
+          "ObjetoOficialNome": "Plano de Saúde (relação + boleto + comprovante de pagamento)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 188,
+          "ObjetoOficialNome": "Extrato de Conta do FGTS",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 199,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 34 - Treinamento Admissional - Industria Naval",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 222,
+          "ObjetoOficialNome": "Certificado de Operação de PTA conforme NR 11 ou 12",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 224,
+          "ObjetoOficialNome": "Certificado de Operação com Munk",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 241,
+          "ObjetoOficialNome": "Cópia do documento do responsável pela operação de manejo florestal (CREA, ART)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 245,
+          "ObjetoOficialNome": "Aviso de Desligamento ou Acordo de demissão",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 261,
+          "ObjetoOficialNome": "FOPAG 13º salário (Folha de pagamento analítica + Resumo com as bases de INSS e FGTS, referentes ao 13º salário)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 262,
+          "ObjetoOficialNome": "Recolhimento de INSS referente ao 13 salário (Recibo de Entrega das Declarações de Débitos e Créditos + DARF + Comprovante de Pagamento)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 263,
+          "ObjetoOficialNome": "Comprovante de Pagamento da primeira parcela do 13º salário.",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 264,
+          "ObjetoOficialNome": "Comprovante de Pagamento da segunda parcela do 13º salário.",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 295,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 18 - Sinaleiro/amarrador de cargas",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 314,
+          "ObjetoOficialNome": "Guia de Recolhimento do COFINS",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 328,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 12 - Máquinas e Equipamentos - Com validade de 24 meses",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 329,
+          "ObjetoOficialNome": "GFD - Guia do FGTS Digital Mensal  + Detalhamento da Guia (Relação de Trabalhadores) + Comprovante de Pagamento",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 330,
+          "ObjetoOficialNome": "GFD Rescisória - Guia do FGTS Digital Rescisória + Detalhamento da Guia (Relação de Trabalhadores) + Comprovante de Pagamento",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 364,
+          "ObjetoOficialNome": "Seguro Garantia Responsabilidade Civil sobre Veículos de Terceiros",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 604,
+          "ObjetoOficialNome": "Certificado de Transporte de Passageiros (apenas Para Motoristas de Transporte Coletivo)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 715,
+          "ObjetoOficialNome": "Comprovantes de Participação de Treinamentos de Segurança do Trabalho",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 716,
+          "ObjetoOficialNome": "Comprovantes de Realização de fit Test (atividades que Exijam uso do Respirador).",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 916,
+          "ObjetoOficialNome": "Formulário Alojamento",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1178,
+          "ObjetoOficialNome": "Relatório de Mapeamento de Exposição ao Risco Laboral (conforme Modelo Disponível na Plataforma) Informar Todas as Atividades que Serão Executadas na Raízen dos Colaboradores Mobilizados.",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1205,
+          "ObjetoOficialNome": "Template dos Alojamentos (modelo da Raízen Disponível no Documentos/links do Portal)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1213,
+          "ObjetoOficialNome": "Termo de Cooperação",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1217,
+          "ObjetoOficialNome": "Termo de Integração",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        }
+      ],
+      "BloquearMobilizacaoSimultaneaPorTipoPrestador": false,
+      "BloqueioMobSimultaneaTiposPrestador": [],
+      "BloquearColaboradoresContratosSimultaneos": false,
+      "FixarValidadeIntegracao": false,
+      "InformacoesComplementares": [],
+      "PossuiGRTMobile": false
+    }
+  },
+  "elapsed_seconds": 0.601287
+}
