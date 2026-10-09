@@ -1,0 +1,77 @@
+{
+  "expected": true,
+  "actual": [
+    {
+      "Id": 1000000290,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1789675299892"
+    },
+    {
+      "Id": 1000000291,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "MF - MOM"
+    },
+    {
+      "Id": 1000000292,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1778203670630"
+    },
+    {
+      "Id": 1000000293,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1779801042201"
+    },
+    {
+      "Id": 1000000294,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1782734098280"
+    },
+    {
+      "Id": 1000000295,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1777051450319"
+    },
+    {
+      "Id": 1000000296,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "VEICULOS"
+    },
+    {
+      "Id": 1000000297,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "Teste Regressivos 13042026"
+    },
+    {
+      "Id": 1000000298,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1779896354177"
+    },
+    {
+      "Id": 1000000299,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1776892465051"
+    },
+    {
+      "Id": 1000000300,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1787663689923"
+    },
+    {
+      "Id": 1000000301,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1777051423467"
+    }
+  ]
+}
