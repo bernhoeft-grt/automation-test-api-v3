@@ -1,0 +1,18 @@
+{
+  "Dados": {
+    "Id": 3811,
+    "Ativo": true,
+    "TipoPessoa": "PJ",
+    "RazaoSocial": "BERNHOEFT - TESTE RELACIONAMENTO",
+    "Fantasia": "BERNHOEFT - TESTE RELACIONAMENTO",
+    "CPForCNPJ": "89.604.506/0001-13",
+    "Endereco": "Bernhoeft",
+    "Numero": "0",
+    "Bairro": "Bernhoeft",
+    "Cidade": "Bernhoeft",
+    "UF": "PE",
+    "CEP": "00000000",
+    "BloqueioEntregaDocumento": false,
+    "EmailResponsavel": "fvalenca@bernhoeft.com.br"
+  }
+}
