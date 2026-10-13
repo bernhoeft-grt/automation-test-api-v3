@@ -1,0 +1,14 @@
+{
+  "status_code": 204,
+  "headers": {
+    "api-supported-versions": "1.0",
+    "x-cloud-trace-context": "8018d8bb1449f522ef5c630dc180fa28",
+    "date": "Tue, 13 Oct 2026 12:17:59 GMT",
+    "content-type": "text/html",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "body": "",
+  "elapsed_seconds": 0.180555
+}
