@@ -1,0 +1,50 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Wed, 14 Oct 2026 12:16:46 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 63565,
+      "Numero": "TCON-FAC-CT00001/21",
+      "ObjetoContratual": "SERVIÇOS DE VIGILÂNCIA",
+      "LocalServico": "TERMARES",
+      "ObservacoesGerais": "1\r\n\r\nData fim alterada para 31/03/2025 conforme solicitada pela consultora T_fernanda.souza@ecorodovias.com.br \r\n\r\nKaylane Luiza 30/05/2024\r\n\r\nAlteração Vigência para 30/04/2026 - Solicitado por Ingridd Bispo. (Manuele Dias - 27/05/25)\r\n\r\nInativação - Ingred Bispo ( Vitoria Bispo - 22/08/2025)",
+      "Responsavel": "patricia.silva@comandog8.com.br",
+      "ExibeMensal": true,
+      "ExibeMobilizacao": true,
+      "DataInicio": "2022-01-03",
+      "DataFim": "2050-12-31",
+      "Ativo": true,
+      "PermitirIntegracaoTodosColaboradores": false,
+      "DataInclusao": "2023-11-17",
+      "UltimaModificacao": "2025-08-22",
+      "ContratanteId": 297,
+      "Contratada": {
+        "Id": 5784,
+        "TipoPessoa": "PF",
+        "RazaoSocial": "COMANDO G8 - SEGURANCA PATRIMONIAL EIRELI",
+        "Fantasia": "COMANDO G8 - SEGURANCA PATRIMONIAL EIRELI",
+        "CPForCNPJ": "17.521.682/0001-80"
+      },
+      "GrupoAreaId": 467,
+      "AreaId": 5204,
+      "Unidades": [
+        735
+      ],
+      "ContratoAssinado": false,
+      "HeadCountHabilitado": false,
+      "HeadCountLimite": 0,
+      "HeadCountTipoSinalizacao": 0
+    }
+  },
+  "elapsed_seconds": 0.63819
+}
