@@ -1,0 +1,233 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Fri, 16 Oct 2026 18:15:14 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 719,
+        "Ativo": true,
+        "Descricao": "ANISH",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 722,
+        "Ativo": true,
+        "Descricao": "Ecovias Norte Minas",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 723,
+        "Ativo": true,
+        "Descricao": "Ecovias Noroeste Paulista",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 724,
+        "Ativo": true,
+        "Descricao": "ECOPATIO",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 725,
+        "Ativo": true,
+        "Descricao": "Ecovias Leste Paulista",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 726,
+        "Ativo": true,
+        "Descricao": "Ecovias Ponte",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 727,
+        "Ativo": true,
+        "Descricao": "ECOPORTO",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 728,
+        "Ativo": true,
+        "Descricao": "Ecovias Rio Minas",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 729,
+        "Ativo": true,
+        "Descricao": "Ecovias Sul",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 730,
+        "Ativo": true,
+        "Descricao": "Ecovias Araguaia",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 731,
+        "Ativo": true,
+        "Descricao": "Ecovias Cerrado",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 733,
+        "Ativo": true,
+        "Descricao": "ECS - ECORODOVIAS",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 734,
+        "Ativo": true,
+        "Descricao": "EIL",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 735,
+        "Ativo": true,
+        "Descricao": "TERMARES",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 746,
+        "Ativo": true,
+        "Descricao": "Ecovias Imigrantes",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 2182,
+        "Ativo": true,
+        "Descricao": "Ecovias Capixaba",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 2183,
+        "Ativo": true,
+        "Descricao": "Ecovias Minas Goias",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 2246,
+        "Ativo": true,
+        "Descricao": "Ecovias Raposo Castello",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 2384,
+        "Ativo": true,
+        "Descricao": "Ecovias das Gerais",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 2573,
+        "Ativo": true,
+        "Descricao": "A informar",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 3059,
+        "Ativo": true,
+        "Descricao": " Ecovias Noroeste Paulista",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 1000000000,
+        "Ativo": true,
+        "Descricao": "Unidade Teste",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "TemIntegracaoUnidade": true
+      },
+      {
+        "Id": 1000000001,
+        "Ativo": true,
+        "Descricao": "UNIDADE QA 1776629821622",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 1000000002,
+        "Ativo": true,
+        "Descricao": "UNIDADE QA 1776630468806",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 1000000003,
+        "Ativo": true,
+        "Descricao": "UNIDADE QA 1776631049568",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 1000000004,
+        "Ativo": true,
+        "Descricao": "UNIDADE QA 1776631093320",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 1000000005,
+        "Ativo": true,
+        "Descricao": "UNIDADE QA 1776631096577",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 1000000006,
+        "Ativo": true,
+        "Descricao": "UNIDADE QA 1776631934851",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 1000000007,
+        "Ativo": true,
+        "Descricao": "UNIDADE QA 1776703927528",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "TemIntegracaoUnidade": false
+      },
+      {
+        "Id": 1000000008,
+        "Ativo": true,
+        "Descricao": "UNIDADE QA 1776703946069",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "TemIntegracaoUnidade": false
+      }
+    ],
+    "QuantidadeTotal": 400,
+    "Paginas": 14,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.251966
+}
