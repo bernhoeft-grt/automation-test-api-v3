@@ -1,0 +1,233 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Mon, 19 Oct 2026 18:16:09 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 6425,
+        "Ativo": true,
+        "Descricao": "ANISH",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 6426,
+        "Ativo": true,
+        "Descricao": "ECO050",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 6427,
+        "Ativo": true,
+        "Descricao": "ECO101",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 6428,
+        "Ativo": true,
+        "Descricao": "ECO135",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 6429,
+        "Ativo": true,
+        "Descricao": "ECONOROESTE",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 6430,
+        "Ativo": true,
+        "Descricao": "ECOPATIO",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 6431,
+        "Ativo": true,
+        "Descricao": "ECOPISTAS",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 6432,
+        "Ativo": true,
+        "Descricao": "ECOPONTE",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 6433,
+        "Ativo": true,
+        "Descricao": "ECOPORTO",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 6434,
+        "Ativo": true,
+        "Descricao": "ECORIOMINAS",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 6435,
+        "Ativo": true,
+        "Descricao": "ECOSUL",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 6436,
+        "Ativo": true,
+        "Descricao": "ECOVIAS DO ARAGUAIA",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 6437,
+        "Ativo": true,
+        "Descricao": "ECOVIAS DO CERRADO",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 6438,
+        "Ativo": true,
+        "Descricao": "ECOVIAS DOS IMIGRANTES",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 6439,
+        "Ativo": true,
+        "Descricao": "ECS - ECORODOVIAS",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 6440,
+        "Ativo": true,
+        "Descricao": "EIL",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 6441,
+        "Ativo": true,
+        "Descricao": "TERMARES",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 7202,
+        "Ativo": true,
+        "Descricao": "ECOVIAS RAPOSO CASTELO",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 9163,
+        "Ativo": true,
+        "Descricao": "Ecovias Norte Minas",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 15334,
+        "Ativo": true,
+        "Descricao": "Ecovias Capixaba",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 2
+      },
+      {
+        "Id": 15691,
+        "Ativo": true,
+        "Descricao": "ECOVIAS PONTE ",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 15926,
+        "Ativo": true,
+        "Descricao": " Ecovias Minas Goiás",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 15927,
+        "Ativo": true,
+        "Descricao": "SERVIÇOS - Ecovias Minas Goiás",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 16109,
+        "Ativo": true,
+        "Descricao": "Ecovias – Ecovias Minas Goias ",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 0
+      },
+      {
+        "Id": 16163,
+        "Ativo": true,
+        "Descricao": "ECOVIAS DAS GERAIS",
+        "DescricaoContratante": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+        "Tipo": 2
+      },
+      {
+        "Id": 1000000000,
+        "Ativo": true,
+        "Descricao": "Votorantim",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 2
+      },
+      {
+        "Id": 1000000001,
+        "Ativo": true,
+        "Descricao": "Recife",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 2
+      },
+      {
+        "Id": 1000000002,
+        "Ativo": true,
+        "Descricao": "Caruaru",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 2
+      },
+      {
+        "Id": 1000000003,
+        "Ativo": true,
+        "Descricao": "São Paulo",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 2
+      },
+      {
+        "Id": 1000000004,
+        "Ativo": true,
+        "Descricao": "Curitiba",
+        "DescricaoContratante": "CONTRATANTE TESTE PRÉ-PRODUÇÃO",
+        "Tipo": 2
+      }
+    ],
+    "QuantidadeTotal": 449,
+    "Paginas": 15,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.249623
+}
