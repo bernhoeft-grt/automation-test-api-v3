@@ -1,0 +1,7 @@
+{
+  "method": "POST",
+  "url": "/grupo-area",
+  "data": {
+    "nome": "Test Grupo Area"
+  }
+}
