@@ -1,0 +1,645 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Tue, 20 Oct 2026 12:15:33 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1,
+        "Ativo": true,
+        "Nome": "SISTEMA",
+        "Email": "techgrt@bernhoeft.onmicrosoft.com",
+        "Telefone": "(00)00000-0000",
+        "Perfis": [
+          {
+            "Id": 1,
+            "Descricao": "Perfil - Administrador",
+            "TipoPerfil": 0
+          }
+        ]
+      },
+      {
+        "Id": 353,
+        "Ativo": true,
+        "Nome": "Maria da Conceição Silva de Lima",
+        "Email": "mclima@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 2246,
+        "Ativo": true,
+        "Nome": "CAMILA BOTELHO DE BRITO LEITE | 2063",
+        "Email": "cleite@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 4044,
+        "Ativo": true,
+        "Nome": "VINICIUS FERREIRA DE SOUZA | 3758",
+        "Email": "vfsouza@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 4065,
+        "Ativo": true,
+        "Nome": "Geovane Lucas da Silva",
+        "Email": "glsilva@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 4078,
+        "Ativo": true,
+        "Nome": "MARIANA BLANCO ACCIOLY | 1477",
+        "Email": "maccioly@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 4583,
+        "Ativo": true,
+        "Nome": "Tatiana Aparecida França Henrique",
+        "Email": "tfranca@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 5338,
+        "Ativo": true,
+        "Nome": "FABIOLA DE PAULA PEREIRA | 1524",
+        "Email": "fpereira@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1,
+            "Descricao": "Perfil - Administrador",
+            "TipoPerfil": 0
+          },
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 5865,
+        "Ativo": true,
+        "Nome": "Eligleicy Nascimento de Sales",
+        "Email": "enascimento@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 8624,
+        "Ativo": true,
+        "Nome": "PAULA RAYANNE SILVA MOURA | 2495",
+        "Email": "pmoura@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 11252,
+        "Ativo": true,
+        "Nome": "ABIMAEL JULIO DA SILVA | 2905",
+        "Email": "ajsilva@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 13323,
+        "Ativo": true,
+        "Nome": "FLAYENIA FERNANDA ALVES FERREIRA | 2049",
+        "Email": "faferreira@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 13326,
+        "Ativo": true,
+        "Nome": "felipe saborido valença",
+        "Email": "fvalenca@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1,
+            "Descricao": "Perfil - Administrador",
+            "TipoPerfil": 0
+          },
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 13328,
+        "Ativo": true,
+        "Nome": "ANA BEATRIZ DE PAULA ARAUJO | 2045",
+        "Email": "aaraujo@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 15235,
+        "Ativo": true,
+        "Nome": "Kathiusca Bezerra Soares Ribeiro",
+        "Email": "kribeiro@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 18787,
+        "Ativo": true,
+        "Nome": "ELIDIANE MARIA ALVES | 2093",
+        "Email": "emalves@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 18880,
+        "Ativo": true,
+        "Nome": "DANILO CARNEIRO DOS SANTOS | 2272",
+        "Email": "dcsantos@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000001,
+            "Descricao": "regressivo 11032026135643",
+            "TipoPerfil": 0
+          },
+          {
+            "Id": 1000000002,
+            "Descricao": "reg11032026"
+          },
+          {
+            "Id": 1000000003,
+            "Descricao": "11032026 TESTE"
+          },
+          {
+            "Id": 2,
+            "Descricao": "Perfil - Analista"
+          },
+          {
+            "Id": 3,
+            "Descricao": "Perfil - Fornecedor Integração",
+            "TipoPerfil": 2
+          },
+          {
+            "Id": 1000000005,
+            "Descricao": "Antonio",
+            "TipoPerfil": 0
+          },
+          {
+            "Id": 1000000009,
+            "Descricao": "regressivo 3103"
+          },
+          {
+            "Id": 4,
+            "Descricao": "Revisor"
+          },
+          {
+            "Id": 1000000004,
+            "Descricao": "Teste - Gabriel"
+          },
+          {
+            "Id": 1000000007,
+            "Descricao": "Teste Regressivo 2303"
+          },
+          {
+            "Id": 1000000006,
+            "Descricao": "teste021214"
+          },
+          {
+            "Id": 1000000011,
+            "Descricao": "deploy0704",
+            "TipoPerfil": 2
+          },
+          {
+            "Id": 1000000012,
+            "Descricao": "deploy0704.Personalizado",
+            "TipoPerfil": 2
+          },
+          {
+            "Id": 1000000008,
+            "Descricao": "Regressivo 2603"
+          },
+          {
+            "Id": 1000000022,
+            "Descricao": "28042026TESTE14",
+            "TipoPerfil": 0
+          },
+          {
+            "Id": 1,
+            "Descricao": "Perfil - Administrador",
+            "TipoPerfil": 0
+          },
+          {
+            "Id": 1000000278,
+            "Descricao": "Nova Tela de Carregamento",
+            "TipoPerfil": 0
+          },
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 19908,
+        "Ativo": true,
+        "Nome": "YASMIM CERQUEIRA SANTOS | 2269",
+        "Email": "ysantos@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 26247,
+        "Ativo": true,
+        "Nome": "GRACIELLY CAVALCANTI DA SILVA | 2156",
+        "Email": "gcsilva@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 26250,
+        "Ativo": true,
+        "Nome": "INGRID SIQUEIRA DE SOUZA | 2154",
+        "Email": "issouza@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 27527,
+        "Ativo": true,
+        "Nome": "LIGIA AMANCIO DA SILVA | 2390",
+        "Email": "lasilva@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 32284,
+        "Ativo": true,
+        "Nome": "ARIANA DE SOUZA ALVES | 2201",
+        "Email": "asalves@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 32779,
+        "Ativo": true,
+        "Nome": "JULIA EVORA DA COSTA BATISTA SANTOS | 2232",
+        "Email": "jcbatista@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 34317,
+        "Ativo": true,
+        "Nome": "ANDERSON VICENTE DA SILVA | 2216",
+        "Email": "avsilva@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 35127,
+        "Ativo": true,
+        "Nome": "ABIGAIL DOS SANTOS PAULINO | 2222",
+        "Email": "apaulino@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 35128,
+        "Ativo": true,
+        "Nome": "AYALLE SABRINE ALVARES SANTOS LIMA | 2229",
+        "Email": "aslima@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 35132,
+        "Ativo": true,
+        "Nome": "GABRIELA VERUSKA QUINTILIANO MENDES | 2223",
+        "Email": "gmendes@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 35773,
+        "Ativo": true,
+        "Nome": "Jaciana Regina da Silva",
+        "Email": "jrsilva@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 35834,
+        "Ativo": true,
+        "Nome": "LAURA SABOYA CYSNEIROS DE ALMEIDA | 2238",
+        "Email": "lalmeida@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 37539,
+        "Ativo": true,
+        "Nome": "LUAN DANYLO NORONHA DOS SANTOS | 2265",
+        "Email": "ldsantos@bernhoeft.com.br.MigracaoBexUp",
+        "Telefone": "3199999999",
+        "Perfis": [
+          {
+            "Id": 1000000450,
+            "Descricao": "Migração ECORODOVIAS"
+          },
+          {
+            "Id": 1000000451,
+            "Descricao": "Migração ECORODOVIAS - Cliente",
+            "TipoPerfil": 1
+          }
+        ]
+      }
+    ],
+    "QuantidadeTotal": 1062,
+    "Paginas": 36,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.284874
+}
