@@ -1,0 +1,263 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Tue, 20 Oct 2026 18:15:45 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 2,
+        "Ativo": true,
+        "RazaoSocial": "Bernhoeft Auditores Ltda",
+        "Fantasia": "Bernhoeft Auditores Ltda",
+        "CPForCNPJ": "77.520.428/0001-90",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 16,
+        "Ativo": true,
+        "RazaoSocial": "Joriba Transportadora Ltda -ME",
+        "Fantasia": "Joriba Transportadora Ltda -ME",
+        "CPForCNPJ": "11.071.588/0001-90",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 52,
+        "Ativo": true,
+        "RazaoSocial": "ALAMO ENGENHARIA S/A 09-57",
+        "Fantasia": "ALAMO ENGENHARIA S/A 09-57",
+        "CPForCNPJ": "34.125.294/0009-57",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 126,
+        "Ativo": true,
+        "RazaoSocial": "3778 GESTAO EM SAUDE LTDA",
+        "Fantasia": "3778 GESTAO EM SAUDE LTDA",
+        "CPForCNPJ": "00.196.526/0001-99",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 144,
+        "Ativo": true,
+        "RazaoSocial": "GRAN COFFEE COMERCIO, LOCACAO E SERVICOS S.A.",
+        "Fantasia": "GRAN COFFEE COMERCIO, LOCACAO E SERVICOS S.A.",
+        "CPForCNPJ": "08.736.011/0002-27",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 195,
+        "Ativo": true,
+        "RazaoSocial": "Comando G8 - Serviços Administrativos Ltda - ME",
+        "Fantasia": "Comando G8 - Serviços Administrativos Ltda - ME",
+        "CPForCNPJ": "15.208.974/0001-32",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 217,
+        "Ativo": true,
+        "RazaoSocial": "RSP Segurança e Vigilância Patrimonial Ltda - ME",
+        "Fantasia": "RSP Segurança e Vigilância Patrimonial Ltda - ME",
+        "CPForCNPJ": "11.078.254/0001-49",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 225,
+        "Ativo": true,
+        "RazaoSocial": "TOP SERVICE SERVIÇOS E SISTEMAS S/A - Fixo",
+        "Fantasia": "TOP SERVICE SERVIÇOS E SISTEMAS S/A - Fixo",
+        "CPForCNPJ": "00.973.749/0008-91",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 232,
+        "Ativo": true,
+        "RazaoSocial": "COMANDO G8 - SEGURANCA PATRIMONIAL EIRELI",
+        "Fantasia": "COMANDO G8 - SEGURANCA PATRIMONIAL EIRELI",
+        "CPForCNPJ": "17.521.682/0001-80",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 279,
+        "Ativo": true,
+        "RazaoSocial": "Visel Vigilância e Segurança Ltda",
+        "Fantasia": "Visel Vigilância e Segurança Ltda",
+        "CPForCNPJ": "32.401.341/0001-65",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 743,
+        "Ativo": true,
+        "RazaoSocial": "CLARO SA 0147",
+        "Fantasia": "CLARO SA 0147",
+        "CPForCNPJ": "40.432.544/0001-47",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 999,
+        "Ativo": true,
+        "RazaoSocial": "ACOEM BRASIL COMERCIO DE EQUIPAMENTOS LTDA",
+        "Fantasia": "ACOEM BRASIL COMERCIO DE EQUIPAMENTOS LTDA",
+        "CPForCNPJ": "00.900.716/0001-45",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 2195,
+        "Ativo": true,
+        "RazaoSocial": "MTB-GREEN CONTROLE DE PRAGAS LTDA E ",
+        "Fantasia": "MTB-GREEN CONTROLE DE PRAGAS LTDA E ",
+        "CPForCNPJ": "41.806.514/0003-88",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 2588,
+        "Ativo": true,
+        "RazaoSocial": "Guinchos Marini e Mello Ltda 01-62",
+        "Fantasia": "Guinchos Marini e Mello Ltda 01-62",
+        "CPForCNPJ": "06.211.227/0001-62",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 2694,
+        "Ativo": true,
+        "RazaoSocial": "TOLEDO DO BRASIL INDUSTRIA DE BALANÇAS LTDA",
+        "Fantasia": "TOLEDO DO BRASIL INDUSTRIA DE BALANÇAS LTDA",
+        "CPForCNPJ": "59.704.510/0014-07",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 2825,
+        "Ativo": true,
+        "RazaoSocial": "TOLEDO DO BRASIL INDUSTRIA DE BALANCAS LTDA 1-92",
+        "Fantasia": "TOLEDO DO BRASIL INDUSTRIA DE BALANCAS LTDA 1-92",
+        "CPForCNPJ": "59.704.510/0001-92",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 2845,
+        "Ativo": true,
+        "RazaoSocial": "ZOPONE ENGENHARIA E COMERCIO LTDA",
+        "Fantasia": "ZOPONE ENGENHARIA E COMERCIO LTDA",
+        "CPForCNPJ": "59.225.698/0001-96",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 3409,
+        "Ativo": true,
+        "RazaoSocial": "CLEMAR ENGENHARIA LTDA 05-98",
+        "Fantasia": "CLEMAR ENGENHARIA LTDA 05-98",
+        "CPForCNPJ": "83.932.418/0005-98",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 3507,
+        "Ativo": true,
+        "RazaoSocial": "ENERG GERADORES SERVIÇOS E ENGENHARIA LTDA ",
+        "Fantasia": "ENERG GERADORES SERVIÇOS E ENGENHARIA LTDA ",
+        "CPForCNPJ": "06.696.624/0001-71",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 3509,
+        "Ativo": true,
+        "RazaoSocial": "ENERG GERADORES SERVIÇOS E ENGENHARIA LTDA ",
+        "Fantasia": "ENERG GERADORES SERVIÇOS E ENGENHARIA LTDA ",
+        "CPForCNPJ": "06.696.624/0001-71",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 3514,
+        "Ativo": true,
+        "RazaoSocial": "BRASIL SERVICE TELECOM LTDA ",
+        "Fantasia": "BRASIL SERVICE TELECOM LTDA ",
+        "CPForCNPJ": "04.235.259/0001-72",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 3517,
+        "Ativo": true,
+        "RazaoSocial": "TSENGE ENGENHARIA S/S. ",
+        "Fantasia": "TSENGE ENGENHARIA S/S.",
+        "CPForCNPJ": "54.134.309/0001-01",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 3567,
+        "Ativo": true,
+        "RazaoSocial": "STRONG LOCAÇÕES E TRANSPORTES LTDA ",
+        "Fantasia": "STRONG LOCAÇÕES E TRANSPORTES LTDA ",
+        "CPForCNPJ": "12.581.214/0001-88",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 3646,
+        "Ativo": true,
+        "RazaoSocial": "TORRES ENGENHARIA E CONSULTORIA LTDA ",
+        "Fantasia": "TORRES ENGENHARIA E CONSULTORIA LTDA ",
+        "CPForCNPJ": "01.815.999/0001-90",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 3651,
+        "Ativo": true,
+        "RazaoSocial": "TELEMÁTICA SISTEMAS INTELIGENTES LTDA",
+        "Fantasia": "TELEMÁTICA SISTEMAS INTELIGENTES LTDA",
+        "CPForCNPJ": "44.772.937/0001-50",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 3811,
+        "Ativo": true,
+        "RazaoSocial": "BERNHOEFT - TESTE RELACIONAMENTO",
+        "Fantasia": "BERNHOEFT - TESTE RELACIONAMENTO",
+        "CPForCNPJ": "89.604.506/0001-13",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 3943,
+        "Ativo": true,
+        "RazaoSocial": "PROCISA DO BRASIL PROJETOS, CONSTRUÇÕES E INSTALAÇÕES LTDA  0135",
+        "Fantasia": "PROCISA DO BRASIL PROJETOS, CONSTRUÇÕES E INSTALAÇÕES LTDA  0135",
+        "CPForCNPJ": "08.084.898/0001-35",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 3986,
+        "Ativo": true,
+        "RazaoSocial": "INFRALINK SERVICOS DE INFRA-ESTRUTURA EMPRESARIAL LTDA",
+        "Fantasia": "INFRALINK SERVICOS DE INFRA-ESTRUTURA EMPRESARIAL LTDA",
+        "CPForCNPJ": "01.704.331/0001-75",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 4031,
+        "Ativo": true,
+        "RazaoSocial": "AUTOMEC COMERCIO DE PORTAS AUTOMÁTICAS 01-40",
+        "Fantasia": "AUTOMEC COMERCIO DE PORTAS AUTOMÁTICAS 01-40",
+        "CPForCNPJ": "04.521.095/0001-40",
+        "TipoPessoa": "PJ"
+      },
+      {
+        "Id": 4079,
+        "Ativo": true,
+        "RazaoSocial": "GRT AUDITORIA DE TERCEIROS LTDA - 0121",
+        "Fantasia": "GRT AUDITORIA DE TERCEIROS LTDA - 0121",
+        "CPForCNPJ": "26.852.688/0001-21",
+        "TipoPessoa": "PJ"
+      }
+    ],
+    "QuantidadeTotal": 4095,
+    "Paginas": 137,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.402008
+}
