@@ -1,0 +1,25 @@
+{
+  "Dados": {
+    "Id": 2,
+    "Ativo": true,
+    "TipoPessoa": "PJ",
+    "RazaoSocial": "Bernhoeft Auditores Ltda",
+    "Fantasia": "Bernhoeft Auditores Ltda",
+    "CPForCNPJ": "77.520.428/0001-90",
+    "InscricaoEstadual": "6837375",
+    "InscricaoMunicipal": "37573737",
+    "Endereco": "Avenida Doutor Belmino Correia",
+    "Numero": "463",
+    "Complemento": "terreo",
+    "Bairro": "Alberto Maia",
+    "Cidade": "Camaragibe",
+    "UF": "PE",
+    "CEP": "54771-000",
+    "Fone": "(81)9814-68138",
+    "Fax": "(81)9814-68138",
+    "BloqueioEntregaDocumento": false,
+    "DiaInicial": 0,
+    "DiaFinal": 0,
+    "EmailResponsavel": "dsilva@bernhoeft.com.br"
+  }
+}
