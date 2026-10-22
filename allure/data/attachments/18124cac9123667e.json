@@ -1,0 +1,203 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Thu, 22 Oct 2026 18:15:33 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 4193,
+        "Ativo": true,
+        "Descricao": "INDUSTRIAL - TI",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 4571,
+        "Ativo": true,
+        "Descricao": "SEGURANÇA",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 4813,
+        "Ativo": true,
+        "Descricao": "FRETAMENTO CONTINUO",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5050,
+        "Ativo": true,
+        "Descricao": "SERVIÇOS DE VIGILÂNCIA -  ANISH",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5051,
+        "Ativo": true,
+        "Descricao": "AUTOMAÇÃO -  Minas Goiás",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5052,
+        "Ativo": true,
+        "Descricao": "CONSERVAÇÃO - Ecovias Minas Goiás",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5053,
+        "Ativo": true,
+        "Descricao": "CONSULTORIA - Ecovias Minas Goiás",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5054,
+        "Ativo": true,
+        "Descricao": "CONSULTORIA AMBIENTAL - Ecovias Minas Goiás",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5055,
+        "Ativo": true,
+        "Descricao": "DIRETA - Ecovias Minas Goiás",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5057,
+        "Ativo": true,
+        "Descricao": "FRETAMENTO - Ecovias Minas Goiás",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5058,
+        "Ativo": true,
+        "Descricao": "LOCAÇÃO - Ecovias Minas Goiás",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5059,
+        "Ativo": true,
+        "Descricao": "MANUTENÇÃO -Ecovias Minas Goiás",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5060,
+        "Ativo": true,
+        "Descricao": "MONITORAÇÃO - Ecovias Minas Goiás",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5061,
+        "Ativo": true,
+        "Descricao": "OBRAS - Ecovias Minas Goiás",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5062,
+        "Ativo": true,
+        "Descricao": "RESGATE MEDICO - Ecovias Minas Goiás",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5063,
+        "Ativo": true,
+        "Descricao": "SERVIÇOS DE LIMPEZA - Ecovias Minas Goiás",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5064,
+        "Ativo": true,
+        "Descricao": "SERVIÇOS DE VIGILÂNCIA - Ecovias Minas Goiás",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5065,
+        "Ativo": true,
+        "Descricao": "SINALIZAÇÃO - Ecovias Minas Goiás",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5066,
+        "Ativo": true,
+        "Descricao": "SOCORRO MECÂNICO - Ecovias Minas Goiás",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5067,
+        "Ativo": true,
+        "Descricao": "SUSTENTABILIDADE - Ecovias Minas Goiás",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5068,
+        "Ativo": true,
+        "Descricao": "Ecovias Capixaba - COMUNICAÇÃO",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5069,
+        "Ativo": true,
+        "Descricao": "Ecovias Capixaba- CONSERVAÇÃO",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5070,
+        "Ativo": true,
+        "Descricao": "RESGATE MEDICO - Ecovias Sul",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5071,
+        "Ativo": true,
+        "Descricao": "SOCORRO MECÂNICO - Ecovias Sul",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5072,
+        "Ativo": true,
+        "Descricao": "SERVIÇOS DE LIMPEZA - Ecovias Sul",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5073,
+        "Ativo": true,
+        "Descricao": "Ecovias Capixaba - CONSULTORIA AMBIENTAL",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5074,
+        "Ativo": true,
+        "Descricao": "CONSERVAÇÃO - Ecovias Sul",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5075,
+        "Ativo": true,
+        "Descricao": "Ecovias Capixaba - FORNECIMENTO DE ASFALTO",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5076,
+        "Ativo": true,
+        "Descricao": "CONSULTORIA - Ecovias Sul",
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 5077,
+        "Ativo": true,
+        "Descricao": "SINALIZAÇÃO -Ecovias Sul",
+        "DescricaoGrupoArea": "Ecorodovias"
+      }
+    ],
+    "QuantidadeTotal": 3150,
+    "Paginas": 105,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.198595
+}
