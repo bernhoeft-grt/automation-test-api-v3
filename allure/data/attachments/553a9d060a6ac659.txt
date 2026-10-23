@@ -1,0 +1,5 @@
+conftest.py:20: in auth_token
+    return login_and_get_token()
+utils/auth.py:72: in login_and_get_token
+    raise RuntimeError(f"Login failed ({response.status_code}): {detail}")
+E   RuntimeError: Login failed (500): Não foi possível realizar a autenticação.
