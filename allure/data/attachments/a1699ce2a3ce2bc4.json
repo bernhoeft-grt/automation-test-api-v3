@@ -1,0 +1,11 @@
+{
+  "Dados": {
+    "Id": 6,
+    "Ativo": true,
+    "Descricao": "Autônomo",
+    "Temporario": false,
+    "ValidarCPF": true,
+    "ValidarRG": false,
+    "Veiculo": false
+  }
+}
