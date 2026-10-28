@@ -1,0 +1,203 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Wed, 28 Oct 2026 18:11:52 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 14021,
+        "Ativo": true,
+        "Descricao": "ECO - FOPAG - (Folha de pagamento analítica + Resumo com as bases de INSS e FGTS)",
+        "Tipo": "Empresa"
+      },
+      {
+        "Id": 14022,
+        "Ativo": true,
+        "Descricao": "ECO - DARF PAGO + RECIBO DE ENTREGA DO DCTFWEB, RELATÓRIO DE DÉBITOS DCTFWEB E CND FEDERAL ATUALIZADA",
+        "Tipo": "Empresa"
+      },
+      {
+        "Id": 14023,
+        "Ativo": true,
+        "Descricao": "ECO - GRF - Guia do FGTS + Comprovante de Pagamento",
+        "Tipo": "Empresa"
+      },
+      {
+        "Id": 14024,
+        "Ativo": true,
+        "Descricao": "ECO - Relação SEFIP (RE + RET + FPAS + Relatório analítico da GRF + protocolo da conectividade social)",
+        "Tipo": "Empresa"
+      },
+      {
+        "Id": 14025,
+        "Ativo": true,
+        "Descricao": "ECO - Declaração de subcontratação e quitação aos subcontratados",
+        "Tipo": "Empresa"
+      },
+      {
+        "Id": 14026,
+        "Ativo": true,
+        "Descricao": "ECO - Acordo Individual de Banco de Horas (mensal ou semestral)\t",
+        "Tipo": "Trabalhista"
+      },
+      {
+        "Id": 14027,
+        "Ativo": true,
+        "Descricao": "ECO - Cartão de Ponto com totalização de horas extras e/ou noturnas",
+        "Tipo": "Trabalhista"
+      },
+      {
+        "Id": 14028,
+        "Ativo": true,
+        "Descricao": "ECO - Relação Bancária Listando os Pagamentos Efetuados aos Colaboradores",
+        "Tipo": "Trabalhista"
+      },
+      {
+        "Id": 14029,
+        "Ativo": true,
+        "Descricao": "ECO - Aviso e Recibo de Férias + Comprovante de Pagamento",
+        "Tipo": "Trabalhista"
+      },
+      {
+        "Id": 14030,
+        "Ativo": true,
+        "Descricao": "ECO - Vale Alimentação/Cesta Básica (pagamento mensal, boleto e lista de beneficiários)",
+        "Tipo": "Trabalhista"
+      },
+      {
+        "Id": 14031,
+        "Ativo": true,
+        "Descricao": "ECO - Vale Transporte (pagamento mensal, boleto e lista de beneficiários)",
+        "Tipo": "Trabalhista"
+      },
+      {
+        "Id": 14032,
+        "Ativo": true,
+        "Descricao": "ECO - Aviso de Desligamento ou Carta de pedido de demissão",
+        "Tipo": "Trabalhista"
+      },
+      {
+        "Id": 14033,
+        "Ativo": true,
+        "Descricao": "ECO - GRRF - (Guia de Recolhimento Rescisório do FGTS + Demonstrativo do Trabalhador + Comprovante de Pagamento)",
+        "Tipo": "Trabalhista"
+      },
+      {
+        "Id": 14034,
+        "Ativo": true,
+        "Descricao": "ECO - Termo de Rescisão pago + Comprovante de Pagamento do TRCT",
+        "Tipo": "Trabalhista"
+      },
+      {
+        "Id": 14035,
+        "Ativo": true,
+        "Descricao": "ECO - Atestado de Saúde Ocupacional - ASO Demissional",
+        "Tipo": "Trabalhista"
+      },
+      {
+        "Id": 14036,
+        "Ativo": true,
+        "Descricao": "ECO - Acordo/Convenção Coletiva da Categoria",
+        "Tipo": "Empresa"
+      },
+      {
+        "Id": 14037,
+        "Ativo": true,
+        "Descricao": "ECO - Certidão Negativa de Débitos Relativos aos Tributos Federais e à Dívida Ativa da União",
+        "Tipo": "Empresa"
+      },
+      {
+        "Id": 14038,
+        "Ativo": true,
+        "Descricao": "ECO - Certificado de regularidade do FGTS (CRF)",
+        "Tipo": "Empresa"
+      },
+      {
+        "Id": 14039,
+        "Ativo": true,
+        "Descricao": "ECO - Apólice Seguro Garantia ou Avsec",
+        "Tipo": "Empresa"
+      },
+      {
+        "Id": 14040,
+        "Ativo": true,
+        "Descricao": "ECO - Certidão Negativa trabalhista",
+        "Tipo": "Empresa"
+      },
+      {
+        "Id": 14041,
+        "Ativo": true,
+        "Descricao": "ECO - Carta Fiança",
+        "Tipo": "Empresa"
+      },
+      {
+        "Id": 14042,
+        "Ativo": true,
+        "Descricao": "ECO - Certidão Negativa estadual",
+        "Tipo": "Empresa"
+      },
+      {
+        "Id": 14043,
+        "Ativo": true,
+        "Descricao": "ECO - Certidão Negativa municipal",
+        "Tipo": "Empresa"
+      },
+      {
+        "Id": 14045,
+        "Ativo": true,
+        "Descricao": "ECO - Apólice de seguro de Vida (pagamento mensal, boleto e lista de beneficiários)",
+        "Tipo": "Trabalhista"
+      },
+      {
+        "Id": 14046,
+        "Ativo": true,
+        "Descricao": "ECO - Protocolo de Seguro Desemprego (Comunicação de Dispensa)",
+        "Tipo": "Trabalhista"
+      },
+      {
+        "Id": 14048,
+        "Ativo": true,
+        "Descricao": "ECO - CAT (Comunicação de Acidente do Trabalho) ou declaração de ausência de acidente de trabalho.",
+        "Tipo": "Empresa"
+      },
+      {
+        "Id": 15137,
+        "Ativo": true,
+        "Descricao": "ECO (B) - Plano de Manutenção Preventiva de geradores movidos a óleo diesel",
+        "Tipo": "Empresa"
+      },
+      {
+        "Id": 15138,
+        "Ativo": true,
+        "Descricao": "ECO (A) - Planilha de vistoria da fumaça preta em veículos e/ou geradores",
+        "Tipo": "Empresa"
+      },
+      {
+        "Id": 15139,
+        "Ativo": true,
+        "Descricao": "ECO (A) - Licença ambiental local de manutenção (troca de óleos, filtros, pneus e baterias) frota e equipamentos",
+        "Tipo": "Empresa"
+      },
+      {
+        "Id": 15140,
+        "Ativo": true,
+        "Descricao": "ECO (B) - Higienização de veículos",
+        "Tipo": "Empresa"
+      }
+    ],
+    "QuantidadeTotal": 977,
+    "Paginas": 33,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.232497
+}

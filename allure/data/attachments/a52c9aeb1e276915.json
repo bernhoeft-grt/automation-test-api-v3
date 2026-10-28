@@ -1,0 +1,113 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Wed, 28 Oct 2026 18:12:19 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1000000299,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776892465051"
+      },
+      {
+        "Id": 1000000300,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1787663689923"
+      },
+      {
+        "Id": 1000000301,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1777051423467"
+      },
+      {
+        "Id": 1000000302,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000303,
+        "Ativo": true,
+        "Tipo": false,
+        "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+      },
+      {
+        "Id": 1000000304,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776978167108"
+      },
+      {
+        "Id": 1000000305,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1785261352569"
+      },
+      {
+        "Id": 1000000306,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1779884469888"
+      },
+      {
+        "Id": 1000000307,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1784655521442"
+      },
+      {
+        "Id": 1000000308,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1778574899043"
+      },
+      {
+        "Id": 1000000309,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "Ecorodovias"
+      },
+      {
+        "Id": 1000000310,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1785153323689"
+      },
+      {
+        "Id": 1000000311,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1777278856312"
+      },
+      {
+        "Id": 1000000312,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1776630744261"
+      },
+      {
+        "Id": 1000000313,
+        "Ativo": true,
+        "Tipo": true,
+        "DescricaoGrupoArea": "GRUPO ÁREA QA 1778524848402"
+      }
+    ],
+    "QuantidadeTotal": 15,
+    "Paginas": 1,
+    "Quantidade": 15,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.204985
+}
