@@ -1,0 +1,6 @@
+{
+  "Mensagens": [
+    "[] - Este campo é obrigatório e precisa ser informado.",
+    "The JSON value could not be converted to System.DateOnly. Path: $.DataInicio | LineNumber: 0 | BytePositionInLine: 95."
+  ]
+}
