@@ -1,0 +1,363 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Fri, 30 Oct 2026 18:09:28 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [
+      {
+        "Id": 1,
+        "Ativo": true,
+        "Nome": "SISTEMA",
+        "Email": "techgrt@bernhoeft.onmicrosoft.com",
+        "Telefone": "(00)00000-0000",
+        "Perfis": [
+          {
+            "Id": 1,
+            "Descricao": "Perfil - Administrador",
+            "TipoPerfil": 0
+          }
+        ]
+      },
+      {
+        "Id": 1000000004,
+        "Ativo": true,
+        "Nome": "QA-TEAM",
+        "Email": "qa.bern2025@gmail.com",
+        "Telefone": "(81)98146-8138",
+        "Perfis": [
+          {
+            "Id": 1,
+            "Descricao": "Perfil - Administrador",
+            "TipoPerfil": 0
+          }
+        ]
+      },
+      {
+        "Id": 1000000005,
+        "Ativo": true,
+        "Nome": "Teste Gabrielzinho",
+        "Email": "testegabriel@gmail.com",
+        "Telefone": "(74)99904-2394",
+        "Perfis": []
+      },
+      {
+        "Id": 1000000006,
+        "Ativo": true,
+        "Nome": "Teste Regressivos 26022026",
+        "Email": "ketani4416@ostahie.com",
+        "Telefone": "(81)99319-2399",
+        "Perfis": [
+          {
+            "Id": 1,
+            "Descricao": "Perfil - Administrador",
+            "TipoPerfil": 0
+          }
+        ]
+      },
+      {
+        "Id": 1000000007,
+        "Ativo": true,
+        "Nome": "Leandro",
+        "Email": "leandrotsampa@yahoo.com.br",
+        "Telefone": "(11)96111-1111",
+        "Perfis": []
+      },
+      {
+        "Id": 1000000009,
+        "Ativo": true,
+        "Nome": "Teste Gabriel 2",
+        "Email": "testegabriel009@gmail.com",
+        "Telefone": "(81)99506-8833",
+        "Perfis": [
+          {
+            "Id": 1,
+            "Descricao": "Perfil - Administrador",
+            "TipoPerfil": 0
+          },
+          {
+            "Id": 1000000013,
+            "Descricao": "Teste - Gabriel 2",
+            "TipoPerfil": 2
+          }
+        ]
+      },
+      {
+        "Id": 1000000011,
+        "Ativo": true,
+        "Nome": "DORGINHO16032026",
+        "Email": "bikewe4602@soco7.com",
+        "Telefone": "(81)98146-8138",
+        "Perfis": [
+          {
+            "Id": 1,
+            "Descricao": "Perfil - Administrador",
+            "TipoPerfil": 0
+          }
+        ]
+      },
+      {
+        "Id": 1000000013,
+        "Ativo": true,
+        "Nome": "Teste Gabriel",
+        "Email": "testegabriel123@gmail.com",
+        "Telefone": "(81)98146-8138",
+        "Perfis": [
+          {
+            "Id": 1,
+            "Descricao": "Perfil - Administrador",
+            "TipoPerfil": 0
+          }
+        ]
+      },
+      {
+        "Id": 1000000014,
+        "Ativo": true,
+        "Nome": "DORGINHO18032026TESTE",
+        "Email": "temis75123@soco7.com",
+        "Telefone": "(81)98146-8138",
+        "Perfis": [
+          {
+            "Id": 1,
+            "Descricao": "Perfil - Administrador",
+            "TipoPerfil": 0
+          }
+        ]
+      },
+      {
+        "Id": 1000000016,
+        "Ativo": true,
+        "Nome": "DORGIVAL FILHO",
+        "Email": "xiwit69138@pazard.com",
+        "Telefone": "(81)31363-773",
+        "Perfis": [
+          {
+            "Id": 1,
+            "Descricao": "Perfil - Administrador",
+            "TipoPerfil": 0
+          }
+        ]
+      },
+      {
+        "Id": 1000000017,
+        "Ativo": true,
+        "Nome": "TESTE18032026",
+        "Email": "vobike9276@lxbeta.com",
+        "Telefone": "(81)98146-8138",
+        "Perfis": []
+      },
+      {
+        "Id": 1000000018,
+        "Ativo": true,
+        "Nome": "DORGINHOTESTE33",
+        "Email": "bovate4157@onbap.com",
+        "Telefone": "(81)98146-8138",
+        "Perfis": []
+      },
+      {
+        "Id": 1000000019,
+        "Ativo": true,
+        "Nome": "DORGINHO123456",
+        "Email": "lotep55195@onbap.com",
+        "Telefone": "(81)98146-8138",
+        "Perfis": []
+      },
+      {
+        "Id": 1000000020,
+        "Ativo": true,
+        "Nome": "Teste Regressivo 2303",
+        "Email": "TesteRegressivo2303@gmail.com",
+        "Telefone": "(74)99946-0719",
+        "Perfis": []
+      },
+      {
+        "Id": 1000000021,
+        "Ativo": true,
+        "Nome": "ace@yahoo.com.br",
+        "Email": "ace@yahoo.com.br",
+        "Telefone": "(81)98801-7425",
+        "Perfis": [
+          {
+            "Id": 1000000031,
+            "Descricao": "Perfil Automação 1780405132329",
+            "TipoPerfil": 1
+          }
+        ]
+      },
+      {
+        "Id": 1000000024,
+        "Ativo": true,
+        "Nome": "Teste3103",
+        "Email": "Teste3103@gmail.com",
+        "Telefone": "(81)78963-5505",
+        "Perfis": [
+          {
+            "Id": 1,
+            "Descricao": "Perfil - Administrador",
+            "TipoPerfil": 0
+          }
+        ]
+      },
+      {
+        "Id": 1000000028,
+        "Ativo": true,
+        "Nome": "Gabs teste 0604",
+        "Email": "gabsteste0604@gmail.com",
+        "Telefone": "(81)78963-550",
+        "Perfis": [
+          {
+            "Id": 1,
+            "Descricao": "Perfil - Administrador",
+            "TipoPerfil": 0
+          }
+        ]
+      },
+      {
+        "Id": 1000000029,
+        "Ativo": true,
+        "Nome": "princess@oi.com.br",
+        "Email": "princess@oi.com.br",
+        "Telefone": "(28)9938-67732",
+        "Perfis": [
+          {
+            "Id": 1000000012,
+            "Descricao": "deploy0704.Personalizado",
+            "TipoPerfil": 2
+          },
+          {
+            "Id": 1000000011,
+            "Descricao": "deploy0704",
+            "TipoPerfil": 2
+          }
+        ]
+      },
+      {
+        "Id": 1000000031,
+        "Ativo": true,
+        "Nome": "Teste Regressivos 10/04/2026",
+        "Email": "piladon825@nyspring.com",
+        "Telefone": "(81)99319-2399",
+        "Perfis": []
+      },
+      {
+        "Id": 1000000032,
+        "Ativo": true,
+        "Nome": "Teste Regressivos 13042026 edit",
+        "Email": "poped44553@sskaid.com",
+        "Telefone": "(81)99319-2399",
+        "Perfis": []
+      },
+      {
+        "Id": 1000000034,
+        "Ativo": true,
+        "Nome": "Operador14042026Edited",
+        "Email": "bayem95076@sixoplus.com",
+        "Telefone": "(81)98146-8138",
+        "Perfis": [
+          {
+            "Id": 1000000019,
+            "Descricao": "teste14042026",
+            "TipoPerfil": 2
+          }
+        ]
+      },
+      {
+        "Id": 1000000035,
+        "Ativo": true,
+        "Nome": "DORGINHO",
+        "Email": "xonawi5446@sixoplus.com",
+        "Telefone": "(81)9814-68138",
+        "Perfis": [
+          {
+            "Id": 1000000019,
+            "Descricao": "teste14042026",
+            "TipoPerfil": 2
+          }
+        ]
+      },
+      {
+        "Id": 1000000037,
+        "Ativo": true,
+        "Nome": "regressivo1604teste",
+        "Email": "regressivo1604@gmail.com",
+        "Telefone": "(81)78963-550",
+        "Perfis": [
+          {
+            "Id": 1,
+            "Descricao": "Perfil - Administrador",
+            "TipoPerfil": 0
+          }
+        ]
+      },
+      {
+        "Id": 1000000038,
+        "Ativo": true,
+        "Nome": "Operador16042026",
+        "Email": "hisiwe3360@dwseal.com",
+        "Telefone": "(81)98146-8138",
+        "Perfis": []
+      },
+      {
+        "Id": 1000000039,
+        "Ativo": true,
+        "Nome": "OPERADOR QA 1776630870134",
+        "Email": "qa.operador.1776630870134@teste.com",
+        "Telefone": "(11)41186-665",
+        "Perfis": []
+      },
+      {
+        "Id": 1000000040,
+        "Ativo": true,
+        "Nome": "DORGINHO20042026",
+        "Email": "fitexom787@sixoplus.com",
+        "Telefone": "(81)98891-9265",
+        "Perfis": []
+      },
+      {
+        "Id": 1000000041,
+        "Ativo": true,
+        "Nome": "Operador20042026",
+        "Email": "tosevey124@spotshops.com",
+        "Telefone": "(81)98146-8138",
+        "Perfis": []
+      },
+      {
+        "Id": 1000000042,
+        "Ativo": true,
+        "Nome": "OPERADOR QA 1776706615164",
+        "Email": "qa.operador.1776706615164@teste.com",
+        "Telefone": "(81)98146-8138",
+        "Perfis": []
+      },
+      {
+        "Id": 1000000043,
+        "Ativo": true,
+        "Nome": "OPERADOR QA 1776706696300",
+        "Email": "qa.operador.1776706696300@teste.com",
+        "Telefone": "(81)98146-8138",
+        "Perfis": []
+      },
+      {
+        "Id": 1000000044,
+        "Ativo": true,
+        "Nome": "OPERADOR QA 1776706824271",
+        "Email": "qa.operador.1776706824271@teste.com",
+        "Telefone": "(81)98146-8138",
+        "Perfis": []
+      }
+    ],
+    "QuantidadeTotal": 832,
+    "Paginas": 28,
+    "Quantidade": 30,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.259997
+}
