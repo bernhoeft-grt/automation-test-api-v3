@@ -1,0 +1,50 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Fri, 30 Oct 2026 12:12:46 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 63581,
+      "Numero": "ECC-FAC-CT00002/21",
+      "ObjetoContratual": "SERVIÇOS DE VIGILÂNCIA",
+      "LocalServico": "ECOPATIO",
+      "ObservacoesGerais": "1 na bex é o 4600018127/ECOPATIO\r\n\r\nAlteração Vigência para 27/05/2026 - Solicitado por Ingridd Bispo. (Manuele Dias - 27/05/25)",
+      "Responsavel": "patricia.silva@comandog8.com.br",
+      "ExibeMensal": true,
+      "ExibeMobilizacao": true,
+      "DataInicio": "2022-01-04",
+      "DataFim": "2027-09-30",
+      "Ativo": true,
+      "PermitirIntegracaoTodosColaboradores": false,
+      "DataInclusao": "2023-11-17",
+      "UltimaModificacao": "2026-05-07",
+      "ContratanteId": 297,
+      "Contratada": {
+        "Id": 5784,
+        "TipoPessoa": "PF",
+        "RazaoSocial": "COMANDO G8 - SEGURANCA PATRIMONIAL EIRELI",
+        "Fantasia": "COMANDO G8 - SEGURANCA PATRIMONIAL EIRELI",
+        "CPForCNPJ": "17.521.682/0001-80"
+      },
+      "GrupoAreaId": 467,
+      "AreaId": 5190,
+      "Unidades": [
+        724
+      ],
+      "ContratoAssinado": false,
+      "HeadCountHabilitado": false,
+      "HeadCountLimite": 0,
+      "HeadCountTipoSinalizacao": 0
+    }
+  },
+  "elapsed_seconds": 0.603457
+}
