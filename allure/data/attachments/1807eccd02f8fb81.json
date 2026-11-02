@@ -1,0 +1,43 @@
+{
+  "Dados": [
+    {
+      "Id": 1,
+      "Ativo": true,
+      "Descricao": "Alto"
+    },
+    {
+      "Id": 2,
+      "Ativo": true,
+      "Descricao": "Médio"
+    },
+    {
+      "Id": 3,
+      "Ativo": true,
+      "Descricao": "Extremo"
+    },
+    {
+      "Id": 4,
+      "Ativo": true,
+      "Descricao": "Baixo"
+    },
+    {
+      "Id": 7,
+      "Ativo": true,
+      "Descricao": "28122025TESTE"
+    },
+    {
+      "Id": 8,
+      "Ativo": true,
+      "Descricao": "19012026TESTE"
+    },
+    {
+      "Id": 1000000012,
+      "Ativo": true,
+      "Descricao": "Baixissimo"
+    }
+  ],
+  "QuantidadeTotal": 7,
+  "Paginas": 1,
+  "Quantidade": 7,
+  "Pagina": 1
+}

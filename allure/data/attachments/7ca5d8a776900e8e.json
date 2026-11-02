@@ -1,0 +1,14 @@
+{
+  "expected": [
+    200,
+    201,
+    204,
+    400,
+    401,
+    403,
+    404,
+    500
+  ],
+  "actual": 400,
+  "url": "https://contractwebapi.preprod.bernhoeft.com.br/api/v1/grupo-contratante/1"
+}
