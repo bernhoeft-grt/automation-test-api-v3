@@ -1,0 +1,7 @@
+{
+  "method": "POST",
+  "url": "/grupo-faturamento",
+  "data": {
+    "nome": "Test"
+  }
+}
