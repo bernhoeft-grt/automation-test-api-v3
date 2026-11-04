@@ -1,0 +1,5 @@
+{
+  "method": "POST",
+  "url": "/suporte/cartilha/upload/test",
+  "data": null
+}
