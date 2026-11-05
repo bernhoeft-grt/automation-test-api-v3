@@ -1,0 +1,4202 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "content-encoding": "gzip",
+    "date": "Thu, 05 Nov 2026 12:10:51 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 297,
+      "Ativo": true,
+      "TipoPessoa": "PJ",
+      "RazaoSocial": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+      "Fantasia": "ECORODOVIAS CONCESSOES E SERVICOS S/A | 10100612",
+      "CPForCNPJ": "08.873.873/0001-10",
+      "Endereco": "ROD DOS IMIGRANTES",
+      "Numero": 0,
+      "Complemento": "KM 28,5 - 1 E 2 ANDAR",
+      "Bairro": "ALVARENGA",
+      "Cidade": "SAO BERNARDO DO CAMPO",
+      "UF": "SP",
+      "CEP": "09845-000",
+      "Email": "bruno.teixeira@ecorodovias.com.br",
+      "EmailDominiosPermitidos": [
+        "ecorodovias.com.br",
+        "ecosul.com.br",
+        "eco101.com.br",
+        "ecoviasdoaraguaia.com.br",
+        "ecoponte.com.br",
+        "eco135.com.br",
+        "ecovias.com.br",
+        "econoroeste.com.br",
+        "concremat.com.br",
+        "nativameioambiente.com.br",
+        "natturis.com.br",
+        "tenax-eng.com.br",
+        "dosssg.com.br",
+        "yahoo.com.br",
+        "ECORIOMINAS.COM.BR",
+        "ecopistas.com.br",
+        "ecoviasdocerrado.com.br",
+        "mfbengenharia.com.br",
+        "wrengenhariaesolucoes.com.br",
+        "ecoportosantos.com.br",
+        "eco050.com.br",
+        "clam.com.br",
+        "gmail.com",
+        "hopefunder.com"
+      ],
+      "EmailsAlertaBlacklist": [],
+      "GrupoContratanteId": 226,
+      "CobrarCompetencia": false,
+      "BloquearInativacaoComPendencia": false,
+      "EnviarPendenciasOperadorExpirado": false,
+      "AlterarStatusSeDocumentoPendente": false,
+      "IncluirContratanteNoAssuntoEmail": false,
+      "EmailGestorObrigatorio": false,
+      "ToleranciaDiasAdmissao": 99,
+      "ExibirProcedimento": false,
+      "Notificar7DiasAntes": true,
+      "Notificar15DiasAntes": true,
+      "Notificar30DiasAntes": true,
+      "Notificar45DiasAntes": false,
+      "Notificar60DiasAntes": false,
+      "Notificar75DiasAntes": false,
+      "Notificar90DiasAntes": false,
+      "NotificarAteXDiasAposVencimento": 1,
+      "DiasUteisAnalise": 3,
+      "ExibirStatusAnalise": false,
+      "PermitirCobrancaPosFimContrato": false,
+      "DataLimite": 10,
+      "DataEntrega": 10,
+      "LimiteReanalise": 3,
+      "MinimoReanalisesParaFaturar": 3,
+      "ValorReanalise": 25,
+      "DataInicioCobranca": "2024-03-01",
+      "CentroCusto": "821|CAROLINE SOARES|I Paper - Fornecedor",
+      "EmpresaFaturamento": "Empresa de Faturamento 1",
+      "FaturamentoAnualMob": {
+        "Ativo": false,
+        "DataInicioCobranca": "2026-01-09",
+        "CentroCusto": "821|CAROLINE SOARES|Henkel - Fornecedor",
+        "EmpresaFaturamento": "Empresa de Faturamento 1",
+        "Valor": 45
+      },
+      "PermitirSalarioZerado": false,
+      "CarregarTrabalhadoresMobilizados": false,
+      "Classificacoes": [
+        {
+          "Id": 5,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": false,
+          "ValidarRG": true
+        },
+        {
+          "Id": 6,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": false,
+          "ValidarRG": true
+        },
+        {
+          "Id": 7,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": false,
+          "ValidarRG": true
+        },
+        {
+          "Id": 8,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": false,
+          "ValidarRG": true
+        },
+        {
+          "Id": 9,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": false,
+          "ValidarRG": true
+        },
+        {
+          "Id": 10,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": false,
+          "ValidarRG": true
+        },
+        {
+          "Id": 11,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": false,
+          "ValidarRG": true
+        },
+        {
+          "Id": 12,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": false,
+          "ValidarRG": true
+        },
+        {
+          "Id": 13,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": false,
+          "ValidarRG": true
+        },
+        {
+          "Id": 14,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": false,
+          "ValidarRG": true
+        },
+        {
+          "Id": 15,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": false,
+          "ValidarRG": true
+        },
+        {
+          "Id": 16,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": false,
+          "ValidarRG": true
+        },
+        {
+          "Id": 25,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": false,
+          "ValidarRG": true
+        },
+        {
+          "Id": 17,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000007,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000008,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000009,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000010,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000011,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000012,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000013,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000014,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000015,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000016,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000017,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000018,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000019,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000020,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000021,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000022,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000023,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000024,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000025,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000026,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000027,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000028,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000029,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000030,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000031,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000032,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000033,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000034,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000035,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000036,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000037,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000038,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000039,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000040,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000041,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000042,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000043,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000044,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000045,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000046,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000047,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000048,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000049,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000050,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000051,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000052,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000053,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000054,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000055,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000056,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000057,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000058,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000059,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000060,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000061,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000062,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000063,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000064,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000065,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000066,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000067,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000068,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000069,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000070,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000071,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000072,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000073,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000074,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000075,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000076,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000077,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000078,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000079,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000080,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000081,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000082,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000083,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000084,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000085,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000086,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000087,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000088,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000089,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000090,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000091,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000092,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000093,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000094,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000095,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000096,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000097,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000098,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000099,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000100,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000101,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000102,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000103,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000104,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000105,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000106,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000107,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000108,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000109,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000110,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000111,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000112,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000113,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000114,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000115,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000116,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000117,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000118,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000119,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000120,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000121,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000122,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000123,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000124,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000125,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000126,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000127,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000128,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000129,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000130,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000131,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000132,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000133,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000134,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000135,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000136,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000137,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000138,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000139,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000140,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000141,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000142,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000143,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000144,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000145,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000146,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000147,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000148,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000149,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000150,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000151,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000152,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000153,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000154,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000155,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000156,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000157,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000158,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000159,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000160,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000161,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000162,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000163,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000164,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000165,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000166,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000167,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000168,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000169,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000170,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000171,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000172,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000173,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000174,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000175,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000177,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000178,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000179,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000180,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000181,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000182,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000183,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000184,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000185,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000186,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000187,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000188,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000189,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000190,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000191,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000192,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000193,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000194,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000195,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000196,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000197,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000198,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000199,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000200,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000201,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000202,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000203,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000204,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000205,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000206,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000207,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000208,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000209,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000210,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000211,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000212,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000213,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000214,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000215,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000216,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000217,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000218,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000219,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000220,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000221,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000222,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000223,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000224,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000225,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000226,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000227,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000228,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000229,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000230,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000231,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000232,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000233,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000234,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000235,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000236,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000237,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000238,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000239,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000240,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000241,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000242,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000243,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000244,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000245,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000246,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000247,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000248,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000249,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000250,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000251,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000252,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000253,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000254,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000255,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000256,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000257,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000258,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000259,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000260,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000261,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000262,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000263,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000264,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000265,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000266,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000267,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000268,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000269,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000270,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000276,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000277,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000279,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000280,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000282,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000283,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000285,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000286,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000287,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000288,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000289,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000291,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000292,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000293,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000295,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000296,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000297,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000299,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000300,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000302,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000303,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000304,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000305,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000307,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000308,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000309,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000310,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000311,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000313,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000314,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000315,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000316,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000318,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000319,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000320,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000330,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000331,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000337,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000338,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000340,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000342,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000345,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000346,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000348,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000351,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000352,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000353,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000357,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000358,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000359,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000360,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000361,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000362,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000363,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000364,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000365,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000366,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000369,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000371,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000374,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000376,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000377,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000378,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000384,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000387,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000390,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000391,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000394,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000401,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000405,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000406,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000410,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000413,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000418,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000423,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000433,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000443,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000444,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000446,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000447,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000448,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000450,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000453,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000454,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000458,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000461,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000462,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000463,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000467,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000471,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000475,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000479,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000484,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000487,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000489,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000498,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000502,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000504,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000509,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000511,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000514,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000516,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000517,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000518,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000519,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000522,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000524,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000528,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000532,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000535,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000559,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000562,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000563,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000565,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000567,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000572,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000578,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000583,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000590,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000597,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000599,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000600,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000603,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000605,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000606,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000608,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000609,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000611,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000612,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000613,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000615,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000617,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000619,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000621,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000622,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000623,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000624,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000625,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000636,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000637,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000638,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        },
+        {
+          "Id": 1000000639,
+          "Temporario": false,
+          "ValidarCPF": true,
+          "ValidarPIS": true,
+          "ValidarRG": true
+        }
+      ],
+      "PrazoIntegracao": 12,
+      "IntegracaoSemValidade": false,
+      "HoraLimiteAgendamento": 18,
+      "PermitirAdicionarColaboradorIntegracaoAntiga": false,
+      "ExigirDocumentacaoValidaParaAgendamento": false,
+      "AlertaReintegracaoColaboradores": ".",
+      "OcultarTurmaParaPerfisSelecionados": false,
+      "SuprimirAvisoColaboradorIntegracao": false,
+      "TipoPermissaoIntegracaoColaborador": 0,
+      "NaoPermitirIntegracaoMesmoDia": false,
+      "AgendaUnicaPorTurma": false,
+      "IsIntegracaoOnline": false,
+      "SolicitarContratoAssinado": 0,
+      "BloquearImpressaoCrachaNaoAprovado": false,
+      "BloquearImpressaoSemFoto": false,
+      "CorCracha": "#1482bd",
+      "PermitirVisualizarCrachaQrCode": true,
+      "PermitirVisualizarDocumentosColab": false,
+      "PermitirVisualizarFlagAptidoes": true,
+      "ExibirAptidoesNoCracha": true,
+      "PermitirVisualizarFlagArea": false,
+      "ExibirAreaCracha": false,
+      "ExibirAptidaoCrachaNaoConforme": false,
+      "ExibirStatusDesligamentoCracha": false,
+      "PermitirImpressaoSomenteComStatusAprovado": false,
+      "OrdenacaoCracha": 1,
+      "ExibicaoCracha": 0,
+      "ExibicaoCrachaRodape": 0,
+      "PrazosAnalise": {
+        "DataEntregaDocumentosAnalise": "2023-11-21",
+        "DataEntregaDocumentosReanalise": "2023-12-04",
+        "DataEnvioRelatorioNaoConformidadeAnalise": "2023-11-30",
+        "DataEnvioRelatorioNaoConformidadeReanalise": "2023-12-14",
+        "PrazoReanalise": 3,
+        "PrazoAnaliseMobilizacao": 3,
+        "PrazoReanaliseMobilizacao": 3,
+        "PrazoAnaliseVeiculos": 3,
+        "PrazoReanaliseVeiculos": 3,
+        "PrazoAnaliseAmbiental": 3,
+        "PrazoReanaliseAmbiental": 3
+      },
+      "MensagemBloqueioPermanente": ";",
+      "MensagemBloqueioTemporario": ";",
+      "TipoObjetoBloqueio": 0,
+      "ObjetosBloqueados": [],
+      "UsarIndicadoresRelatorioColaboradoresMobilizacao": false,
+      "UsarIndicadoresRelatorioNr": false,
+      "OcultarEmailCliente": true,
+      "TipoVencimento": false,
+      "DiasVencimento": 1,
+      "ValidarEntregaDocumento": false,
+      "Riscos": [
+        2,
+        4
+      ],
+      "TempoBloqueio": 0,
+      "TipoObjeto": [],
+      "TurmaMensalId": 0,
+      "TurmaMobId": 0,
+      "PermitirMobilizacaoExpress": false,
+      "QuantidadeDiasMobilizacaoExpress": 0,
+      "DiaCriacaoCompetenciaAmbiental": 1,
+      "CobrarCompetenciaEmpresaAmbiental": false,
+      "PermitirReaproveitamentoDocumento": false,
+      "HeadCountHabilitado": false,
+      "HeadCountTipoContabilizacao": 0,
+      "HeadCountTipoLimitacaoPadrao": 0,
+      "TipoPrestadorObrigatorio": false,
+      "AtividadeRiscoObrigatoria": true,
+      "ReaproveitamentoDocumentoConfiguracao": [
+        {
+          "ObjetoOficialId": 12,
+          "ObjetoOficialNome": "PGR - Programa de Gerenciamento de Riscos",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 15,
+          "ObjetoOficialNome": "Cópia da CTPS (Física ou Digital) dos terceiros mobilizados",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 16,
+          "ObjetoOficialNome": "ASO - Atestado de Saúde Ocupacional",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 19,
+          "ObjetoOficialNome": "Comprovante de entrega de EPIs com os respectivos CAs",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 21,
+          "ObjetoOficialNome": "PCMSO - Programa de Controle Médico de Saúde Ocupacional",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 22,
+          "ObjetoOficialNome": "SESMT - Serviços Especializados em Engenharia de Segurança e em Medicina do Trabalho",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 23,
+          "ObjetoOficialNome": "Ordem de Serviço - NR-01",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 24,
+          "ObjetoOficialNome": "Cópia do RG e CPF",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 26,
+          "ObjetoOficialNome": "Cópia da CNH - Carteira Nacional de Habilitação",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 27,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 06 - Equipamentos de Proteção Individual",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 28,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 10 - Trabalhos com Eletricidade",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 29,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 10 SEP - Sistema Elétrico de Potência",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 30,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 11 - Transporte, Movimentação, Armazenagem e Manuseio de Materiais",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 31,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 12 - Máquinas e Equipamentos",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 33,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 18 - Construção Civil",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 34,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 18 - Trabalho à Quente",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 54,
+          "ObjetoOficialNome": "APR - Análise Preliminar de Risco",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 59,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 18 - PEMT - Plataforma Elevatória Móvel de Trabalho",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 60,
+          "ObjetoOficialNome": "Apólice do Seguro de Vida exclusiva para Estagiários",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 64,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 20 - Inflamáveis - Intermediário - Classe I",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 65,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 20 - Inflamáveis - Intermediário - Classe II e III",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 105,
+          "ObjetoOficialNome": "Contrato Social, Requerimento do empresário ou CCMEI",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 138,
+          "ObjetoOficialNome": "Carteira Nacional do Vigilante - CNV",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 142,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 26 - Sinalização de Segurança",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 146,
+          "ObjetoOficialNome": "Certificado de Registro e Licenciamento do Veículo - CRLV",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 193,
+          "ObjetoOficialNome": "CAT (Comunicação de Acidente do Trabalho)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 199,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 34 - Treinamento Admissional - Industria Naval",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 241,
+          "ObjetoOficialNome": "Cópia do documento do responsável pela operação de manejo florestal (CREA, ART)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 242,
+          "ObjetoOficialNome": "Cópia do documento do responsável de Segurança do Trabalho",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 255,
+          "ObjetoOficialNome": "Certidão de Regularidade de Pessoa Jurídica - Conselhos de Classes (ex. CREA, CAU, CFT e outros)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 256,
+          "ObjetoOficialNome": "Responsabilidade Técnica - Pessoa Física - Conselhos de Classes (ex. ART, RRT, TRT e outros)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 257,
+          "ObjetoOficialNome": "Documento de Classe Registro Profissional",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 275,
+          "ObjetoOficialNome": "Anotação de Responsabilidade Técnica (ART) do Responsável Técnico da empresa",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 278,
+          "ObjetoOficialNome": "Termo de integração - Uso exclusivo do cliente",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 285,
+          "ObjetoOficialNome": "Seguro de Responsabilidade Civil do Transportador Rodoviário de Carga RCTR",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 288,
+          "ObjetoOficialNome": "Relação dos Veículos que prestam serviços ao Grupo SC",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 305,
+          "ObjetoOficialNome": "Cronograma anual de Simulados e Treinamentos",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 307,
+          "ObjetoOficialNome": "Dispensa de Identificação de Médicos Examinadores no PCMSO",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 312,
+          "ObjetoOficialNome": "Declaração de Opção pelo Sistema de Tributação SIMPLES adotado pela empresa e de escrituração contábil regular - Emitida pelo Contador;",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 320,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 18 - Construção Civil com validade de 24 meses",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 36,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 20 - Inflamáveis - Básico",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 37,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 33 - Trabalhos em Espaço Confinado (Trabalhador|Vigia)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 38,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 33 - Trabalhos em Espaço Confinado (Supervisor)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 39,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 34 - Trabalhos à Quente",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 40,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 35 - Trabalhos em Altura",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 46,
+          "ObjetoOficialNome": "CIPA - Comissão Interna de Prevenção de Acidentes",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 66,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 20 - Inflamáveis - Avançado I - Classe II",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 67,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 20 - Inflamáveis - Avançado II - Classe III",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 68,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 20 - Inflamáveis - Específico",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 69,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 20 - Inflamáveis - Iniciação sobre Inflamáveis e Combustíveis",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 70,
+          "ObjetoOficialNome": "Ficha de Registro do empregado ou Evento 2200 do eSocial",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 81,
+          "ObjetoOficialNome": "Curso de Transporte Coletivo de Passageiros",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 86,
+          "ObjetoOficialNome": "Anotação de Responsabilidade Técnica - ART",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 92,
+          "ObjetoOficialNome": "Proposta ou Contrato de serviço do Autônomo",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 124,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 32 - Segurança e Saúde no Trabalho em Serviços de Saúde",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 125,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR25 - Resíduos Industriais",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 132,
+          "ObjetoOficialNome": "Auto de Vistoria do Corpo de Bombeiros - AVCB",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 134,
+          "ObjetoOficialNome": "Brigada de incêndio",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 152,
+          "ObjetoOficialNome": "DARF INSS pago + recibo de entrega do DCTFWEB, relatório de débitos DCTFWEB e  CND federal atualizada",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 153,
+          "ObjetoOficialNome": "GFIP/SEFIP (Relação de trabalhadores, RET, Comprovante de Declaração por FPAS e Protocolo de Conectividade)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 154,
+          "ObjetoOficialNome": "Guia de Recolhimento do FGTS - GRF + Comprovante de Pagamento",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 155,
+          "ObjetoOficialNome": "FOPAG - (Folha de pagamento analítica + Resumo com as bases de INSS e FGTS)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 156,
+          "ObjetoOficialNome": "Cartão de Ponto com totalização de horas extras e/ou noturnas",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 157,
+          "ObjetoOficialNome": "Comprovante de pagamento de Salário",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 158,
+          "ObjetoOficialNome": "Recibo de Férias/Aviso de Férias + Comprovante de Pagamento",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 159,
+          "ObjetoOficialNome": "Guia de recolhimento rescisório do FGTS - GRRF",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 160,
+          "ObjetoOficialNome": "Carta de pedido de demissão",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 161,
+          "ObjetoOficialNome": "Termo de Rescisão de Contrato de Trabalho",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 165,
+          "ObjetoOficialNome": "Convenção Coletiva",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 166,
+          "ObjetoOficialNome": "Certidão Negativa Federal",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 171,
+          "ObjetoOficialNome": "FISPQ´s de Produtos Químicos utilizados",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 173,
+          "ObjetoOficialNome": "Declaração de subcontratação(quando aplicável)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 176,
+          "ObjetoOficialNome": "Acordo Individual de Banco de Horas (mensal ou semestral)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 177,
+          "ObjetoOficialNome": "Guia + Comprovante de pagamento de ISS (Imposto sobre Serviços)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 178,
+          "ObjetoOficialNome": "Nota Fiscal de Prestação de Serviço + Comprovante de Pagamento",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 182,
+          "ObjetoOficialNome": "Vale Transporte (pagamento mensal, boleto e lista de beneficiários)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 233,
+          "ObjetoOficialNome": "Protocolo de Seguro Desemprego",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 259,
+          "ObjetoOficialNome": "Certidão do Distribuidor de Feitos Trabalhistas",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 289,
+          "ObjetoOficialNome": "Seguro de Responsabilidade Civil Facultativa do Transportador Rodoviário por Desaparecimento de Carga RCF DC",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 295,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 18 - Sinaleiro/amarrador de cargas",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 299,
+          "ObjetoOficialNome": "Declaração de saída das lojas",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 327,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 11 - Transporte, Movimentação, Armazenagem e Manuseio de Materiais - Com validade de 24 meses",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 328,
+          "ObjetoOficialNome": "Certificado de Treinamentos de Segurança do Trabalho: NR 12 - Máquinas e Equipamentos - Com validade de 24 meses",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 358,
+          "ObjetoOficialNome": "Seguro Garantia Responsabilidade Civil Profissional (Erros e Omissões - E&O)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 363,
+          "ObjetoOficialNome": "Seguro Garantia Responsabilidade Civil e Civil do Empregador",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 364,
+          "ObjetoOficialNome": "Seguro Garantia Responsabilidade Civil sobre Veículos de Terceiros",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 365,
+          "ObjetoOficialNome": "De Acordo do Gestor do Contrato para Autorização de terceiros",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 366,
+          "ObjetoOficialNome": "Licença Ambiental emitida pelo estado ou município onde a atividade será executada",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 367,
+          "ObjetoOficialNome": "DLA - Dispensa de Licença Ambiental emitida pelo estado ou município onde a atividade será executada",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 413,
+          "ObjetoOficialNome": "Vale alimentação/ Vale refeição (pagamento mensal, boleto e lista de beneficiários)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 426,
+          "ObjetoOficialNome": "Alvará da Vigilância Sanitária",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 765,
+          "ObjetoOficialNome": "Cronotacógrafo",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 793,
+          "ObjetoOficialNome": "Declaração de Atendimento ao Art. 6º da Resolução 358 do Conama",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1143,
+          "ObjetoOficialNome": "Registro dos Produtos Junto ao Ibama, Anvisa, Mapa E/ou Ministério da Saúde",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1147,
+          "ObjetoOficialNome": "Registro no Conselho Competente (responsável Técnico)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1148,
+          "ObjetoOficialNome": "Registro no Conselho de Classe",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1151,
+          "ObjetoOficialNome": "Registro no Inmetro",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 334,
+          "ObjetoOficialNome": "Declaração das atividades de risco do colaborador",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 341,
+          "ObjetoOficialNome": "Pedido de Compras (contratada) ou Carta de Subcontratação (subcontratada)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 347,
+          "ObjetoOficialNome": "Checklist de requisitos da empresa contratada (FOR-SMA-0101)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 382,
+          "ObjetoOficialNome": "De acordo da gestão de contratos para instalação de canteiro - isis CANTEIRO",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 384,
+          "ObjetoOficialNome": "Croqui com a localização do canteiro",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 458,
+          "ObjetoOficialNome": "Autorização do Decea (sistema Sarpas)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 463,
+          "ObjetoOficialNome": "Autorização Para Operação",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 464,
+          "ObjetoOficialNome": "Autorização Para Transporte de Água Potável",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 479,
+          "ObjetoOficialNome": "Cadastro do Drone na Anac",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 480,
+          "ObjetoOficialNome": "Cadastro do Drone na Anatel",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 481,
+          "ObjetoOficialNome": "Cadastro do Piloto na Anac",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 484,
+          "ObjetoOficialNome": "Cadastro Nacional de Empreendimentos da Saúde",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 488,
+          "ObjetoOficialNome": "Cadastro Técnico Federal (ctf",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 533,
+          "ObjetoOficialNome": "Certificado de Acreditação do Laboratório",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 541,
+          "ObjetoOficialNome": "Certificado de Calibração - Calibração de Monitores de Área",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 550,
+          "ObjetoOficialNome": "Certificado de Capacitação Para o Transporte de Produtos Perigosos a Granel (cipp)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 556,
+          "ObjetoOficialNome": "Certificado de Coleta de Óleo",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 560,
+          "ObjetoOficialNome": "Certificado de Conformidade do pó Químico (extintores)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 567,
+          "ObjetoOficialNome": "Certificado de Destinação do Resíduo",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 580,
+          "ObjetoOficialNome": "Certificado de Inspeção Veicular",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 630,
+          "ObjetoOficialNome": "Certificado Renasem",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 680,
+          "ObjetoOficialNome": "Comprovante de Baixo Risco à Saude do Produto Químico",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 682,
+          "ObjetoOficialNome": "Comprovante de Cadastro na Agrodefesa ou Secretaria Regional Competente",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 688,
+          "ObjetoOficialNome": "Comprovante de Execução do Serviço (controle de Pragas, Limpeza e Desinfecção de Reservatório)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 689,
+          "ObjetoOficialNome": "Comprovante de Higienização do Pipa de Água Potável",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 701,
+          "ObjetoOficialNome": "Comprovante de Pagamento do Pro-labore",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 712,
+          "ObjetoOficialNome": "Comprovante Origem Água (outorga/conta/aquisição de Galões)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 713,
+          "ObjetoOficialNome": "Comprovante Origem Produto Florestal (nf)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 714,
+          "ObjetoOficialNome": "Comprovante Origem Produto Mineral (areia, Brita, Etc)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 725,
+          "ObjetoOficialNome": "Condutor de Veículos de Emergência",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 730,
+          "ObjetoOficialNome": "Consumo de Gases (refrigerantes/glp) e pó Químico co2",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 750,
+          "ObjetoOficialNome": "Cópia dos Procedimentos Operacionais Padronizados (pops)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 755,
+          "ObjetoOficialNome": "Coren e crt da Enfermeira Responsável Quando Houver Serviços de Enfermagem.",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 807,
+          "ObjetoOficialNome": "Declaração de Prestadores de Serviço da Contratada",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 830,
+          "ObjetoOficialNome": "Declaração Sistema de Transporte Rodoviário de Produtos Perigosos",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 924,
+          "ObjetoOficialNome": "Higienização de Veículos",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 959,
+          "ObjetoOficialNome": "Laudo de Vistoria Emitido por Fiscal Estadual Agropecuário Engenheiro Agrônomo da Agrodefesa ou Secretaria Regional Competente",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 976,
+          "ObjetoOficialNome": "Levantamento de Produtos Químicos Acompanhados das Fispqs",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 977,
+          "ObjetoOficialNome": "Licença Ambiental Local de Manutenção (troca de Óleos, Filtros, Pneus e Baterias) Frota e Equipamentos",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 982,
+          "ObjetoOficialNome": "Licença de Operação",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1001,
+          "ObjetoOficialNome": "Licenciamento Ambiental Destino dos Resíduos Banheiro Químico",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1024,
+          "ObjetoOficialNome": "Manifesto de Transporte de Resíduos da Frota e Geradores Movidos a Diesel",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1025,
+          "ObjetoOficialNome": "Manifesto Para Transporte dos Resíduos Gerados na Atividade Objeto do Contrato (mtr)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1026,
+          "ObjetoOficialNome": "Manifesto Para Transporte Resíduos Banheiro Químico (mtr)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1035,
+          "ObjetoOficialNome": "Medição de Porte Bruto ou Prova de Inclinação",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1065,
+          "ObjetoOficialNome": "Planilha de Vistoria da Fumaça Preta em Veículos E/ou Geradores",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1080,
+          "ObjetoOficialNome": "Plano de Manutenção da Frota de Veículos",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1084,
+          "ObjetoOficialNome": "Plano de Manutenção do Veículos E/ou Máquinas e Equipamentos",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1087,
+          "ObjetoOficialNome": "Plano de Manutenção Preventiva de Geradores Movidos a Óleo Diesel",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1090,
+          "ObjetoOficialNome": "Plano de Radioproteção da Instalação",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1093,
+          "ObjetoOficialNome": "Plano de Segurança da Água",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1102,
+          "ObjetoOficialNome": "Procedimento Operacional de Tríplice Lavagem das Embalagens",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1104,
+          "ObjetoOficialNome": "Procedimentos Para Recarga/substituição dos Gases",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1125,
+          "ObjetoOficialNome": "Receituário Agronômico Assinado por Profissional Habilitado",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1131,
+          "ObjetoOficialNome": "Registo na Agência Nacional de Petróleo",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1212,
+          "ObjetoOficialNome": "Termo de Conformidade ou Certificado da Muda ou Semente",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1237,
+          "ObjetoOficialNome": "Trabalho Quente",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1244,
+          "ObjetoOficialNome": "Treinamento Sobre Fispqs (responsáveis Pelo Manejo)",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        },
+        {
+          "ObjetoOficialId": 1247,
+          "ObjetoOficialNome": "Vinci - Certificado de aph",
+          "ReaproveitamentoCarregamentoTipo": 0,
+          "ReaproveitamentoAnaliseTipo": 0,
+          "Ativo": false
+        }
+      ],
+      "BloquearMobilizacaoSimultaneaPorTipoPrestador": false,
+      "BloqueioMobSimultaneaTiposPrestador": [],
+      "BloquearColaboradoresContratosSimultaneos": false,
+      "FixarValidadeIntegracao": false,
+      "InformacoesComplementares": [],
+      "PossuiGRTMobile": false,
+      "PossuiSla": true
+    }
+  },
+  "elapsed_seconds": 0.848627
+}
