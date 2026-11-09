@@ -1,0 +1,7 @@
+{
+  "method": "POST",
+  "url": "/sub-familia",
+  "data": {
+    "nome": "Test"
+  }
+}

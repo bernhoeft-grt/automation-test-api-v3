@@ -1,0 +1,9 @@
+{
+  "method": "POST",
+  "url": "/area",
+  "data": {
+    "nome": "Test Area",
+    "Descricao": "Test Description",
+    "GrupoAreaId": 1000000000
+  }
+}
