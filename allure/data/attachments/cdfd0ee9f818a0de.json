@@ -1,0 +1,7 @@
+{
+  "method": "POST",
+  "url": "/local-servico",
+  "data": {
+    "nome": "Test"
+  }
+}
