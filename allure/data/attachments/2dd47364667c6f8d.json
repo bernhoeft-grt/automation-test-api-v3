@@ -1,0 +1,9 @@
+{
+  "method": "POST",
+  "url": "/contratante",
+  "data": {
+    "nome": "Test Contratante",
+    "Descricao": "Test Description",
+    "TipoPessoa": "PJ"
+  }
+}
