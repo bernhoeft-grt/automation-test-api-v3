@@ -1,0 +1,9 @@
+{
+  "method": "POST",
+  "url": "/contrato",
+  "data": {
+    "numero": "TEST-001",
+    "Descricao": "Test Description",
+    "DataInicio": "2024-01-01T00:00:00Z"
+  }
+}
