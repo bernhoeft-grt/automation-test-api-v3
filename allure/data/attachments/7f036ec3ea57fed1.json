@@ -1,0 +1,15 @@
+{
+  "status_code": 401,
+  "headers": {
+    "Content-Length": "0",
+    "date": "Tue, 17 Nov 2026 12:10:59 GMT",
+    "www-authenticate": "Bearer, Bearer, Bearer error=\"invalid_token\", error_description=\"The issuer 'https://securetoken.google.com/grt-app-preprod' is invalid\"",
+    "server": "Google Frontend",
+    "traceparent": "00-62382c9eb65b3c93d046f629f01b0d38-b01e55ab9cb8ef04-00",
+    "x-cloud-trace-context": "62382c9eb65b3c93d046f629f01b0d38/12690674995533770500",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "body": "",
+  "elapsed_seconds": 0.172714
+}

@@ -1,0 +1,34 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Tue, 17 Nov 2026 12:10:31 GMT",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "server": "Google Frontend",
+    "x-cloud-trace-context": "b18c55474e757b2465e4f47f6933a98e/7262035989384682103",
+    "traceparent": "00-b18c55474e757b2465e4f47f6933a98e-64c7ef41a5605a77-00",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 1,
+      "Descricao": "ASO - Veris API",
+      "Classificar": true,
+      "EnviarColaborador": 0,
+      "ResponderAnaliseSim": true,
+      "ResponderAnaliseNao": true,
+      "Comentario": "Através de uma pré-avaliação eletrônica identificamos divergências no documento apresentado. Contudo, o mesmo ainda será avaliado por um de nossos analistas. Solicitamos que aguarde a análise e o envio do próximo relatório.",
+      "Recomendacao": "Solicitamos que aguarde a análise e o envio do próximo relatório.\r\n",
+      "SistemaClassificador": 3,
+      "ObjetoBaseAnaliseAutomatica": false,
+      "ObjetoOficialId": 16,
+      "Contratantes": [],
+      "PermitirReanalise": false
+    }
+  },
+  "elapsed_seconds": 0.249123
+}
