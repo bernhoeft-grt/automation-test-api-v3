@@ -1,0 +1,42 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Tue, 17 Nov 2026 18:11:07 GMT",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "server": "Google Frontend",
+    "x-cloud-trace-context": "fed6388928e92ca0ede5c6c2fe601055/6035143097972084422",
+    "traceparent": "00-fed6388928e92ca0ede5c6c2fe601055-53c122ac0b46cec6-00",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 2,
+      "Ativo": true,
+      "TipoPessoa": "PJ",
+      "RazaoSocial": "Bernhoeft Auditores Ltda",
+      "Fantasia": "Bernhoeft Auditores Ltda",
+      "CPForCNPJ": "77.520.428/0001-90",
+      "InscricaoEstadual": "6837375",
+      "InscricaoMunicipal": "37573737",
+      "Endereco": "Avenida Doutor Belmino Correia",
+      "Numero": "463",
+      "Complemento": "terreo",
+      "Bairro": "Alberto Maia",
+      "Cidade": "Camaragibe",
+      "UF": "PE",
+      "CEP": "54771-000",
+      "Fone": "(81)9814-68138",
+      "Fax": "(81)9814-68138",
+      "BloqueioEntregaDocumento": false,
+      "DiaInicial": 0,
+      "DiaFinal": 0,
+      "EmailResponsavel": "dsilva@bernhoeft.com.br"
+    }
+  },
+  "elapsed_seconds": 0.374498
+}

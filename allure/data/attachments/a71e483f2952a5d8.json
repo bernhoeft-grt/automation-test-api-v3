@@ -1,0 +1,24 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Tue, 17 Nov 2026 18:11:02 GMT",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "server": "Google Frontend",
+    "x-cloud-trace-context": "74d9e1d12d8bd5b2ede5c6c2fe601743/11152018641729252597",
+    "traceparent": "00-74d9e1d12d8bd5b2ede5c6c2fe601743-9ac3edde64ce6cf5-00",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": [],
+    "QuantidadeTotal": 0,
+    "Paginas": 0,
+    "Quantidade": 0,
+    "Pagina": 1
+  },
+  "elapsed_seconds": 0.198637
+}

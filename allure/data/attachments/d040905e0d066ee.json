@@ -1,0 +1,21 @@
+{
+  "status_code": 400,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Tue, 17 Nov 2026 18:10:46 GMT",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "server": "Google Frontend",
+    "x-cloud-trace-context": "1e25479b12fa78f71890b7d15b9a8ca2/9840869650628076286",
+    "traceparent": "00-1e25479b12fa78f71890b7d15b9a8ca2-8891cacede9be2fe-00",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Mensagens": [
+      "[Descricao] - Este campo é obrigatório e precisa ser informado."
+    ]
+  },
+  "elapsed_seconds": 0.184931
+}

@@ -1,0 +1,18 @@
+{
+  "status_code": 500,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Tue, 17 Nov 2026 18:10:36 GMT",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "server": "Google Frontend",
+    "traceparent": "00-b43369b5c7671af0e16d8fa7dd84e732-e17698a6f063075c-00",
+    "x-cloud-trace-context": "b43369b5c7671af0e16d8fa7dd84e732/16246340548550657884",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {},
+  "elapsed_seconds": 0.525318
+}

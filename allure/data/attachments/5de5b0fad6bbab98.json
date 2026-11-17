@@ -1,0 +1,22 @@
+{
+  "status_code": 400,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Tue, 17 Nov 2026 18:10:49 GMT",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "server": "Google Frontend",
+    "traceparent": "00-c2832a379de163f01890b7d15b9a86d8-5a2005f2c0fed9c4-00",
+    "x-cloud-trace-context": "c2832a379de163f01890b7d15b9a86d8/6494197202846407108",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Mensagens": [
+      "The value 'test' is not valid for Pasta.",
+      "[Arquivo] - Este campo é obrigatório e precisa ser informado."
+    ]
+  },
+  "elapsed_seconds": 0.21362
+}

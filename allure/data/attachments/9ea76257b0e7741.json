@@ -1,0 +1,21 @@
+{
+  "status_code": 400,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Tue, 17 Nov 2026 18:10:24 GMT",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "server": "Google Frontend",
+    "traceparent": "00-095bba65a00f09845b278c83b3de5f44-3e126a12ef95f764-00",
+    "x-cloud-trace-context": "095bba65a00f09845b278c83b3de5f44/4472754009493862244",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Mensagens": [
+      "[DataInicio] - O valor informado deve ser maior que 0."
+    ]
+  },
+  "elapsed_seconds": 0.237229
+}

@@ -1,0 +1,21 @@
+{
+  "status_code": 400,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Tue, 17 Nov 2026 18:10:39 GMT",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "server": "Google Frontend",
+    "x-cloud-trace-context": "b88ba259310e05dee16d8fa7dd84e810/2071826681764775104",
+    "traceparent": "00-b88ba259310e05dee16d8fa7dd84e810-1cc09b63dac404c0-00",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Mensagens": [
+      "[ContratoId] - O valor informado deve ser maior que 0."
+    ]
+  },
+  "elapsed_seconds": 0.205122
+}

@@ -1,0 +1,11 @@
+{
+  "Dados": {
+    "Id": 6,
+    "Ativo": true,
+    "Descricao": "Estagiário",
+    "Temporario": false,
+    "ValidarCPF": true,
+    "ValidarRG": false,
+    "Veiculo": false
+  }
+}

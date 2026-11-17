@@ -1,0 +1,26 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Tue, 17 Nov 2026 18:10:46 GMT",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "server": "Google Frontend",
+    "x-cloud-trace-context": "709aa32703d827961890b7d15b9a8e3c/10318994213713911437",
+    "traceparent": "00-709aa32703d827961890b7d15b9a8e3c-8f346e90a3ba9e8d-00",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 1,
+      "Ativo": true,
+      "Descricao": "Alto",
+      "Bloqueia": true,
+      "Contratantes": []
+    }
+  },
+  "elapsed_seconds": 0.21732
+}
