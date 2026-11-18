@@ -1,0 +1,28 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Wed, 18 Nov 2026 12:11:30 GMT",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "server": "Google Frontend",
+    "x-cloud-trace-context": "3fc591c6156aeeb135de19eab8f3c771/9824934223866874871",
+    "traceparent": "00-3fc591c6156aeeb135de19eab8f3c771-88592d9f3329cbf7-00",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 7,
+      "Ativo": true,
+      "Descricao": "Autônomo",
+      "Temporario": false,
+      "ValidarCPF": true,
+      "ValidarRG": false,
+      "Veiculo": false
+    }
+  },
+  "elapsed_seconds": 0.225621
+}

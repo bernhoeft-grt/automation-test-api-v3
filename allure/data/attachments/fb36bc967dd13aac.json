@@ -1,0 +1,22 @@
+{
+  "status_code": 201,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Wed, 18 Nov 2026 12:11:29 GMT",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "server": "Google Frontend",
+    "traceparent": "00-268e35238191c80435de19eab8f3c2b5-1403783293a35180-00",
+    "x-cloud-trace-context": "268e35238191c80435de19eab8f3c2b5/1442128464309342592",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 1000000659
+    }
+  },
+  "elapsed_seconds": 0.289917
+}

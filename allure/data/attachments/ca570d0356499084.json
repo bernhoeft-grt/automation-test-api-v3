@@ -1,0 +1,15 @@
+{
+  "status_code": 401,
+  "headers": {
+    "Content-Length": "0",
+    "date": "Wed, 18 Nov 2026 12:11:21 GMT",
+    "www-authenticate": "Bearer, Bearer",
+    "server": "Google Frontend",
+    "traceparent": "00-e73a01672cfe9c5735de19eab8f3c7ab-7e8d3e7a51b9b56a-00",
+    "x-cloud-trace-context": "e73a01672cfe9c5735de19eab8f3c7ab/9119013515573179754",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "body": "",
+  "elapsed_seconds": 0.194607
+}

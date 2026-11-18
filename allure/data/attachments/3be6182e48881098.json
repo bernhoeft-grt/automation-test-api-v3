@@ -1,0 +1,25 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Wed, 18 Nov 2026 12:11:27 GMT",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "server": "Google Frontend",
+    "traceparent": "00-3a7e5a76b887917b35de19eab8f3cbe6-32f71fad47131be4-00",
+    "x-cloud-trace-context": "3a7e5a76b887917b35de19eab8f3cbe6/3672438850226166756",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 4193,
+      "Ativo": true,
+      "Descricao": "INDUSTRIAL - TI",
+      "GrupoAreaId": 467
+    }
+  },
+  "elapsed_seconds": 0.237006
+}

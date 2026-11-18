@@ -1,0 +1,23 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Wed, 18 Nov 2026 12:11:21 GMT",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "server": "Google Frontend",
+    "traceparent": "00-e33f55165b9c13b535de19eab8f3c29f-7ba32ef9dd1a8546-01",
+    "x-cloud-trace-context": "e33f55165b9c13b535de19eab8f3c29f/8909016138560210246;o=1",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 1,
+      "Name": "Turma Padrão"
+    }
+  },
+  "elapsed_seconds": 0.466543
+}

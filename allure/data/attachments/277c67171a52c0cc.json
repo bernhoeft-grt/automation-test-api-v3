@@ -1,0 +1,14 @@
+{
+  "status_code": 404,
+  "headers": {
+    "Content-Length": "0",
+    "date": "Wed, 18 Nov 2026 12:10:45 GMT",
+    "server": "Google Frontend",
+    "x-cloud-trace-context": "bc14542fa76ed5bf8411f2a438e49254/18386849792150333069;o=1",
+    "traceparent": "00-bc14542fa76ed5bf8411f2a438e49254-ff2b3677df95e68d-01",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "body": "",
+  "elapsed_seconds": 0.181916
+}
