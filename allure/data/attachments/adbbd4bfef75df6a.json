@@ -1,0 +1,23 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Wed, 18 Nov 2026 18:09:16 GMT",
+    "cache-control": "private,max-age=3600",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "server": "Google Frontend",
+    "x-cloud-trace-context": "6bb705c7423d759df61e21d7c274c538/17923866080544070884",
+    "traceparent": "00-6bb705c7423d759df61e21d7c274c538-f8be5d3c4c809ce4-00",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "+551141186665": "Telefone: (11) 4118-6665"
+    }
+  },
+  "elapsed_seconds": 5.358524
+}

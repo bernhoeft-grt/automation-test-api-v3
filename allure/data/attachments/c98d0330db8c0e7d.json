@@ -1,0 +1,11 @@
+{
+  "Dados": {
+    "Id": 8,
+    "Ativo": true,
+    "Descricao": "Cooperado",
+    "Temporario": false,
+    "ValidarCPF": true,
+    "ValidarRG": false,
+    "Veiculo": false
+  }
+}

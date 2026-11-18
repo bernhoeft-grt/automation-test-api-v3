@@ -1,0 +1,28 @@
+{
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Wed, 18 Nov 2026 18:09:35 GMT",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "api-supported-versions": "1.0",
+    "server": "Google Frontend",
+    "x-cloud-trace-context": "7d9d7c2c7348a6b5b8e156a4748624d3/14830130939177903057",
+    "traceparent": "00-7d9d7c2c7348a6b5b8e156a4748624d3-cdcf35840a3aa3d1-00",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Dados": {
+      "Id": 8,
+      "Ativo": true,
+      "Descricao": "Cooperado",
+      "Temporario": false,
+      "ValidarCPF": true,
+      "ValidarRG": false,
+      "Veiculo": false
+    }
+  },
+  "elapsed_seconds": 0.175041
+}
