@@ -1,0 +1,5 @@
+tests/test_all_endpoints.py:416: in test_endpoint
+    assert_status_code(
+utils/helpers.py:152: in assert_status_code
+    assert response.status_code in expected_statuses, (
+E   AssertionError: Status code inesperado. Esperado um de [200, 201, 204, 400, 401, 403, 404, 500], recebido 409
