@@ -1,0 +1,11 @@
+{
+  "Dados": {
+    "Id": 11,
+    "Ativo": true,
+    "Descricao": "TAC Agregado",
+    "Temporario": false,
+    "ValidarCPF": true,
+    "ValidarRG": false,
+    "Veiculo": false
+  }
+}
