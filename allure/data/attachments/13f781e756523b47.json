@@ -1,0 +1,7 @@
+{
+  "method": "POST",
+  "url": "/video-cast/callback",
+  "data": {
+    "event": "test"
+  }
+}
