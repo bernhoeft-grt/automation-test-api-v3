@@ -1,0 +1,7 @@
+{
+  "method": "PUT",
+  "url": "/local-servico/1",
+  "data": {
+    "nome": "Updated"
+  }
+}
