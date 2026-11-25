@@ -1,0 +1,11 @@
+{
+  "Dados": {
+    "Id": 14,
+    "Ativo": true,
+    "Descricao": "Inquilino",
+    "Temporario": false,
+    "ValidarCPF": true,
+    "ValidarRG": false,
+    "Veiculo": false
+  }
+}

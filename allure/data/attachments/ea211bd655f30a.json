@@ -1,0 +1,101 @@
+{
+  "expected": true,
+  "actual": [
+    {
+      "Id": 1000000318,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1778592380583"
+    },
+    {
+      "Id": 1000000319,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1777477415290"
+    },
+    {
+      "Id": 1000000320,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+    },
+    {
+      "Id": 1000000321,
+      "Ativo": true,
+      "Tipo": false,
+      "DescricaoGrupoArea": "GRUPO ÁREA PRÉ-PRODUÇÃO"
+    },
+    {
+      "Id": 1000000322,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1777485349825"
+    },
+    {
+      "Id": 1000000323,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1779224405382"
+    },
+    {
+      "Id": 1000000324,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1779363235207"
+    },
+    {
+      "Id": 1000000325,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1779371794010"
+    },
+    {
+      "Id": 1000000326,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1779126795736"
+    },
+    {
+      "Id": 1000000327,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1778525175746"
+    },
+    {
+      "Id": 1000000328,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1794503058587"
+    },
+    {
+      "Id": 1000000329,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1778611801648"
+    },
+    {
+      "Id": 1000000330,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1792524212128"
+    },
+    {
+      "Id": 1000000331,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1794567797528"
+    },
+    {
+      "Id": 1000000332,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1776977375555"
+    },
+    {
+      "Id": 1000000333,
+      "Ativo": true,
+      "Tipo": true,
+      "DescricaoGrupoArea": "GRUPO ÁREA QA 1779224389790"
+    }
+  ]
+}

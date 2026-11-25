@@ -1,0 +1,7 @@
+{
+  "method": "PUT",
+  "url": "/contrato/1",
+  "data": {
+    "numero": "TEST-002"
+  }
+}
