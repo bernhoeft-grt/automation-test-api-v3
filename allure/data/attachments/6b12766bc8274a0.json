@@ -1,0 +1,7 @@
+{
+  "method": "POST",
+  "url": "/objeto-oficial",
+  "data": {
+    "nome": "Test"
+  }
+}
