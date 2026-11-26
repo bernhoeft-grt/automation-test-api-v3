@@ -1,0 +1,20 @@
+{
+  "status_code": 400,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "x-cloud-trace-context": "ff86fd4e39b39d9584a20fa269d8a85c",
+    "date": "Thu, 26 Nov 2026 18:10:06 GMT",
+    "server": "Google Frontend",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "body": {
+    "Mensagens": [
+      "[SistemaClassificador] - Não é possível trocar o sistema classificador BexAI pois existem objetos de análise vinculados a este tipo específico."
+    ]
+  },
+  "elapsed_seconds": 0.240783
+}
