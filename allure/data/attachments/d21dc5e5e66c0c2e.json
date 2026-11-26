@@ -1,0 +1,5 @@
+{
+  "method": "DELETE",
+  "url": "/suporte/cartilha/delete/test",
+  "data": null
+}
