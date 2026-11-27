@@ -1,0 +1,8 @@
+{
+  "method": "PUT",
+  "url": "/area/4193",
+  "data": {
+    "nome": "Updated Area",
+    "Descricao": "Updated Description"
+  }
+}

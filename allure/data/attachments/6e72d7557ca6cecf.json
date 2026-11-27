@@ -1,0 +1,9 @@
+{
+  "method": "POST",
+  "url": "/contratada",
+  "data": {
+    "nome": "Test Contratada",
+    "Descricao": "Test Description",
+    "TipoPessoa": "PJ"
+  }
+}
